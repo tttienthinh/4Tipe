@@ -24,7 +24,7 @@ def affichage2d(datavertx, dataverty, datarougex, datarougey, epoch=0, finish=Fa
         plt.show()
     else:
         # version pause 1 seconde
-        plt.pause(.00_000_001)
+        plt.pause(.00_000_000_1)
         plt.clf() # efface l'ancien graphique
 
 test_data = np.random.random((100, 2))
@@ -49,8 +49,8 @@ train_output = np.array([0, 0, 1, 1])
 adding_train_input = np.array([])
 adding_train_output = []
 if True:
-    adding_train_input = np.random.random((10, 2))
-    for i in range(10):
+    adding_train_input = np.random.random((196, 2))
+    for i in range(196):
         data = adding_train_input[i]
         if (data[0] - .5) * (data[1] - .5) < 0:
             adding_train_output.append(1)
@@ -62,7 +62,7 @@ adding_train_output = np.array(adding_train_output)
 # creating random weigths
 np.random.seed(2)
 input_n = 2
-hidden_n = 10
+hidden_n = 4
 w1 = np.random.rand(input_n, hidden_n)
 w2 = np.random.rand(hidden_n, )
 
@@ -75,12 +75,11 @@ print("------------------ Training to be better ------------------")
 lr = 0.1
 losses = []
 affichage = True
-x = adding_train_input
-y = adding_train_output
-for i in range(100):
-    x = np.concatenate((train_input, x), axis=0)
-    y = np.concatenate((train_output, y), axis=0)
-for epoch in range(10_001):
+
+x = np.concatenate((train_input, adding_train_input), axis=0)
+y = np.concatenate((train_output, adding_train_output), axis=0)
+epochs = 1_000
+for epoch in range(epochs+1):
     y1 = np.dot(x, w1) # (4, 2) 4 entrées vont vers 2 neuronnes
     b = sigmoid(y1) # (4, 2) fonction d'activation
     
@@ -100,12 +99,13 @@ for epoch in range(10_001):
     w1 -= dw1.T * lr
     w2 -= dw2 * lr
 
-    if affichage and epoch % 100 == 0:
+    if affichage and epoch % (int(epochs/100)) == 0:
+        test_data = test_data
         c = forward(w1, w2, test_data)
         datavertx, dataverty = (test_data[c>.5]).T
         datarougex, datarougey = (test_data[c<.5]).T
         affichage2d(datavertx, dataverty, datarougex, datarougey,
-                    epoch=epoch, finish=epoch==100_000)
+                    epoch=epoch, finish=epoch==epochs)
 
 
 
