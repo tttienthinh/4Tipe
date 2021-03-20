@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 """
 17/03/2021 tranthuongtienthinh
 Feed Forward model pour résoudre le xor
