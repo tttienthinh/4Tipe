@@ -25,6 +25,9 @@ class Layer:
     def __str__(self):
         return str(self.w1)
 
+    def shape(self):
+        return self.w1.shape
+
     def calculate(self, input_data):
         """
         Calcule la sortie

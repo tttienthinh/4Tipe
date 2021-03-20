@@ -55,7 +55,7 @@ model = Model([
 losses = []
 epochs = 1_000
 for epoch in range(epochs +1):
-    loss, y = model.backpropagation(train_input, train_output)
+    y, loss = model.backpropagation(train_input, train_output)
     losses.append(loss)
     if True and epoch % (int(epochs/100)) == 0:
         result = np.argmax(y, axis=1)

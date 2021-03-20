@@ -19,6 +19,9 @@ class Model:
     def __str__(self):
         return str([layer.w1 for layer in self.layers])
 
+    def shape(self):
+        return [layer.shape() for layer in self.layers]
+
     def add_layer(self, layer):
         self.layers.append(layer)
 
@@ -40,7 +43,7 @@ class Model:
         for i in range(len(self.layers)):
             d_loss = self.layers[-i - 1].learn(d_loss)
         self.loss.append(loss)
-        return loss, y_
+        return y_, loss
 
 
 if __name__ == "__main__":
@@ -65,7 +68,7 @@ if __name__ == "__main__":
     ])
     losses = []
     for i in range(100_000):
-        loss, y = model.backpropagation(train_input, train_output)
+        y, loss = model.backpropagation(train_input, train_output)
         losses.append(loss)
     plt.plot(losses)
     plt.show()
