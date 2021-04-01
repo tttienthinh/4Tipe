@@ -94,7 +94,7 @@ for epoch in range(epochs+1):
     
     # (4, 2) Calcul de l'écart correspondant à ((dE/dc)*(dc/dy2)) * (dy2/db)*(db/dy1)
     e1 = np.dot(e2.reshape(len(e2), 1), w2.reshape(1, hidden_n)) * d_sigmoid(b)
-    dw1 = np.dot(e1.T, x) # (2, 2) changement de w1
+    dw1 = np.dot(e1.T, x) # (2, 2) changement de weight
     
     w1 -= dw1.T * lr
     w2 -= dw2 * lr

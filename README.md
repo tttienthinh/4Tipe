@@ -17,3 +17,5 @@ https://pub.towardsai.net/main-types-of-neural-networks-and-its-applications-tut
 https://www.youtube.com/watch?v=wQ8BIBpya2k
 ### Code source
 https://github.com/tttienthinh/4Tipe  
+### Tipe spé de spé
+https://github.com/PaulCharp/Traffic-sign-recognition-with-a-convolutional-neural-network-built-from-scratch-python

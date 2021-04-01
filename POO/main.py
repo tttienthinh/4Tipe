@@ -13,13 +13,13 @@ def affichage2d(dataVert, dataBleu, dataRouge, dataOrange, epoch=0, finish=False
     plt.scatter(dataVert[0], dataVert[1], color="green", label="Vert = bas gauche")
     plt.scatter(dataBleu[0], dataBleu[1], color="blue", label="Bleu = bas droite")
     plt.scatter(dataRouge[0], dataRouge[1], color="red", label="Rouge = haut gauche")
-    plt.scatter(dataOrange[0], dataOrange[1], color="orange", label="Vert = haut droite")
+    plt.scatter(dataOrange[0], dataOrange[1], color="orange", label="Orange = haut droite")
     plt.plot([0, 1], [0.5, 0.5], color="blue")
     plt.plot([0.5, 0.5], [0, 1], color="blue")
     plt.title(f"We are at epoch : {epoch}")
     plt.legend()
     # version arret
-    plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
+    # plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
     n_image += 1
     if finish:
         plt.show()
@@ -46,14 +46,14 @@ train_output = np.array(train_output)
 
 # model creation
 model = Model([
-    Layer(2, 10),
-    Layer(10, 10),
-    Layer(10, 4),
+    Layer(2, 8),
+    Layer(8, 8),
+    Layer(8, 4),
 ])
 
 # Entrainement
 losses = []
-epochs = 1_000
+epochs = 5_000
 for epoch in range(epochs +1):
     y, loss = model.backpropagation(train_input, train_output)
     losses.append(loss)
@@ -66,7 +66,7 @@ for epoch in range(epochs +1):
         affichage2d(dataVert, dataBleu, dataRouge, dataOrange, epoch=epoch)
 
 plt.plot(losses)
-plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
+# plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
 plt.show()
 
 
