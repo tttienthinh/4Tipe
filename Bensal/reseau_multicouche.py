@@ -2,11 +2,13 @@ import numpy as np
 import numpy.random as rd
 from matplotlib import pyplot as plt
 
+figsize=(5, 5)
 sigmo = lambda x: 1 / (1 + np.exp(-x))
 sigmo_prime = lambda x: np.exp(-x) / ((1 + np.exp(-x)) ** 2)
 
 def coeff_alea():
     return 2 * rd.random() - 1
+
 
 def creer_reseau(dimensions):
     
@@ -31,13 +33,13 @@ def evaluation(coefficients, variables):
         res += coefficients[i] * variables[i]
     return res
 
+
 def heavyside(x):
     if x > 0: 
         res = 1
     else:
         res = 0
     return res
-
 
 
 def prevision(point, reseau):
@@ -70,9 +72,7 @@ def erreur(echantillon, reseau):
     return liste_erreurs
 
 
-
-def mise_a_jour(echantillon, reseau, X, t):
-    
+def mise_a_jour(echantillon, reseau, X, t): # t est le learning rate
     nb_couches = len(reseau)
     liste_erreurs = erreur(echantillon, reseau)
     
@@ -80,24 +80,18 @@ def mise_a_jour(echantillon, reseau, X, t):
         for j in range(0, len(reseau[i])):
             for k in range(0, len(reseau[i][j])):
                 reseau[i][j][k] += t * X[i][k] * liste_erreurs[i][j]
-
-    
     return(reseau)
-    
-    
-def apprentissage(donnees, dimensions, nb_iterations, t):
-    
-    reseau = creer_reseau(dimensions)
+
+
+def apprentissage(donnees, reseau, nb_iterations, t):
     for i in range(0, nb_iterations):
         echantillon = donnees[rd.randint(0, len(donnees) - 1)]
         X = prevision(echantillon[0], reseau)
         mise_a_jour(echantillon, reseau, X, t)
+    return reseau
+      
     
-    return(reseau)
-    
-    
-    
-def production_donnees_cercle(centre, rayon, nb_points):
+def production_donnees_cercle(centre, rayon, nb_points, show=True):
     
     """Entrées: un couple de flottants (centre), un flottant strictement positif (rayon) et un entier et nb_points 
        Sortie: Une liste de nb_points listes de la forme [(x, y), categorie], où (x, y) est 
@@ -117,17 +111,18 @@ def production_donnees_cercle(centre, rayon, nb_points):
     theta = np.linspace(0, 2 * np.pi, 1000)
     X = centre[0] * np.ones(1000) + rayon * np.cos(theta)
     Y = centre[1] * np.ones(1000) + rayon * np.sin(theta)
-    plt.plot(X, Y)
     
     categorie_1 = np.array([point[0] for point in donnees if point[1] > 0.5])
     categorie_0 = np.array([point[0] for point in donnees if point[1] < 0.5])
-    if len(categorie_1) > 0:
-        plt.plot(categorie_1[:, 0], categorie_1[:, 1], 'ro', color='blue')
-    if len(categorie_0) > 0:
-        plt.plot(categorie_0[:, 0], categorie_0[:, 1], 'ro', color='red')
-    plt.show()
+    if show:
+        plt.figure(figsize=figsize)
+        plt.plot(X, Y)
+        if len(categorie_1) > 0:
+            plt.plot(categorie_1[:, 0], categorie_1[:, 1], 'ro', color='blue')
+        if len(categorie_0) > 0:
+            plt.plot(categorie_0[:, 0], categorie_0[:, 1], 'ro', color='red')
+        plt.show()
     return donnees
-
 
 
 def representation_apprentissage_cercle(donnees, reseau, centre, rayon):
@@ -136,14 +131,13 @@ def representation_apprentissage_cercle(donnees, reseau, centre, rayon):
        Sortie: Une liste de nb_points listes de la forme [(x, y), categorie], où (x, y) est 
        un point du plan et categorie est un entier.
     """
-    
-    #Production des donnees
     previsions = [echantillon[:] for echantillon in donnees]
     for echantillon in previsions:
         echantillon[1] = prevision(echantillon[0], reseau).pop()[0]
     categorie_1 = np.array([point[0] for point in previsions if point[1] > 0.5])
     categorie_0 = np.array([point[0] for point in previsions if point[1] < 0.5])
     
+    plt.figure(figsize=figsize)
     if len(categorie_1) > 0:
         plt.plot(categorie_1[:, 0], categorie_1[:, 1], 'ro', color='blue')
     if len(categorie_0) > 0:
@@ -155,8 +149,7 @@ def representation_apprentissage_cercle(donnees, reseau, centre, rayon):
     plt.plot(X, Y)
     plt.show()
     
-    
-    
+
 def production_donnees_2d_2ineq(w1, w2, n):
     
     """Entrées: deux tableaux w1 et w2 contenant chacun trois flottants et un entier n
@@ -176,7 +169,6 @@ def production_donnees_2d_2ineq(w1, w2, n):
             categorie = 0
         res.append([(x, y), categorie])
     return res
-
 
 
 def representation_apprentissage_2ineq(donnees, w1, w2, reseau):
@@ -199,6 +191,20 @@ def representation_apprentissage_2ineq(donnees, w1, w2, reseau):
     plt.show()
 
 
+if __name__ == "__main__":
+    centre = (0, 0)
+    rayon = 3
+    donnees = production_donnees_cercle(centre, rayon, 10_000, False)
 
+    # entrainement avec descente lr
+    n1_reseau = creer_reseau([3, 3, 1])
+    for epoch, lr in [(2_048, 0.6), (1_024, 0.5), (548, 0.3), (256, 0.2)]:
+        n1_reseau = apprentissage(donnees, n1_reseau, epoch, lr)
+    # entrainement normal
+    n2_reseau = creer_reseau([3, 3, 1])
+    n2_reseau = apprentissage(donnees, n2_reseau, (2_048 + 1_024 + 548 + 256), 0.6)
 
-
+    # affichage
+    donnees = production_donnees_cercle(centre, rayon, 1_000, False)
+    representation_apprentissage_cercle(donnees, n1_reseau, centre, rayon)
+    representation_apprentissage_cercle(donnees, n2_reseau, centre, rayon)
