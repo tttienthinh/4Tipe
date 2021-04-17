@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/MNIST.css') }}" />
+{% endblock %}
+
+{% block title %}
+Générateur d'image 
+{% endblock %}
+
+{% block description %}
+Cette page permet de générer des images de chiffres écrits à la main. <br>
+Les canvas font $128 \times 128$
+{% endblock %}
+
+{% block content %}
+<p>Dessine un <b>{{ nombre }}</b> ou <b>Télécharge</b> si tu as fini.</p>
+<div class="center" id="image">
+    <canvas id="canvas" width="128" height="128">
+    </canvas>
+    <div class="container">
+        
+    </div>
+</div>
+
+<div>
+    <button id="SaveButton" style="background-color: #4CAF50" onclick="enregistrer()">Enregistrer</button>
+    <button id="DownloadButton" style="background-color: #4CAF50" onclick="telecharger()">Télécharger</button>
+    <button id="ClearButton" style="background-color: #FF784F" onclick="effacer()">Effacer Canvas</button>
+</div>
+
+<div id="image">
+    {% for x in stroke %}
+        <canvas id={{ x }} width="128" height="128"></canvas>
+    {% endfor %}
+</div>
+
+<p id="Log"></p>
+{% endblock %}
+
+{% block script %}
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/MNIST/imageGen.js') }}"></script>
+{% endblock %}

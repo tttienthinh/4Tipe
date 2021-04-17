@@ -1,15 +1,12 @@
 const canvas = document.getElementById("canvas")
 const clear = document.getElementById("ClearButton")
 const predict = document.getElementById("PredictButton")
-const result = document.getElementById("result")
+const log = document.getElementById("Log")
 
 canvas.addEventListener("mousedown", start, false)
 canvas.addEventListener("mousemove", draw, false)
 canvas.addEventListener("mouseup", stop, false)
 canvas.addEventListener("mouseout", stop, false)
-
-clear.addEventListener("click", effacer)
-predict.addEventListener("click", predire)
 
 // Pour le canvas
 let context = canvas.getContext("2d")
@@ -119,8 +116,8 @@ function effacer() {
     context.clearRect(0, 0, canvas.width, canvas.height);
     context.fillStyle = 'white';
     context.fillRect(0, 0, canvas.width, canvas.height);
-    result.innerHTML = '';
     index.forEach(list_effacer);
+    log.innerHTML = 'Effacement';
 }
 
 // Pour prédire
@@ -137,23 +134,27 @@ function dataURLToBlob(dataURL) {
     }
     return new Blob([uInt8Array], { type: contentType });
 }
-function predire() {
+function enregistrer() {
     // var data = list_url(contextList);
     var data = dataURLToBlob(canvas.toDataURL());
     console.log("test");
     console.log(data);
     $.ajax({
         type: 'POST',
-        url: '/recognize',
+        url: '/enregistrer',
         data: data,
         processData: false,
         contentType: false
     }).done(function (data) {
 
         var json = jQuery.parseJSON(data);
-        result.innerHTML = '<h2 class="alert-heading">Result: '+json.num+'</25>\n';
+        log.innerHTML = '<h2 class="alert-heading">Result: '+json.num+'</25>\n';
 
     }).fail(function (data) {
         console.log('Fail!');
     });
+}
+
+function telecharger() {
+    log.innerHTML = 'Téléchargement';
 }
