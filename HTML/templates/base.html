@@ -10,6 +10,9 @@
     <script type="text/javascript"
         src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
         </script>
+    <script type="text/javascript"
+        src="{{ url_for('static', filename='js/MathJax.js') }}">
+        </script>
     <link rel="shortcut icon" href="{{ url_for('static', filename='image/logo.ico') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
     {% block stylesheet %}{% endblock %}

@@ -1,6 +1,9 @@
 const canvas = document.getElementById("canvas")
 const result = document.getElementById("Result")
 
+canvas.addEventListener("touchstart", start, false)
+canvas.addEventListener("touchmove", draw, false)
+
 canvas.addEventListener("mousedown", start, false)
 canvas.addEventListener("mousemove", draw, false)
 canvas.addEventListener("mouseup", stop, false)

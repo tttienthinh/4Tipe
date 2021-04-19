@@ -4,6 +4,9 @@ const predict = document.getElementById("PredictButton")
 const log = document.getElementById("Log")
 const consigne = document.getElementById("Consigne")
 
+canvas.addEventListener("touchstart", start, false)
+canvas.addEventListener("touchmove", draw, false)
+
 canvas.addEventListener("mousedown", start, false)
 canvas.addEventListener("mousemove", draw, false)
 canvas.addEventListener("mouseup", stop, false)
