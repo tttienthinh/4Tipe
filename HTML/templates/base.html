@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>4TIPE</title>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+      </script>
+    <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='image/logo.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    {% block stylesheet %}{% endblock %}
+</head>
+
+<body>
+    <button class="homeButton" onclick="window.location.href='/'">Revenir à la page principale</button>
+    <h1>4T TIPE - {% block title %}{% endblock %}</h1>
+    <p>{% block description %}{% endblock %}</p>
+    <div class="center content">
+        {% block content %}{% endblock %}
+    </div>
+
+    {% block references %}{% endblock %}
+    {% block script %}{% endblock %}
+</body>
+
+</html>
