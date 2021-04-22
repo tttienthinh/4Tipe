@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Erreur 404
+{% endblock %}
+
+{% block description %}
+Désolé je n'ai pas trouvé ta page. <br>
+L'erreur est : <br>
+<p style="color: #FF784F;">
+    "{{ erreur }}"
+</p>
+{% endblock %}

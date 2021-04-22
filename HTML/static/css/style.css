@@ -1,0 +1,41 @@
+:root {
+    --green: #4CAF50; 
+    --blue: #3AAED8;
+    --brown: #DB9D47;
+    --red: #FF784F;
+    --bluegrey: #587792;
+}
+
+body{
+    margin: 3rem;
+}
+h1 {
+    text-align: center;
+}
+
+.homeButton {
+    float: right;
+    background-color: #587792;
+}
+button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+.content{
+    color: #587792;
+}
+
+a {
+    margin-top: 50rem;
+}
+.splitRef {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
