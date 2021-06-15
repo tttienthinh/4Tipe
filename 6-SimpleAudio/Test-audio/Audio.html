@@ -1,0 +1,73 @@
+<html>
+<div style="text-align: center;">
+    <h1>
+        Agathe & 4T
+    </h1>
+    <p>Tu as 1,5 secondes pour parler !!!</p>
+    <button id="button">Clique</button>
+</div>
+<script>
+    var recordButton = document.getElementById("button")
+
+    var base64data = 0;
+    var reader;
+    var recorder, gumStream;
+
+    var handleSuccess = function (stream) {
+        gumStream = stream;
+        var options = {
+            //bitsPerSecond: 8000, //chrome seems to ignore, always 48k
+            mimeType: 'audio/webm;codecs=opus'
+        };
+        recorder = new MediaRecorder(stream);
+        recorder.ondataavailable = function (e) {
+            var url = URL.createObjectURL(e.data);
+            var preview = document.createElement('audio');
+            preview.controls = true;
+            preview.src = url;
+            document.body.appendChild(preview);
+
+            reader = new FileReader();
+            reader.readAsDataURL(e.data);
+            reader.onloadend = function () {
+                base64data = reader.result;
+            }
+        };
+    };
+
+    recordButton.innerText = "Click to record";
+
+    navigator.mediaDevices.getUserMedia({ audio: true }).then(handleSuccess);
+
+
+    function toggleRecording() {
+        if (recorder && recorder.state == "recording") {
+            recorder.stop();
+            gumStream.getAudioTracks()[0].stop();
+            recordButton.innerText = "Saving the recording... pls wait!"
+        } else {
+            recorder.start();
+            recordButton.innerText = "Recording...";
+            sleep(1500).then(() => {
+                toggleRecording()
+            })
+
+        }
+    }
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    var data = new Promise(resolve => {;
+        recordButton.onclick = () => {
+            toggleRecording()
+            sleep(2000).then(() => {
+                resolve(base64data.toString())
+
+            });
+
+        }
+    });
+
+</script>
+</html>
