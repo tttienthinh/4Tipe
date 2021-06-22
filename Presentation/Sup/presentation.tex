@@ -147,8 +147,12 @@ J'ai donc appliqué l'optimizer avec le moment décrit plus tôt sur les 50 prem
 
 
 \section{Classification d'audio }
-Mon projet final est de classifier des séquende d'audio. J'ai donc essayé de faire un réseau de neurones capable de reconnaître le nom de mes professeurs \{"Bensal", "Chateaux", "Gayout", "Le Grandic", "Mistler", "Schuschu"\}. Pour cela j'ai décomposé l'audio avec la transformée de Fourier pour avoir un spectrogramme de celui-ci.
+Mon projet final est de classifier des séquende d'audio. J'ai donc essayé de faire un réseau de neurones capable de reconnaître le nom de mes professeurs \{"Bensal", "Châteaux", "Gayout", "Le Grandic", "Mistler", "Schuschu"\}. Pour cela j'ai décomposé l'audio avec la transformée de Fourier pour avoir un spectrogramme de celui-ci.
 
+\begin{center}
+    \includegraphics[width=13cm]{4-Audio Bensaal.jpg} \\
+    Un audio "Bensal" et sa décomposition \textit{Short-time Fourier transform}
+\end{center}
 
 \subsection{Transfert d'apprentissage}
 \textit{Cette section utilise la librairie Tensorflow pour la création et l'entrainement des réseaux de neurones.}  
@@ -172,6 +176,10 @@ Ce qui me permet de me retrouver avec $4^4 = 256$ fois plus de données différe
 \subsection{Résultat}
 Les résultat sont concluant, il y a plus de 80\% de bonnes réponses lorsque c'est Agathe ou moi qui utilisons testons le réseau de neurones. Ce taux de exactitude est réduit en fonction de la voix et l'intonation de la personne qui teste le model. 
 
+\begin{center}
+    \includegraphics[width=12cm]{4-Resultat Bensal.jpg} \\
+    Prediction pour un audio où "Bensal" a été prononcé
+\end{center}
 
 \section*{Annexes}
 Tous mes codes : github.com/tttienthinh/4Tipe
