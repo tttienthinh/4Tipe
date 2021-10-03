@@ -5,6 +5,9 @@ Ce projet a pour but la découverte des réseaux de neuronnes, et une applicatio
 # L'idée
 l'idée serait à terme de créer un réseau de neuronne capable d'analyse les flux téléphoniques reçu par les urgences  
 
+# Présentation
+
+
 # Ressource
 ### Backpropagation
 https://www.youtube.com/watch?v=Ilg3gGewQ5U  
