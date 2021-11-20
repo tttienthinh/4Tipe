@@ -1,0 +1,73 @@
+\documentclass[12pt,a4paper, french]{article}
+\usepackage{natbib}         % Pour la bibliographie
+\usepackage{url}            % Pour citer les adresses web
+\usepackage[T1]{fontenc}    % Encodage des accents
+\usepackage[utf8]{inputenc} % Lui aussi
+\usepackage{babel} % Pour la traduction française
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\usepackage{svg}
+\graphicspath{ {./src/} }
+
+% Mettez votre titre et votre nom ci-après
+\title{Reconnaissance vocale lors d'appel d'urgence grâce à un réseau de neurones}
+\author{Tran-Thuong Tien-Thinh, MPSIA, 2021-2022}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\textbf{Ancrage au thème de l'année :}
+D'après les chiffres du ministère, il y a plus de 31 millions d'appels d'urgence par an. Ces appels sont répartis sur 103 centres de plus en plus sollicités. Alors que les recommandations fixent un taux de 90\% de réponses en moins de 60 secondes, seul 69\% des appels sont décrochés dans la minute.  (53 mots)
+
+\textbf{Motivation du choix de l’étude :} Afin de répondre à ce problème, nous nous proposons d'étudier un réseau de neuronnes capable de faire de la reconnaissance vocale, pour alléger le travail des opérateurs d'appel d'urgence. Ce réseau de neuronnes devra être capable de classifier des fichiers audios selon des mots-clé relatifs aux appels d’urgence. (54 mots)
+\end{abstract}
+
+\section*{Professeurs encadrants du candidat:}
+Philippe Châteaux
+
+\section*{Bibliographie commentée}
+La première modélisation informatique du neurone appelé perceptron proposé par McColluch et Pitts date de 1943. Ce dernier possède des poids d'apprentissage et une fonction d’activation. Lorsque les données sont entrées, elles sont pondérées par le perceptron puis sommées et transmise à la fonction d’activation. Le résultat obtenu devient alors la sortie renvoyée par le perceptron. Cela modélise bien le comportement d’un neurone qui récupère les différentes entrées par ses dendrites, les traite et transmet le résultat par son axone. Pour pouvoir traiter des données complexes, il est nécessaire de mettre plusieurs neurones en réseau et effectuer un apprentissage profond. [1]
+\\
+L’apprentissage s'effectue sur des données dont la sortie attendue est connue. L’entraînement consiste alors à corriger les poids afin de faire converger le système vers un résultat optimal. Un neurone seul est capable de reproduire les opérateurs logique AND et OR, mais l'opérateur XOR nécessite un réseau de neurones. L'apprentissage des poids de chaque neurone, se fait en calculant leur erreur, puis en effectuant la rétropropagation. On peut calculer la différence à appliquer
+au poids par rapport à l'erreur grâce à la descente de gradient. [2]
+
+\section*{Problématique retenue}
+\noindent\textit{INFORMATIQUE (Informatique Pratique), Physique}
+
+Il s’agit de concevoir un réseau de neurones capable de reconnaître des mots-clés.
+
+\section*{Mots clés}
+\begin{tabular}{l l}
+    \textbf{Mots-clés} (en français): & \textbf{Mots-clés} (en anglais): \\
+    \textit{Réseau de neurones} & \textit{Neural network} \\
+    \textit{Apprentissage profond} & \textit{Deep learning} \\
+    \textit{Algorithme du gradient} & \textit{Gradient descent} \\
+    \textit{Transformée de fourier} & \textit{Fourier transform} \\
+    \textit{Reconnaissance vocale} & \textit{Voice recognition} \\
+\end{tabular}
+
+
+\section*{Objectif TIPE du candidat}
+\begin{enumerate}
+    \item Faire un réseau de neurones qui converge grâce à l’algorithme du gradient
+    \item Améliorer la vitesse d'entrainement grâce à des optimizers basés sur la descente de gradient
+    \item Essayer ce réseau sur la base de données du MNIST pour reconnaitre des chiffres
+    \item Utiliser le transfert d'apprentissage pour reconnaître ce qui a été prononcé dans un audio parmi une liste de mot-clé
+\end{enumerate}
+
+\section*{Bibliographie}
+[1] 
+\href{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj63rOrj4z0AhXQx4UKHZPLBuYQFnoECAcQAQ&url=https%3A%2F%2Fdatascience.foundation%2Fdownloadpdf%2F9%2Fwhitepaper&usg=AOvVaw1kSbLwFPHkPBFwP85r9QC2
+}{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj63rOrj4z0AhXQx4UKHZPLBuYQFnoECAcQAQ&url=https%3A%2F%2Fdatascience.foundation%2Fdownloadpdf%2F9%2Fwhitepaper&usg=AOvVaw1kSbLwFPHkPBFwP85r9QC2
+}
+[2] 
+\href{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBx_-Hl4z0AhXLxoUKHZIXA8UQFnoECAcQAQ&url=https%3A%2F%2Fkx.com%2Fwp-content%2Fuploads%2F2020%2F09%2FAn-Introduction-to-Neural-Networks-with-kdb.pdf&usg=AOvVaw0i5Ic0lcC1Jan9edHfk5F6}{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBx_-Hl4z0AhXLxoUKHZIXA8UQFnoECAcQAQ&url=https%3A%2F%2Fkx.com%2Fwp-content%2Fuploads%2F2020%2F09%2FAn-Introduction-to-Neural-Networks-with-kdb.pdf&usg=AOvVaw0i5Ic0lcC1Jan9edHfk5F6}
+
+[3] 
+Base de données de mot-clé en anglais et technique de transfert d'apprentissage sur des réseaux de neurones de Tensorflow : \href{https://www.tensorflow.org/tutorials/audio/simple_audio}{https://www.tensorflow.org/tutorials/audio/simple_audio}
+
+\end{document}
