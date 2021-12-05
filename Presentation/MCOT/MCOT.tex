@@ -29,16 +29,8 @@ D'après les chiffres du ministère, il y a plus de 31 millions d'appels d'urgen
 \section*{Professeurs encadrants du candidat:}
 Philippe Châteaux
 
-\section*{Bibliographie commentée}
-La première modélisation informatique du neurone appelé perceptron proposé par McColluch et Pitts date de 1943. Ce dernier possède des poids d'apprentissage et une fonction d’activation. Lorsque les données sont entrées, elles sont pondérées par le perceptron puis sommées et transmise à la fonction d’activation. Le résultat obtenu devient alors la sortie renvoyée par le perceptron. Cela modélise bien le comportement d’un neurone qui récupère les différentes entrées par ses dendrites, les traite et transmet le résultat par son axone. Pour pouvoir traiter des données complexes, il est nécessaire de mettre plusieurs neurones en réseau et effectuer un apprentissage profond. [1]
-\\
-L’apprentissage s'effectue sur des données dont la sortie attendue est connue. L’entraînement consiste alors à corriger les poids afin de faire converger le système vers un résultat optimal. Un neurone seul est capable de reproduire les opérateurs logique AND et OR, mais l'opérateur XOR nécessite un réseau de neurones. L'apprentissage des poids de chaque neurone, se fait en calculant leur erreur, puis en effectuant la rétropropagation. On peut calculer la différence à appliquer
-au poids par rapport à l'erreur grâce à la descente de gradient. [2]
-
-\section*{Problématique retenue}
-\noindent\textit{INFORMATIQUE (Informatique Pratique), Physique}
-
-Il s’agit de concevoir un réseau de neurones capable de reconnaître des mots-clés.
+\section*{Positionnements thématiques}
+\noindent\textit{INFORMATIQUE (Informatique Pratique, Descente de Gradient)\\ PHYSIQUE (Application de la Transformée de Fourier)}
 
 \section*{Mots clés}
 \begin{tabular}{l l}
@@ -51,6 +43,28 @@ Il s’agit de concevoir un réseau de neurones capable de reconnaître des mots
 \end{tabular}
 
 
+\section*{Bibliographie commentée}
+La première modélisation informatique du neurone, appelé perceptron, proposé par McCulloch et Pitts, date de 1943. Cette modélisation possède des poids d'apprentissage et une fonction d’activation. Lorsque les données sont entrées, elles sont pondérées par les poids du perceptron puis elles sont sommées et enfin transmises à la fonction d’activation. Le résultat obtenu devient alors la sortie renvoyée par le perceptron. Cela modélise bien le comportement d’un neurone qui récupère les différentes entrées par ses dendrites, les traite et transmet le résultat par son axone. Pour pouvoir traiter des données complexes, il est nécessaire de mettre plusieurs neurones en réseau et effectuer un apprentissage profond. \\
+\\
+L’apprentissage s'effectue sur des données dont la sortie attendue est connue. L’entraînement consiste alors à corriger les poids afin de faire converger le système vers un résultat “optimal”. Cette rectification des poids du perceptron, se fait en calculant l’erreur en sortie, puis en effectuant la rétropropagation. On calcule la différence à appliquer au poids par rapport à l'erreur grâce à l’algorithme de descente de gradient. [1]\\
+\\
+Un perceptron seul est capable de faire une séparation linéaire parmi les données d’entrées. Il peut reproduire les opérateurs logique AND et OR qui sont linéaires, mais l'opérateur XOR nécessite un réseau de perceptrons car il effectue une séparation non linéaire. On associe ainsi les neurones en parallèle pour former une couche de perceptrons, puis on associe ces couches en série pour former un réseau de perceptrons. Voici un article introduisant la mise en réseau de perceptron et traitant notamment du problème XOR. [2]\\
+\\
+Comme l’apprentissage d’un réseau de neurones se fait en utilisant des données en exemple, deux problèmes majeures peuvent intervenir; un ensemble de données d’apprentissage biaisé, ou un temps d’apprentissage trop long. \\
+Pour le premier, il est difficile d’y remédier, il est possible de faire une séparation des données pour l’apprentissage et le test, ou encore d’introduire des variables aléatoires comme la couche “Dropout”, mais ces deux cas ne permettent que d’éviter le sur-apprentissage ("overfitting"). \\
+Pour résoudre le problème du temps d’apprentissage, plusieurs études ont mené à des approches différentes. Il est possible d'adapter le réseau de neurones au problème, on peut également modifier les fonctions d’activation et d’erreur, ou encore faire varier le taux d’apprentissage des poids à chaque rétropropagation. Dans notre étude nous nous concentrerons principalement sur cette dernière optimisation, qui est plus documentée car aussi plus généraliste. 
+L’ensemble de ces méthodes est décrit dans ce livre de 2006 qui fait un état de l’art très poussé. [3]\\
+\\
+De plus en plus, les réseaux de neurones sont devenus importants en taille, ce qui entraîne un temps d’apprentissage nécessairement plus long. Alors que certains problèmes semblent se ressembler, il paraît peu cohérent de réentraîner tout un réseau de neurones lorsque l'on en possède déjà un entraîné pour un problème similaire. Il est alors possible de réaliser un transfert d'apprentissage, en initialisant les poids des perceptrons avec ceux de l'ancien réseau de neurones, en ne laissant modifiable par rétropropagation que les perceptrons de la couche de sortie. Le temps d'apprentissage est donc réduit par réduction du nombre de poids à entraîner. C'est ce que nous propose de faire Tensorflow. [4]
+(524 mots)
+
+
+\section*{Problématique retenue}
+Il s’agit de concevoir un réseau de neurones capable de reconnaître des mots-clés prononcés dans un extrait audio.
+(18 mots)
+
+
+
 \section*{Objectif TIPE du candidat}
 \begin{enumerate}
     \item Faire un réseau de neurones qui converge grâce à l’algorithme du gradient
@@ -58,16 +72,26 @@ Il s’agit de concevoir un réseau de neurones capable de reconnaître des mots
     \item Essayer ce réseau sur la base de données du MNIST pour reconnaitre des chiffres
     \item Utiliser le transfert d'apprentissage pour reconnaître ce qui a été prononcé dans un audio parmi une liste de mot-clé
 \end{enumerate}
+(74 mots)
 
 \section*{Bibliographie}
-[1] 
-\href{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj63rOrj4z0AhXQx4UKHZPLBuYQFnoECAcQAQ&url=https%3A%2F%2Fdatascience.foundation%2Fdownloadpdf%2F9%2Fwhitepaper&usg=AOvVaw1kSbLwFPHkPBFwP85r9QC2
-}{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj63rOrj4z0AhXQx4UKHZPLBuYQFnoECAcQAQ&url=https%3A%2F%2Fdatascience.foundation%2Fdownloadpdf%2F9%2Fwhitepaper&usg=AOvVaw1kSbLwFPHkPBFwP85r9QC2
-}
-[2] 
-\href{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBx_-Hl4z0AhXLxoUKHZIXA8UQFnoECAcQAQ&url=https%3A%2F%2Fkx.com%2Fwp-content%2Fuploads%2F2020%2F09%2FAn-Introduction-to-Neural-Networks-with-kdb.pdf&usg=AOvVaw0i5Ic0lcC1Jan9edHfk5F6}{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBx_-Hl4z0AhXLxoUKHZIXA8UQFnoECAcQAQ&url=https%3A%2F%2Fkx.com%2Fwp-content%2Fuploads%2F2020%2F09%2FAn-Introduction-to-Neural-Networks-with-kdb.pdf&usg=AOvVaw0i5Ic0lcC1Jan9edHfk5F6}
+(Pas encore par ordre de priorité décroissante.)\\ 
 
-[3] 
-Base de données de mot-clé en anglais et technique de transfert d'apprentissage sur des réseaux de neurones de Tensorflow : \href{https://www.tensorflow.org/tutorials/audio/simple_audio}{https://www.tensorflow.org/tutorials/audio/simple_audio}
+[1]
+Introduction to Artificial Neural Networks
+(ANNs)
+\url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj63rOrj4z0AhXQx4UKHZPLBuYQFnoECAcQAQ&url=https%3A%2F%2Fdatascience.foundation%2Fdownloadpdf%2F9%2Fwhitepaper&usg=AOvVaw1kSbLwFPHkPBFwP85r9QC2
+}
+
+[2]
+An Introduction to Neural Networks
+with kdb+
+\url{https://kx.com/wp-content/uploads/2020/09/An-Introduction-to-Neural-Networks-with-kdb.pdf}
+
+[3]
+Pattern Recognition and Machine Learning, Christopher Bishop, 2006
+
+[4]
+Base de données de mot-clé en anglais et technique de transfert d'apprentissage sur des réseaux de neurones de Tensorflow : \url{https://www.tensorflow.org/tutorials/audio/simple_audio}
 
 \end{document}
