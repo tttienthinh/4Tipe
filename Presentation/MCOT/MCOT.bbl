@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{3Blue1Brown}
+3Blue1Brown.
+\newblock Gradient descent, how neural networks learn.
+\newblock {\em Youtube}, 2, 2017.
+
+\bibitem{ann}
+Kirill Goltsman.
+\newblock Introduction to artificial neural networks.
+\newblock {\em Data Science Foundation}, www.datascience.foundation, 2017.
+
+\bibitem{typeNeuralNetworks}
+Roberto~Iriondo Pratik~Shukla.
+\newblock Main types of neural networks and their applications.
+\newblock {\em TOWARDS AI}, 2020.
+
+\bibitem{gradientDescent}
+Sebastian Ruder.
+\newblock An overview of gradient descent optimization algorithms.
+\newblock Artificial Intelligence scientist.
+
+\bibitem{bishop:2006:PRML}
+Christopher~M. Bishop.
+\newblock {\em Pattern Recognition and Machine Learning}.
+\newblock Springer, 2006.
+
+\bibitem{bozinovski2020reminder}
+Stevo Bozinovski.
+\newblock Reminder of the first paper on transfer learning in neural networks,
+  1976.
+\newblock {\em Informatica}, 44, 2020.
+
+\bibitem{tf}
+Simple audio recognition: Recognizing keywords.
+\newblock {\em TensorFlow Tutorials}, www.tensorflow.org, 2021.
+
+\bibitem{juang1991hidden}
+Biing~Hwang Juang and Laurence~R Rabiner.
+\newblock Hidden markov models for speech recognition.
+\newblock {\em Technometrics}, 33(3):251--272, 1991.
+
+\bibitem{audioNN}
+Ketan Doshi.
+\newblock Audio deep learning made simple: State-of-the-art techniques.
+\newblock TOWARDS DATA SCIENCE, 2021.
+
+\end{thebibliography}

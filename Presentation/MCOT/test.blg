@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: test.aux
+The style file: unsrtnat.bst
+Database file #1: test.bib
+Warning--empty publisher in Knuth1984texbook
+You've used 3 entries,
+            2481 wiz_defined-function locations,
+            568 strings with 4665 characters,
+and the built_in function-call counts, 817 in all, are:
+= -- 61
+> -- 21
+< -- 3
++ -- 12
+- -- 6
+* -- 39
+:= -- 138
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 3
+cite$ -- 4
+duplicate$ -- 57
+empty$ -- 91
+format.name$ -- 9
+if$ -- 170
+int.to.chr$ -- 1
+int.to.str$ -- 4
+missing$ -- 6
+newline$ -- 23
+num.names$ -- 9
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 31
+stack$ -- 0
+substring$ -- 6
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 1
+while$ -- 6
+width$ -- 0
+write$ -- 44
+(There was 1 warning)
