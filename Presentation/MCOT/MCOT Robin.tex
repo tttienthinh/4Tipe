@@ -1,0 +1,120 @@
+\documentclass[french,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{csquotes}
+
+\titlespacing*{\section}{0pt}{1.1\baselineskip}{0pt}
+\setlength{\parindent}{0pt}
+
+
+%Début du document
+
+\begin{document}
+
+\section*{\begin{center}Reconnaissance de pathologies sur des radiographies grâce à un réseau de neurones\end{center}}
+
+La récente utilisation des réseaux de neurones dans la médecine est un grand pas dans les deux domaines. Avec autant de diagnostics corrects qu’un professionnel de santé, la fiabilité de ces structures complexes n’est plus à prouver. Nous nous intéresserons ici à leur utilisation pour reconnaître des pathologies sur des radiographies par rayons X.\\
+La santé  est un enjeu majeur de nos sociétés actuelles. La reconnaissance de pathologies de manière efficace est alors primordiale et peut être améliorée par l'utilisation de réseaux de neurones.
+
+\section*{Professeurs encadrants du candidat:}
+Philippe Châteaux
+
+\section*{Positionnement thématique (phase 2)}
+\textit{INFORMATIQUE (Informatique Pratique)}
+
+\section*{Mots-clés (phase 2)}
+\begin{tabular}{l l}
+    \textbf{Mots-clés} (en français): & \textbf{Mots-clés} (en anglais): \\
+    \textit{Réseau de neurones} & \textit{Neural network} \\
+    \textit{Apprentissage profond} & \textit{Deep learning} \\
+    \textit{Algorithme du gradient} & \textit{Gradient descent} \\
+    \textit{Radiographique à rayons X} & \textit{Radiography using X-ray} \\
+    \textit{Reconnaissance d’images} & \textit{Image recognition} \\
+\end{tabular}
+
+\section*{Bibliographie commentée}
+Le fonctionnement d’un neurone du corps humain a été théorisé dans les années 1950 par différents chercheurs en neurologie. En informatique, la modélisation de cette cellule nerveuse est donnée par le modèle de Mc Colluch et Pitts plus couramment appelé perceptron. Ce dernier possède un ensemble de poids et une fonction d’activation. Lorsque plusieurs entrées sont données, elles sont pondérées par le perceptron puis sommées. Cette somme est alors envoyée dans la fonction d’activation. Le résultat ainsi obtenu est la sortie renvoyée par le perceptron. Cela modélise bien le comportement d’un neurone qui récupère les différentes entrées par ses dendrites, les traite et transmet le résultat par son axone.
+\cite{perceptron} 
+\\
+
+Le perceptron est alors entrainé sur un échantillon d'apprentissage dont on connaît la sortie attendue. L'entraînement consiste alors à corriger les poids afin de faire converger le système vers le résultat voulu de manière systématique. Si un neurone peut traiter un OU logique ou bien un ET, il ne peut traiter le OU exclusif aussi appelé XOR. Cependant en rajoutant un autre perceptron qui prend les mêmes entrées et un perceptron de sortie qui traite les résultats des deux précédents, il est possible de faire converger cet ensemble pour obtenir le résultat voulu.
+\cite{xor}
+\\
+
+Il s’agit donc de connecter les différents neurones entre eux pour créer un cerveau capable de traiter les informations. De la même manière, connecter les perceptrons entre eux permet de former un réseau de neurones. Cependant, il faut une méthode pour faire converger l’ensemble vers le résultat voulu. Cela est possible grâce à l’algorithme du gradient et de la rétropropagation de l’erreur. Le premier permet de trouver le minimum d’une fonction objectif qui est atteint lorsque le résultat est le bon. Le second permet de calculer l’erreur de sortie et de la transmettre aux neurones d’entrée en fonction de leur implication dans le calcul du résultat. Les poids sont ainsi corrigés pour que le système puisse converger.
+\cite{livre1}
+\cite{billet}
+\\
+
+Les domaines d’application des réseaux de neurones sont alors importants et variés. L’un des principaux est la reconnaissance d’images. La base de données du Mixed National Institut of Standards and Technology (MNIST) est composée de 70 000 images de tailles 28 x 28 pixels représentant des chiffres manuscrits. Il s’agit de l’exemple par excellence pour entrainer un réseau de neurones et l’un des plus utilisés. De nos jours, certains réseaux sont capables de reconnaitre les chiffres avec moins de 0,18\% d’erreur. 
+\cite{mnist}
+\\
+
+Plus que des chiffres, des réseaux de neurones ont été entrainés pour reconnaitre certains détails sur des images. Cela est utilisé en médecine notamment pour reconnaitre des pathologies sur des radiographies aux rayons X. L’entrainement se fait en plusieurs étapes  et divers problèmes sont à éviter. L’un d’eux est l'hétérogénéité en proportion d’image de patients sains et malades dans les bases de données. Il faut corriger ce biais pour éviter une trop grosse proportion de faux positifs et faux négatifs. Cependant, une fois tous ses problèmes pris en compte, il est possible de reconnaître une maladie avec le même pourcentage d’erreur qu’un spécialiste.
+\cite{cours}
+\cite{radio}
+\\
+
+\section*{Problématique retenue}
+Il s’agit de concevoir un réseau de neurones capable de reconnaitre si le patient dont on donne la radiographie du buste est atteint de la pathologie sélectionnée.
+
+\section*{Objectif TIPE du candidat}
+\begin{enumerate}[leftmargin=*,itemsep=0cm]
+    \item Faire un réseau de neurones qui converge grâce à l’algorithme du gradient
+    \item Essayer ce réseau sur la base de données du MNIST pour reconnaitre des chiffres
+    \item Utiliser un cours pour apprendre à reconnaitre les images
+    \item Utiliser des réseaux de neurones pré-entrainés pour reconnaitre par manque de performance des machines que j’ai à disposition
+\end{enumerate}
+
+
+
+\end{document}
+
+
+
+
+
+
+
+%Je n'utilise plus
+\begin{thebibliography}{10}
+
+\bibitem{perceptron}
+\textsc{Ricco Rakatomalala}.
+Deep learning :
+\url{http://eric.univ-lyon2.fr/~ricco/cours/slides/reseaux_neurones_perceptron.pdf}.
+Université Lumière Lyon 2.
+
+\bibitem{xor}
+\textsc{Bruno Bouzy}.
+Réseaux de neurones :
+\url{http://helios.mi.parisdescartes.fr/~bouzy/Doc/AA1/ReseauxDeNeurones1.pdf}.
+
+\bibitem{livre1}
+\textsc{Jean Claude Heudin}.
+Comprendre le deep learning: une introduction aux réseaux de neurones
+
+\bibitem{billet}
+\textsc{Miximum}.
+Introduction au machine learning :
+\url{https://www.miximum.fr/blog/introduction-au-machine-learning/}
+
+\bibitem{mnist}
+Base de données MNIST (Mixed National Institute of Standards and Technology)
+\url{https://www.openml.org/d/554}
+
+\bibitem{cours}
+\textsc{Pranav Rajpurkar, Amirhossein Kiani, Bora Uyumazturk \& Eddy Shyu}.
+AI for medical diagnosis :
+\url{https://www.coursera.org/specializations/ai-for-medicine}
+
+\bibitem{radio}
+Base de données radiographie pour la classification et la localisation des maladies communes du thorax :
+\url{https://arxiv.org/abs/1705.02315}
+
+\end{thebibliography}

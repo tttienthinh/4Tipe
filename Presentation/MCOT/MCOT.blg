@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MCOT.aux
+The style file: unsrt.bst
+Database file #1: sample.bib
+Warning--empty booktitle in McCulloch
+Warning--empty journal in gradientDescent
+Warning--empty author in tf
+Warning--empty journal in audioNN
+You've used 10 entries,
+            1791 wiz_defined-function locations,
+            504 strings with 4699 characters,
+and the built_in function-call counts, 1514 in all, are:
+= -- 133
+> -- 45
+< -- 1
++ -- 21
+- -- 11
+* -- 62
+:= -- 264
+add.period$ -- 31
+call.type$ -- 10
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 86
+empty$ -- 165
+format.name$ -- 11
+if$ -- 333
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 11
+newline$ -- 53
+num.names$ -- 9
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 36
+stack$ -- 0
+substring$ -- 25
+swap$ -- 9
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 11
+width$ -- 12
+write$ -- 107
+(There were 4 warnings)
