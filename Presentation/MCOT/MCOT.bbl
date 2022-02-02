@@ -1,4 +1,9 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{McCulloch}
+Warren McCulloch and Walter Pitts.
+\newblock A logical calculus of the ideas immanent in nervous activity.
+\newblock volume~5. BULLETIN OF MATHEMATICAL BIOPHYSICS, 1943.
 
 \bibitem{3Blue1Brown}
 3Blue1Brown.
@@ -18,6 +23,7 @@ Roberto~Iriondo Pratik~Shukla.
 \bibitem{gradientDescent}
 Sebastian Ruder.
 \newblock An overview of gradient descent optimization algorithms.
+\newblock 2016.
 \newblock Artificial Intelligence scientist.
 
 \bibitem{bishop:2006:PRML}

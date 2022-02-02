@@ -3,54 +3,49 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: MCOT.aux
 The style file: unsrt.bst
 Database file #1: sample.bib
-I was expecting a `,' or a `}'---line 19 of file sample.bib
- :    
- :    year={2016},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--empty booktitle in McCulloch
 Warning--empty journal in gradientDescent
-Warning--empty year in gradientDescent
 Warning--empty author in tf
 Warning--empty journal in audioNN
-You've used 9 entries,
+You've used 10 entries,
             1791 wiz_defined-function locations,
-            496 strings with 4544 characters,
-and the built_in function-call counts, 1312 in all, are:
-= -- 114
-> -- 37
-< -- 0
-+ -- 18
-- -- 9
-* -- 56
-:= -- 230
-add.period$ -- 26
-call.type$ -- 9
-change.case$ -- 8
+            504 strings with 4699 characters,
+and the built_in function-call counts, 1514 in all, are:
+= -- 133
+> -- 45
+< -- 1
++ -- 21
+- -- 11
+* -- 62
+:= -- 264
+add.period$ -- 31
+call.type$ -- 10
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 75
-empty$ -- 142
-format.name$ -- 9
-if$ -- 284
+cite$ -- 14
+duplicate$ -- 86
+empty$ -- 165
+format.name$ -- 11
+if$ -- 333
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 10
-newline$ -- 47
-num.names$ -- 8
-pop$ -- 24
+int.to.str$ -- 10
+missing$ -- 11
+newline$ -- 53
+num.names$ -- 9
+pop$ -- 29
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 33
+skip$ -- 36
 stack$ -- 0
 substring$ -- 25
-swap$ -- 7
-text.length$ -- 0
+swap$ -- 9
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 10
-width$ -- 10
-write$ -- 94
-(There was 1 error message)
+while$ -- 11
+width$ -- 12
+write$ -- 107
+(There were 4 warnings)

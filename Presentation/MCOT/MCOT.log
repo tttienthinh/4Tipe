@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.20)  22 DEC 2021 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.20)  19 JAN 2022 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,9 +294,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 40.
 
-Overfull \hbox (12.27258pt too wide) in paragraph at lines 51--65
+Overfull \hbox (17.49457pt too wide) in paragraph at lines 51--65
 \T1/lmr/m/n/12 La pre-mière mod-éli-sa-tion in-for-ma-tique du neu-rone, ap-pel
-ée per-cep-tron, pro-posé
+ée per-cep-tron, pro-posée
  []
 
 
@@ -332,19 +332,25 @@ mots-clés pronon-cés
  []
 
 
-Overfull \hbox (4.89482pt too wide) in paragraph at lines 75--76
-[]\T1/lmr/m/n/12 Faire un réseau de neu-rones qui con-verge grâce à l'algorithm
-e du gra-di-ent 
- []
-
-
-Overfull \hbox (12.69188pt too wide) in paragraph at lines 78--79
+Overfull \hbox (9.42789pt too wide) in paragraph at lines 78--79
 []\T1/lmr/m/n/12 Utiliser le trans-fert d'apprentissage pour re-con-naître ce q
-ui a été prononcé,
+ui a été prononcé
  []
 
 [3] (./MCOT.bbl
-Underfull \hbox (badness 1789) in paragraph at lines 19--22
+Underfull \hbox (badness 1024) in paragraph at lines 4--7
+[]\T1/lmr/m/n/12 Warren Mc-Cul-loch and Wal-ter Pitts.  A log-i-cal cal-cu-lus 
+of the
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 4--7
+\T1/lmr/m/n/12 ideas im-ma-nent in ner-vous ac-tiv-ity.  vol-ume 5. BUL-LETIN O
+F
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 24--28
 []\T1/lmr/m/n/12 Sebastian Ruder.  An overview of gra-di-ent de-scent op-ti-miz
 a-tion
  []
@@ -361,22 +367,22 @@ Package rerunfilecheck Info: File `MCOT.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 5137 strings out of 483113
- 78958 string characters out of 5964008
- 333919 words of memory out of 5000000
- 20059 multiletter control sequences out of 15000+600000
+ 5141 strings out of 483113
+ 79023 string characters out of 5964008
+ 333935 words of memory out of 5000000
+ 20062 multiletter control sequences out of 15000+600000
  583510 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,6n,29p,834b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,29p,848b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmri12.pfb>
-Output written on MCOT.pdf (4 pages, 174982 bytes).
+Output written on MCOT.pdf (4 pages, 175431 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
