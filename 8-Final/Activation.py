@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 """
 Linéaire
+https://medium.com/@omkar.nallagoni/activation-functions-with-derivative-and-python-code-sigmoid-vs-tanh-vs-relu-44d23915c1f4
 """
 def lineaire(x):
     """
@@ -33,15 +34,22 @@ def d_sigmoid(x):
     return x * (1-x)
 
 """
+Tanh
+"""
+def tanh(x):
+    pass
+
+"""
 Softmax
 """
 def softmax(x):
-    exp = np.exp(x) + 1e-5
+    exp = np.exp(x-x.max(axis=-1, keepdims=True))
     return exp / exp.sum(axis=-1, keepdims=True)
 
 def d_softmax(x):
-    s = softmax(x)
-    return s * (1 - s)
+    # s = softmax(x)
+    # return s * (1 - s)
+    return np.ones(x.shape)
 
 """
 https://sgugger.github.io/a-simple-neural-net-in-numpy.html

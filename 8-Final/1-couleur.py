@@ -23,7 +23,7 @@ def affichage2d(dataVert, dataBleu, dataRouge, dataOrange, epoch=0, finish=False
     plt.title(f"8 neurones, softmax + CrossEntropy\nWe are at epoch : {epoch}")
     plt.legend()
     # version arret
-    plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
+    # plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
     n_image += 1
     if finish:
         plt.show()
@@ -50,8 +50,7 @@ train_output = np.array(train_output)
 
 # model creation
 model = Model([
-        LayerOptimizer(2, 2, lr=0.9, gamma=0.5),
-        LayerOptimizer(2, 4, lr=0.9, gamma=0.5, activation=Activation.softmax, d_activation=Activation.d_softmax),
+        LayerOptimizer(2,  4, lr=0.9, gamma=0.5, activation=Activation.softmax, d_activation=Activation.d_softmax),
     ],
     loss_function=Loss.cross_entropy,
     d_loss_function=Loss.d_cross_entropy
@@ -59,11 +58,11 @@ model = Model([
 
 # Entrainement
 losses = []
-epochs = 100
+epochs = 50
 for epoch in range(epochs +1):
     y, loss = model.backpropagation(train_input, train_output)
     losses.append(loss)
-    if True and epoch % (int(epochs/100)) == 0:
+    if True and epoch % (int(epochs/50)) == 0:
         result = np.argmax(y, axis=1)
         dataVert = (train_input[result == 0]).T
         dataBleu = (train_input[result == 1]).T

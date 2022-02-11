@@ -23,7 +23,7 @@ https://gombru.github.io/2018/05/23/cross_entropy_loss#losses
 https://www.tensorflow.org/api_docs/python/tf/keras/metrics/categorical_crossentropy
 """
 def cross_entropy(predicted_output, target_output):
-    return -(target_output * np.log(np.abs(predicted_output))).sum(axis=-1).mean()
+    return -(target_output * np.log(np.clip(np.abs(predicted_output), 1e-3, 1))).sum(axis=-1).mean()
 
 def d_cross_entropy(predicted_output, target_output):
     return predicted_output - target_output

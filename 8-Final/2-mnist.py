@@ -13,6 +13,7 @@ from Loss import *
 
 """
 Normal
+"""
 egalisation = 5_000
 y_train = np.zeros((len(Y_train), 10))
 y_train[np.arange(len(Y_train)), Y_train] = 1 # to categorical
@@ -26,36 +27,9 @@ y_test[np.arange(len(Y_test)), Y_test] = 1 # to categorical
 x_train = X_train.reshape(-1, 28*28)/255 # 28*28 = 784
 x_test = X_test.reshape(-1, 28*28)/255
 
-"""
-"""
-égalisation
-"""
-egalisation = 5_000
-y_train = np.zeros((10*egalisation, 10))
-x_train = np.empty((0, 784))
-for i in range(10):
-    y_train[np.arange(i*egalisation, (i+1)*egalisation), i] = 1 # to categorical
-    x_train = np.concatenate((x_train, X_train[Y_train==i][:egalisation].reshape(-1, 28*28)/255)) # 28*28 = 784
-
-
-y_test = np.zeros((len(Y_test), 10))
-y_test[np.arange(len(Y_test)), Y_test] = 1 # to categorical 
-x_test = X_test.reshape(-1, 28*28)/255
-
-
-""" Méthode Bensal zéro ou non
-y_train = np.zeros((len(Y_train), 2))
-y_train[np.arange(len(Y_train)), (Y_train!=0)*1] = 1
-y_test = np.zeros((len(Y_test), 2))
-y_test[np.arange(len(Y_test)), (Y_test!=0)*1] = 1 # to categorical 
-"""
-
-
 # Creation du model
 model = ModelClassification([
-        LayerOptimizer(784, 32, lr=0.9, gamma=0.5),
-        LayerOptimizer(32, 16, lr=0.9, gamma=0.5),
-        LayerOptimizer(16, 10, lr=0.9, gamma=0.5, activation=softmax, d_activation=d_softmax),
+        LayerOptimizer(784, 10, lr=0.9, gamma=0.5, activation=softmax, d_activation=d_softmax),
     ],
     loss_function=cross_entropy,
     d_loss_function=d_cross_entropy
@@ -73,6 +47,7 @@ for epoch in range(epochs +1):
     if epoch%10 == 0:
         print(f"Epoch {epoch} : {round(acc*100, 2)}% Accuracy")
 
+# Affichage résultat
 plt.plot(losses, label="losses")
 plt.plot(accs, label="accs")
 plt.legend()
@@ -80,5 +55,21 @@ plt.show()
 
 print(model.backpropagation(x_train, y_train)[1:])
 print(model.backpropagation(x_test, y_test)[1:])
-
 model.backpropagation(x_test, y_test)[0].argmax(axis=-1)
+
+
+fig = plt.figure(figsize=(15,10))
+start = 40
+end = start + 40
+test_preds = model.backpropagation(x_test[start:end], y_test[start:end])[0].argmax(axis=-1)
+for i in range(40):  
+    ax = fig.add_subplot(5, 8, (i+1))
+    ax.imshow(X_test[start+i], cmap=plt.get_cmap('gray'))
+    if Y_test[start+i] != test_preds[i]:
+        ax.set_title('cible: {cible} - res: {res}'.format(cible=Y_test[start+i], res=test_preds[i]), color="red")
+    else:
+        ax.set_title('cible: {cible} - res: {res}'.format(cible=Y_test[start+i], res=test_preds[i]))
+    plt.axis('off')
+plt.title("Résultat")
+plt.savefig("Resultat.jpg")
+# plt.show()
