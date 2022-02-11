@@ -1,0 +1,1 @@
+ffmpeg -start_number 0 -i %3d.png -vcodec mpeg4 final.mp4
