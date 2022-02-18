@@ -8,6 +8,20 @@ from Layer import Layer, LayerOptimizer
 from Activation import *
 from Loss import *
 
+"""
+(trainX, trainy), (testX, testy) = fashion_mnist.load_data()
+# summarize loaded dataset
+print('Train: X=%s, y=%s' % (trainX.shape, trainy.shape))
+print('Test: X=%s, y=%s' % (testX.shape, testy.shape))
+# plot first few images
+for i in range(9):
+	# define subplot
+	plt.subplot(330 + 1 + i)
+	# plot raw pixel data
+	plt.imshow(trainX[i], cmap=plt.get_cmap('gray'))
+# show the figure
+plt.show()
+"""
 # Traitement des données
 (X_train, Y_train), (X_test, Y_test) = mnist.load_data()
 
@@ -29,7 +43,8 @@ x_test = X_test.reshape(-1, 28*28)/255
 
 # Creation du model
 model = ModelClassification([
-        LayerOptimizer(784, 10, lr=0.9, gamma=0.5, activation=softmax, d_activation=d_softmax),
+        LayerOptimizer(784, 64, lr=0, gamma=0.3, activation=sigmoid, d_activation=d_sigmoid),
+        LayerOptimizer(64, 10, lr=0.9, gamma=0.3, activation=softmax, d_activation=d_softmax),
     ],
     loss_function=cross_entropy,
     d_loss_function=d_cross_entropy
@@ -39,12 +54,12 @@ model = ModelClassification([
 # Entrainement
 losses = []
 accs = []
-epochs = 50
+epochs = 30
 for epoch in range(epochs +1):
     y, loss, acc = model.backpropagation(x_train, y_train)
     losses.append(loss)
     accs.append(acc)
-    if epoch%10 == 0:
+    if epoch%5 == 0:
         print(f"Epoch {epoch} : {round(acc*100, 2)}% Accuracy")
 
 # Affichage résultat
@@ -72,4 +87,4 @@ for i in range(40):
     plt.axis('off')
 plt.title("Résultat")
 plt.savefig("Resultat.jpg")
-# plt.show()
+plt.show()

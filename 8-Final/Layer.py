@@ -14,7 +14,7 @@ class Layer:
         """
         # input_n le nombre d'entrée du neuronne
         # output_n le nombre de neuronne de sortie
-        self.weight = np.random.rand(input_n+1, output_n)
+        self.weight = np.random.rand(input_n+1, output_n)*2-1
         self.input_n = input_n
         self.output_n = output_n
         self.lr = lr # learning rate
@@ -45,7 +45,7 @@ class Layer:
         """
         Permet de mettre à jour les poids weigth
         """
-        e1 = e_2 / (self.output_n+1) * self.d_activation(self.predicted_output)
+        e1 = e_2 / (self.input_n+1) * self.d_activation(self.predicted_output)
         # e_0 est pour l'entrainement de la couche précédente
         e_0 = np.dot(e1, self.weight.T)[:, :-1]
         dw1 = np.dot(e1.T, self.input_data)
@@ -69,7 +69,7 @@ class LayerOptimizer(Layer):
         """
         Permet de mettre à jour les poids weigth
         """
-        e1 = e_2 / (self.output_n+1) * self.d_activation(self.predicted_output)
+        e1 = e_2 / (self.input_n+1) * self.d_activation(self.predicted_output)
         # e_0 est pour l'entrainement de la couche précédente
         e_0 = np.dot(e1, self.weight.T)[:, :-1]
         dw1 = np.dot(e1.T, self.input_data)

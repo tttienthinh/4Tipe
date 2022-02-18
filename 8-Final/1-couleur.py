@@ -50,7 +50,8 @@ train_output = np.array(train_output)
 
 # model creation
 model = Model([
-        LayerOptimizer(2,  4, lr=0.9, gamma=0.5, activation=Activation.softmax, d_activation=Activation.d_softmax),
+        LayerOptimizer(2,  4, lr=0.01, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid),
+        LayerOptimizer(4,  4, lr=0.01, activation=Activation.softmax, d_activation=Activation.d_softmax),
     ],
     loss_function=Loss.cross_entropy,
     d_loss_function=Loss.d_cross_entropy
@@ -58,7 +59,7 @@ model = Model([
 
 # Entrainement
 losses = []
-epochs = 50
+epochs = 500
 for epoch in range(epochs +1):
     y, loss = model.backpropagation(train_input, train_output)
     losses.append(loss)
@@ -71,7 +72,7 @@ for epoch in range(epochs +1):
         affichage2d(dataVert, dataBleu, dataRouge, dataOrange, epoch=epoch)
 
 plt.plot(losses)
-plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
+# plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
 plt.show()
 
 

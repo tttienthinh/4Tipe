@@ -27,15 +27,15 @@ mots = [
     "effondrement",
     "électrocution"
 ]
-for count in range(2, 4):
+for count in range(5):
     for mot in mots:
         print(f"Record {mot}")
         time.sleep(1)
         print("Go")
         myrecording = sd.rec(int(seconds * fs), samplerate=fs, channels=2)
         sd.wait()  # Wait until recording is finished
-        # print(type(myrecording))
-        wavfile.write(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/agathe_florent/{mot}/{count}.wav", fs, myrecording)  # Save as WAV file 
+        print(type(myrecording))
+        wavfile.write(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}/{count}.wav", fs, myrecording)  # Save as WAV file 
 
 mot = mots[0]
 i = 0
