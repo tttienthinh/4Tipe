@@ -31,13 +31,38 @@ def d_sigmoid(x):
     """
     Dérivé de Sigmoid
     """
-    return x * (1-x)
+    f_x = sigmoid(x)
+    return f_x * (1-f_x)
 
 """
 Tanh
 """
 def tanh(x):
-    pass
+    """
+    Fonction Tanh
+    """
+    return np.tanh(x)
+
+def d_tanh(x):
+    """
+    Dérivé de Tanh
+    """
+    return 1-tanh(x)**2
+
+"""
+ReLU
+"""
+def relu(x):
+    """
+    Fonction ReLU
+    """
+    return np.clip(x, 0, np.inf)
+
+def d_relu(x):
+    """
+    Dérivé de ReLU
+    """
+    return 1*(x>0)
 
 """
 Softmax
@@ -55,3 +80,42 @@ def d_softmax(x):
 https://sgugger.github.io/a-simple-neural-net-in-numpy.html
 https://www.adeveloperdiary.com/data-science/deep-learning/neural-network-with-softmax-in-python/
 """
+
+if __name__ == "__main__":
+    """
+    Affichage
+    """
+    save_path = "/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/Presentation/Beamer/Affiche/2-Activation-Gradient/"
+
+    x = np.linspace(-5, 5, 1001)
+    y = sigmoid(x)
+    d_y = d_sigmoid(x)
+    plt.plot(x, y, label="Sigmoïde")
+    plt.plot(x, d_y, label="dérivée Sigmoïde")
+    plt.axis((-5,5,-1.1,1.1))
+    plt.legend()
+    plt.grid()
+    plt.savefig(f"{save_path}Sigmoide.png")
+    plt.clf()
+
+    x = np.linspace(-5, 5, 1001)
+    y = tanh(x)
+    d_y = d_tanh(x)
+    plt.plot(x, y, label="Tanh")
+    plt.plot(x, d_y, label="dérivée Tanh")
+    plt.axis((-5,5,-1.1,1.1))
+    plt.legend()
+    plt.grid()
+    plt.savefig(f"{save_path}Tanh.png")
+    plt.clf()
+
+    x = np.linspace(-5, 5, 1001)
+    y = relu(x)
+    d_y = d_relu(x)
+    plt.plot(x, y, label="ReLU")
+    plt.plot(x, d_y, label="dérivée ReLU")
+    plt.axis((-5,5,-1.1,1.1))
+    plt.legend()
+    plt.grid()
+    plt.savefig(f"{save_path}ReLU.png")
+    plt.clf()

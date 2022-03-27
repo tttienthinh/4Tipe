@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.20)  19 JAN 2022 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  27 MAR 2022 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,12 +367,12 @@ Package rerunfilecheck Info: File `MCOT.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 5141 strings out of 483113
- 79023 string characters out of 5964008
- 333935 words of memory out of 5000000
- 20062 multiletter control sequences out of 15000+600000
+ 5141 strings out of 483040
+ 79023 string characters out of 5962426
+ 334181 words of memory out of 5000000
+ 20069 multiletter control sequences out of 15000+600000
  583510 words of font info for 54 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 81 hyphenation exceptions out of 8191
  34i,6n,29p,848b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s

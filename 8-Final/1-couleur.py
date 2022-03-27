@@ -50,8 +50,8 @@ train_output = np.array(train_output)
 
 # model creation
 model = Model([
-        LayerOptimizer(2,  4, lr=0.01, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid),
-        LayerOptimizer(4,  4, lr=0.01, activation=Activation.softmax, d_activation=Activation.d_softmax),
+        Layer(2,  4, lr=0.3, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid),
+        LayerOptimizer(4,  4, lr=0.3, gamma=0.3, activation=Activation.softmax, d_activation=Activation.d_softmax),
     ],
     loss_function=Loss.cross_entropy,
     d_loss_function=Loss.d_cross_entropy

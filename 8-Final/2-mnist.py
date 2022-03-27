@@ -43,8 +43,8 @@ x_test = X_test.reshape(-1, 28*28)/255
 
 # Creation du model
 model = ModelClassification([
-        LayerOptimizer(784, 64, lr=0, gamma=0.3, activation=sigmoid, d_activation=d_sigmoid),
-        LayerOptimizer(64, 10, lr=0.9, gamma=0.3, activation=softmax, d_activation=d_softmax),
+        LayerOptimizer(784, 256, lr=0.009, gamma=0.003, activation=sigmoid, d_activation=d_sigmoid),
+        LayerOptimizer(256, 10, lr=0.9, gamma=0.3, activation=softmax, d_activation=d_softmax),
     ],
     loss_function=cross_entropy,
     d_loss_function=d_cross_entropy

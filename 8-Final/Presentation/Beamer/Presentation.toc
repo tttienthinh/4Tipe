@@ -1,0 +1,5 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{I - Introduction}{4}{0}{1}
+\beamer@sectionintoc {2}{II - Fonction d'activation et Descente de gradient}{6}{0}{2}
+\beamer@sectionintoc {3}{III - Descente de gradient}{10}{0}{3}
+\beamer@sectionintoc {4}{IV - Problème de reproduction de l'opérateur XOR}{11}{0}{4}
