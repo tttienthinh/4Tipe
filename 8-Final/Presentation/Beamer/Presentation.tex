@@ -57,7 +57,7 @@
 Il y a eu plus de \textbf{31 millions} d'appels d'urgence en 2018. Seuls \textbf{69\%} des appels étaient décrochés dans la minute.
 \end{alert}
 \begin{block}{Objectif}
-Utiliser la reconnaissance vocale par réseau de neurones pour aider à cliassifier rapidement l'objet d'un appel.
+Utiliser la reconnaissance vocale par réseau de neurones pour aider à classifier rapidement l'objet d'un appel.
 \end{block}
 \end{frame}
 
@@ -108,17 +108,12 @@ McCulloh et Pitts introduise le modèle du Perceptron en 1943, basé sur le fonc
 \end{figure}
 \end{frame}
 
-% 2-Fonction d'activation et Descente de gradient
-\section{II - Fonction d'activation et Descente de gradient}
-\begin{frame}{II - Fonction d'activation et Descente de gradient}
+% 2-Fonction d'activation
+\section{II - Fonction d'activation}
+\begin{frame}{II - Fonction d'activation}
 \begin{block}{Fonction d'activation}
 Sans l'utilisation de la fonction d'activation, le neurone est multilinéaire par rapport à ses entrées, il n'est donc capable que de faire des régressions linéaires sur les données d'entrées. \\
 Les fonctions d'activation permettent donc une classification non linéaire.
-\end{block}
-\begin{block}{Descente de gradient}
-La Descente de Gradient est un algorithme d’optimisation qui permet de trouver un minimum local d'une fonction en convergeant progressivement. \\
-Dans l'apprentissage des réseaux de neurones, la descente de gradient est utilisée pour trouver le minimum d'une fonction coût, évaluant l'erreur entre la valeur de sortie du réseau et celle attendu. \\
-En effet, trouver des paramètres (poids, architecture du réseau, fonction d'activation) permettant d'avoir une erreur nulle revient à résoudre le problème qu'évalue cette fonction coût par rapport aux entrées données.
 \end{block}
 \end{frame}
 
@@ -199,6 +194,14 @@ La complexité est en $O(n)$
 
 % 3-Descente de gradient
 \section{III - Descente de gradient}
+\begin{frame}{Descente de gradient}
+\begin{block}{Descente de gradient}
+La Descente de Gradient est un algorithme d’optimisation qui permet de trouver un minimum local d'une fonction en convergeant progressivement. \\
+Dans l'apprentissage des réseaux de neurones, la descente de gradient est utilisée pour trouver le minimum d'une fonction coût, évaluant l'erreur entre la valeur de sortie du réseau et celle attendu. \\
+En effet, trouver des paramètres (poids, architecture du réseau, fonction d'activation) permettant d'avoir une erreur nulle revient à résoudre le problème qu'évalue cette fonction coût par rapport aux entrées données.
+\end{block}
+\end{frame}
+
 \begin{frame}{III - Descente de gradient}
 \begin{block}{Algorithme du gradient}
 Soit $n \in \mathbb{N}, \varepsilon > 0$. On munit $\mathbb{R}^n$ de son produit scalaire canonique. \newline
@@ -212,10 +215,72 @@ Soit $n \in \mathbb{N}, \varepsilon > 0$. On munit $\mathbb{R}^n$ de son produit
 \begin{figure}
 	\centering
     \includegraphics[height=75px]{1-DescenteGradient.jpg}
-	\caption{Descente de Gradient pour $f(x) = (x-0.75)^2$; $x_0=0.1$ et $\epsilon = 0.1$}
+	\caption{Descente de Gradient pour $f(x) = (x-0.75)^2$; $x_0=0.1$ et $\varepsilon = 0.1$}
 \end{figure}
 \end{frame}
 
+\begin{frame}{III - Importance du choix du taux d'apprentissage}
+Pour la suite on continuera avec la fonction $f(x) = (x-0.75)^2$ et $x_0=0.1$. \\
+On montre qu'en choisissant un taux d'apprentissage trop petit ou trop grand, il est possible que la descente de gradient diverge, ou ne converge pas assez vite.
+\begin{figure}
+	\centering
+    \includegraphics[height=90px]{2-DescenteGradient.jpg}
+	\caption{Descente de Gradient on force l'arrêt à $k=8$}
+\end{figure}
+\end{frame}
+
+\begin{frame}{III - Utilisation du Moment}
+\begin{block}{Descente de gradient avec moment}
+$x_0$ aléatoire et le moment $\omega_0 = 0$.
+Supposons $x_0, \ldots, x_k$ et $\omega_0, \ldots, \omega_k$ construits. \\
+    • On pose $\omega_{k+1} = \gamma \omega_k + t \nabla f(x_k)$ \\
+    • On pose $x_{k+1} = x_k - \omega_{k+1}$ 
+\end{block}
+\begin{figure}
+	\centering
+    \includegraphics[height=130px, trim=0 35 0 35, clip]{3-Moment.jpg}
+	\caption{Comparaison sans puis avec dépendance au moment avec $\gamma = 0.5$, arrêt à $k=4$}
+\end{figure}
+\end{frame}
+
+\begin{frame}{III - Utilisation du Moment}
+Le moment permet également de s'échapper de certain minimum locaux.
+\begin{figure}
+	\centering
+    \includegraphics[width=\paperwidth, trim=0 10 0 10, clip]{4-Moment.jpg}
+	\caption{Comparaison sans puis avec dépendance au moment avec $\gamma = 0.5$, arrêt à $k=8$}
+\end{figure}
+\end{frame}
+
+\begin{frame}{III - Apprentissage stochastique ou par paquet (Batch)}
+
+\begin{multicols}{2}
+Il faut prendre en compte le fait que les D données d'apprentissage ne sont pas toujours juste, elles peuvent contenir des erreurs. 
+\columnbreak
+$
+\left< f
+\left(
+\begin{pmatrix}
+x_1^{1} & \ldots & x_n^{1} & b \\
+\vdots & \vdots & \vdots & \vdots \\
+x_1^{D} & \ldots & x_n^{D} & b
+\end{pmatrix}
+\times
+\begin{pmatrix}
+w_1 \\
+\vdots \\
+w_n \\
+w_b
+\end{pmatrix}
+\right) \right>
+$
+\end{multicols}
+\begin{figure}
+	\centering
+    \includegraphics[width=\paperwidth, trim=0 30 0 30, clip]{5-Batch.jpg}
+	\caption{Comparaison apprentissage stochastique et par paquet}
+\end{figure}
+\end{frame}
 
 % 4-Problème de reproduction de l'opérateur XOR
 \section{IV - Problème de reproduction de l'opérateur XOR}

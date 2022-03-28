@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  28 MAR 2022 00:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  28 MAR 2022 03:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1079,13 +1079,13 @@ n.png>] [6
 File: Affiche/1-Introduction/1-Perceptron.png Graphic file (type png)
 <use Affiche/1-Introduction/1-Perceptron.png>
 Package pdftex.def Info: Affiche/1-Introduction/1-Perceptron.png  used on input
- line 152.
+ line 147.
 (pdftex.def)             Requested size: 236.39871pt x 75.28152pt.
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-52.
+47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1097,55 +1097,118 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 File: Affiche/2-Activation-Gradient/0-Sigmoide.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-Sigmoide.png>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Sigmoide.png  used on 
-input line 182.
+input line 177.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/2-Activation-Gradient/0-Tanh.png, id=253, 462.528pt x 346.896pt>
 File: Affiche/2-Activation-Gradient/0-Tanh.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-Tanh.png>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Tanh.png  used on inpu
-t line 182.
+t line 177.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/2-Activation-Gradient/0-ReLU.png, id=254, 462.528pt x 346.896pt>
 File: Affiche/2-Activation-Gradient/0-ReLU.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-ReLU.png>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/0-ReLU.png  used on inpu
-t line 182.
+t line 177.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
  [8
 
  <./Affiche/2-Activation-Gradient/0-Sigmoide.png> <./Affiche/2-Activation-Gradi
 ent/0-Tanh.png> <./Affiche/2-Activation-Gradient/0-ReLU.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 []\T1/cmss/m/sc/10 Même pro-blème que la
  []
 
 [9
 
+] [10
+
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-217.
+220.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<Affiche/2-Activation-Gradient/1-DescenteGradient.jpg, id=310, 867.24pt x 216.8
+<Affiche/2-Activation-Gradient/1-DescenteGradient.jpg, id=338, 867.24pt x 216.8
 1pt>
 File: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg Graphic file (type j
 pg)
 <use Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg  
-used on input line 217.
+used on input line 220.
 (pdftex.def)             Requested size: 301.13014pt x 75.28152pt.
- [10
-
- <./Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>]
-<Affiche/4-XOR/1-Reseau.png, id=345, 1474.5489pt x 531.9072pt>
-File: Affiche/4-XOR/1-Reseau.png Graphic file (type png)
-<use Affiche/4-XOR/1-Reseau.png>
-Package pdftex.def Info: Affiche/4-XOR/1-Reseau.png  used on input line 232.
-(pdftex.def)             Requested size: 200.75073pt x 72.41309pt.
  [11
 
- <./Affiche/4-XOR/1-Reseau.png>] [12
+ <./Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>]
+<Affiche/2-Activation-Gradient/2-DescenteGradient.jpg, id=373, 867.24pt x 216.8
+1pt>
+File: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg Graphic file (type j
+pg)
+<use Affiche/2-Activation-Gradient/2-DescenteGradient.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg  
+used on input line 230.
+(pdftex.def)             Requested size: 361.35353pt x 90.33783pt.
+
+Overfull \hbox (17.1582pt too wide) in paragraph at lines 230--230
+ [] 
+ []
+
+[12
+
+ <./Affiche/2-Activation-Gradient/2-DescenteGradient.jpg>]
+<Affiche/2-Activation-Gradient/3-Moment.jpg, id=401, 867.24pt x 433.62pt>
+File: Affiche/2-Activation-Gradient/3-Moment.jpg Graphic file (type jpg)
+<use Affiche/2-Activation-Gradient/3-Moment.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/3-Moment.jpg  used on in
+put line 244.
+(pdftex.def)             Requested size: 311.45189pt x 130.48798pt.
+ [13
+
+ <./Affiche/2-Activation-Gradient/3-Moment.jpg>]
+<Affiche/2-Activation-Gradient/4-Moment.jpg, id=431, 867.24pt x 216.81pt>
+File: Affiche/2-Activation-Gradient/4-Moment.jpg Graphic file (type jpg)
+<use Affiche/2-Activation-Gradient/4-Moment.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/4-Moment.jpg  used on in
+put line 253.
+(pdftex.def)             Requested size: 364.19536pt x 82.6191pt.
+
+Overfull \hbox (20.00003pt too wide) in paragraph at lines 253--253
+ [] 
+ []
+
+[14
+
+ <./Affiche/2-Activation-Gradient/4-Moment.jpg>]
+Overfull \hbox (3.63948pt too wide) in paragraph at lines 283--283
+$[]$  
+ []
+
+<Affiche/2-Activation-Gradient/5-Batch.jpg, id=459, 1084.05pt x 433.62pt>
+File: Affiche/2-Activation-Gradient/5-Batch.jpg Graphic file (type jpg)
+<use Affiche/2-Activation-Gradient/5-Batch.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/5-Batch.jpg  used on inp
+ut line 283.
+(pdftex.def)             Requested size: 364.19536pt x 125.44272pt.
+
+Overfull \hbox (20.00003pt too wide) in paragraph at lines 283--283
+ [] 
+ []
+
+
+Overfull \vbox (10.03204pt too high) detected at line 283
+ []
+
+[15
+
+ <./Affiche/2-Activation-Gradient/5-Batch.jpg>]
+<Affiche/4-XOR/1-Reseau.png, id=487, 1474.5489pt x 531.9072pt>
+File: Affiche/4-XOR/1-Reseau.png Graphic file (type png)
+<use Affiche/4-XOR/1-Reseau.png>
+Package pdftex.def Info: Affiche/4-XOR/1-Reseau.png  used on input line 297.
+(pdftex.def)             Requested size: 200.75073pt x 72.41309pt.
+ [16
+
+ <./Affiche/4-XOR/1-Reseau.png>] [17
 
 ]
 \tf@nav=\write6
@@ -1157,23 +1220,23 @@ Package pdftex.def Info: Affiche/4-XOR/1-Reseau.png  used on input line 232.
 \tf@snm=\write8
 \openout8 = `Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
-(rerunfilecheck)             Checksum: E605A228F14A04A44E5A53BB2E105845;286.
+(rerunfilecheck)             Checksum: 4B4EAA955A2CC34ADD0919A0F96C4070;262.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22513 strings out of 483040
- 410591 string characters out of 5962426
- 920483 words of memory out of 5000000
- 36981 multiletter control sequences out of 15000+600000
+ 22557 strings out of 483040
+ 411664 string characters out of 5962426
+ 915353 words of memory out of 5000000
+ 37011 multiletter control sequences out of 15000+600000
  555559 words of font info for 79 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  54i,18n,59p,796b,1511s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1202,10 +1265,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (12 pages, 1818813 bytes).
+Output written on Presentation.pdf (17 pages, 5030070 bytes).
 PDF statistics:
- 764 PDF objects out of 1000 (max. 8388607)
- 424 compressed objects within 5 object streams
- 29 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 933 PDF objects out of 1000 (max. 8388607)
+ 557 compressed objects within 6 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
