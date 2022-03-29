@@ -244,18 +244,39 @@ Supposons $x_0, \ldots, x_k$ et $\omega_0, \ldots, \omega_k$ construits. \\
 \end{frame}
 
 \begin{frame}{III - Utilisation du Moment}
+Voici, une simulation pour des taux d'apprentissage "trop grand" ou "trop petit".
+\begin{figure}
+	\centering
+    \includegraphics[height=130px, trim=0 35 0 35, clip]{4-Moment.jpg}
+	\caption{Comparaison sans puis avec dépendance au moment avec $\gamma = 0.5$, arrêt à $k=8$}
+\end{figure}
+\end{frame}
+
+\begin{frame}{III - Utilisation du Moment}
 Le moment permet également de s'échapper de certain minimum locaux.
 \begin{figure}
 	\centering
-    \includegraphics[width=\paperwidth, trim=0 10 0 10, clip]{4-Moment.jpg}
+    \includegraphics[width=\textwidth, trim=0 10 0 10, clip]{5-Moment.jpg}
 	\caption{Comparaison sans puis avec dépendance au moment avec $\gamma = 0.5$, arrêt à $k=8$}
 \end{figure}
 \end{frame}
 
 \begin{frame}{III - Apprentissage stochastique ou par paquet (Batch)}
+Les paramètres du réseau de neurone sont les poids qui pondèrent l'entrée. C'est sur eux que l'on opèrent la descente de gradient. 
+\begin{figure}
+	\centering
+    \includegraphics[height=60px]{1-DescenteGradient.jpg}
+\end{figure}
+\begin{figure}
+	\centering
+    \includegraphics[width=\textwidth]{6-Perceptron.png}
+	\caption{Schéma du perceptron linéaire}
+\end{figure}
+\end{frame}
 
+\begin{frame}{III - Apprentissage stochastique ou par paquet (Batch)}
 \begin{multicols}{2}
-Il faut prendre en compte le fait que les D données d'apprentissage ne sont pas toujours juste, elles peuvent contenir des erreurs. 
+Il faut prendre en compte le fait que les D données d'apprentissage ne sont pas toujours exactes, elles sont forcément inscrites dans une marge d'erreur. 
 \columnbreak
 $
 \left< f
@@ -277,8 +298,8 @@ $
 \end{multicols}
 \begin{figure}
 	\centering
-    \includegraphics[width=\paperwidth, trim=0 30 0 30, clip]{5-Batch.jpg}
-	\caption{Comparaison apprentissage stochastique et par paquet}
+    \includegraphics[width=\textwidth, trim=0 30 0 30, clip]{7-Batch.jpg}
+	\caption{Comparaison apprentissage stochastique et par paquet, $f(x) = (x-0.75)^2$}
 \end{figure}
 \end{frame}
 
@@ -287,7 +308,7 @@ $
 \begin{frame}{IV - Problème de reproduction de l'opérateur XOR}
 \begin{block}{Problème non linéairement séparables}
 Un perceptron ou une couche de perceptron est incapable de reproduire des opérateurs non linéairement séparables. \\
-Il faut alors mettre des couches de perceptrons en série, des couches cachées, pour reproduire ces opérateurs. \\
+Il faut alors mettre des couches de perceptrons en série, pour former des couches cachées, pour reproduire ces opérateurs. \\
 \end{block}
 \begin{figure}
 	\centering
@@ -300,11 +321,21 @@ Il faut alors mettre des couches de perceptrons en série, des couches cachées,
 \begin{block}{Le XOR nécessite un réseau}
 Le XOR, ou exclusif, est un opérateur non linéairement séparable. \\
 On peut par exemple démontrer que l'ajout d'une couche cachée de 2 perceptrons suffit à reproduire l'opérateur XOR. \\
-
+\begin{figure}
+	\centering
+    \includegraphics[width=100px]{2-XOR.jpg}
+	\caption{Schéma de l'opérateur XOR}
+\end{figure}
 \end{block}
+\end{frame}
 
+\begin{frame}{IV - Problème de reproduction de l'opérateur XOR}
 
-
+\begin{figure}
+	\centering
+    \includegraphics[width=200px]{3-Model.png}
+	\caption{Schéma du réseau de neurone reproduisant le XOR}
+\end{figure}
 
 \end{frame}
 
