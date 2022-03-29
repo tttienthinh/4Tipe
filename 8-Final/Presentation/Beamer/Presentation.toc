@@ -3,3 +3,6 @@
 \beamer@sectionintoc {2}{II - Fonction d'activation}{6}{0}{2}
 \beamer@sectionintoc {3}{III - Descente de gradient}{10}{0}{3}
 \beamer@sectionintoc {4}{IV - Problème de reproduction de l'opérateur XOR}{18}{0}{4}
+\beamer@sectionintoc {5}{V - MNIST}{23}{0}{5}
+\beamer@sectionintoc {6}{VI - Reconnaissance de mot}{28}{0}{6}
+\beamer@sectionintoc {7}{VII - Reconnaissance vocale}{29}{0}{7}

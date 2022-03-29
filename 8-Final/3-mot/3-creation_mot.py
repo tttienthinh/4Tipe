@@ -71,17 +71,19 @@ for i, mot in enumerate(mots):
     plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/Test/{i}-{mot.upper()}.jpg")
     # plt.show()
 
-for i in range(5):
-    fs, data = wavfile.read(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/incendie/{i}.wav")
-    # Filtering and plotting
-    # y = butter_lowpass_filter(data[:, 0], cutoff, fs, order)
-    
-    powerSpectrum, frequenciesFound, time, imageAxis = plt.specgram(data[:, 0], Fs=fs, scale_by_freq=True)
-    x1,x2,y1,y2 = plt.axis()  
-    plt.axis((x1,x2,0,8_000))
-    plt.title(f"Spectrogram du mot : INCENDIE")
-    plt.xlabel('Time [sec]')
-    plt.ylabel('Frequency [Hz]')
-    plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/incendie/{i}.jpg")
-    # plt.show()
+for mot in mots:
+    for i in range(5):
+        fs, data = wavfile.read(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}/{i}.wav")
+        # Filtering and plotting
+        # y = butter_lowpass_filter(data[:, 0], cutoff, fs, order)
+        
+        powerSpectrum, frequenciesFound, time, imageAxis = plt.specgram(data[:, 0], Fs=fs, scale_by_freq=True)
+        x1,x2,y1,y2 = plt.axis()  
+        plt.axis((x1,x2,0,8_000))
+        plt.title(f"Spectrogram du mot : {mot.upper()}")
+        plt.xlabel('Time [sec]')
+        plt.ylabel('Frequency [Hz]')
+        plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}/{i}.jpg")
+        # plt.show()
+        plt.clf()
     

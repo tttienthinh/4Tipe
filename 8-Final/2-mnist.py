@@ -25,10 +25,6 @@ plt.show()
 # Traitement des données
 (X_train, Y_train), (X_test, Y_test) = mnist.load_data()
 
-"""
-Normal
-"""
-egalisation = 5_000
 y_train = np.zeros((len(Y_train), 10))
 y_train[np.arange(len(Y_train)), Y_train] = 1 # to categorical
 y_test = np.zeros((len(Y_test), 10))
@@ -43,8 +39,8 @@ x_test = X_test.reshape(-1, 28*28)/255
 
 # Creation du model
 model = ModelClassification([
-        LayerOptimizer(784, 256, lr=0.009, gamma=0.003, activation=sigmoid, d_activation=d_sigmoid),
-        LayerOptimizer(256, 10, lr=0.9, gamma=0.3, activation=softmax, d_activation=d_softmax),
+        # LayerOptimizer(784, 256, lr=0.5, gamma=0.5, activation=sigmoid, d_activation=d_sigmoid),
+        LayerOptimizer(784, 10, lr=0.5, gamma=0.5, activation=softmax, d_activation=d_softmax),
     ],
     loss_function=cross_entropy,
     d_loss_function=d_cross_entropy
@@ -54,19 +50,24 @@ model = ModelClassification([
 # Entrainement
 losses = []
 accs = []
-epochs = 30
-for epoch in range(epochs +1):
+epochs = 100
+for epoch in range(epochs):
     y, loss, acc = model.backpropagation(x_train, y_train)
     losses.append(loss)
-    accs.append(acc)
+    accs.append(acc*100)
     if epoch%5 == 0:
         print(f"Epoch {epoch} : {round(acc*100, 2)}% Accuracy")
 
 # Affichage résultat
-plt.plot(losses, label="losses")
-plt.plot(accs, label="accs")
-plt.legend()
-plt.show()
+fig, axs = plt.subplots(2, 1, figsize=(12, 12))
+axs[0].plot(losses)
+axs[0].set_title("Courbe d'erreur")
+axs[1].plot(accs)
+axs[1].set_title("Taux de précision (%)")
+axs[1].set_ylim([0, 100])
+for i in range(2):
+    axs[i].grid()
+plt.savefig("Accs.jpg", dpi=400)
 
 print(model.backpropagation(x_train, y_train)[1:])
 print(model.backpropagation(x_test, y_test)[1:])
@@ -81,10 +82,9 @@ for i in range(40):
     ax = fig.add_subplot(5, 8, (i+1))
     ax.imshow(X_test[start+i], cmap=plt.get_cmap('gray'))
     if Y_test[start+i] != test_preds[i]:
-        ax.set_title('cible: {cible} - res: {res}'.format(cible=Y_test[start+i], res=test_preds[i]), color="red")
+        ax.set_title('{cible} - réponse: {res}'.format(cible=Y_test[start+i], res=test_preds[i]), color="red")
     else:
-        ax.set_title('cible: {cible} - res: {res}'.format(cible=Y_test[start+i], res=test_preds[i]))
+        ax.set_title('{cible} - réponse: {res}'.format(cible=Y_test[start+i], res=test_preds[i]))
     plt.axis('off')
 plt.title("Résultat")
-plt.savefig("Resultat.jpg")
-plt.show()
+plt.savefig("Resultat.jpg", dpi=400)

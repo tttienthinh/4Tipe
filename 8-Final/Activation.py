@@ -25,13 +25,14 @@ def sigmoid(x):
     """
     Fonction Sigmoid
     """
-    return 1 / (1 + np.exp(-np.clip(x, -5, 5)))
+    return 1 / (1 + np.exp(-np.clip(x, -10, 10)))
 
 def d_sigmoid(x):
     """
     Dérivé de Sigmoid
     """
-    f_x = sigmoid(x)
+    # f_x = sigmoid(x)
+    f_x = x
     return f_x * (1-f_x)
 
 """

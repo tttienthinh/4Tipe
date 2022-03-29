@@ -50,8 +50,8 @@ train_output = np.array(train_output)
 
 # model creation
 model = Model([
-        Layer(2,  4, lr=0.3, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid),
-        LayerOptimizer(4,  4, lr=0.3, gamma=0.3, activation=Activation.softmax, d_activation=Activation.d_softmax),
+        Layer(2,  4, lr=0.1, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid),
+        LayerOptimizer(4,  4, lr=0.1, gamma=0.1, activation=Activation.softmax, d_activation=Activation.d_softmax),
     ],
     loss_function=Loss.cross_entropy,
     d_loss_function=Loss.d_cross_entropy
@@ -59,7 +59,7 @@ model = Model([
 
 # Entrainement
 losses = []
-epochs = 500
+epochs = 200
 for epoch in range(epochs +1):
     y, loss = model.backpropagation(train_input, train_output)
     losses.append(loss)
@@ -74,5 +74,11 @@ for epoch in range(epochs +1):
 plt.plot(losses)
 # plt.savefig(f"{folder}/{'%.3d' % n_image}.png")
 plt.show()
-
+train_input  = np.array([
+    [0, 0],
+    [0, 1],
+    [1, 0],
+    [1, 1]
+])
+print(model.predict(train_input))
 

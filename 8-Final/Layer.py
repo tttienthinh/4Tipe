@@ -8,13 +8,14 @@ algorithme POO
 
 
 class Layer:
-    def __init__(self, input_n=2, output_n=2, lr=0.1, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid):
+    def __init__(self, input_n=2, output_n=2, lr=0.1, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid, biais=True, mini=0, maxi=1):
         """
         Crée un layer de n neuronne connecté aux layer de input neuronnes
         """
         # input_n le nombre d'entrée du neuronne
         # output_n le nombre de neuronne de sortie
-        self.weight = np.random.rand(input_n+1, output_n)*2-1
+        self.weight = np.random.rand(input_n+1, output_n)*(maxi-mini)+mini
+        self.biais = biais
         self.input_n = input_n
         self.output_n = output_n
         self.lr = lr # learning rate
@@ -34,7 +35,10 @@ class Layer:
         Calcule la sortie
         """
         # Ajout du biais
-        self.input_data = np.concatenate((input_data, np.ones((len(input_data), 1))), axis=1) 
+        if self.biais:
+            self.input_data = np.concatenate((input_data, np.ones((len(input_data), 1))), axis=1) 
+        else:
+            self.input_data = np.concatenate((input_data, np.zeros((len(input_data), 1))), axis=1) 
         y1 = np.dot(self.input_data, self.weight)
         z1 = self.activation(y1)
         self.predicted_output_ = y1
@@ -60,8 +64,8 @@ class LayerOptimizer(Layer):
         Pour cela on utilise la variable gamma
     """
 
-    def __init__(self, input_n=2, output_n=2, lr=0.1, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid, gamma=0.5):
-        super().__init__(input_n, output_n, lr, activation, d_activation)
+    def __init__(self, input_n=2, output_n=2, lr=0.1, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid, gamma=0.5, biais=True, mini=0, maxi=1):
+        super().__init__(input_n, output_n, lr, activation, d_activation, biais, mini, maxi)
         self.gamma = gamma
         self.dw_moment = np.zeros((input_n+1, output_n))
 
