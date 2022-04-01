@@ -198,6 +198,7 @@ La complexité est en $O(n)$
 \begin{block}{Descente de gradient}
 La Descente de Gradient est un algorithme d’optimisation qui permet de trouver un minimum local d'une fonction en convergeant progressivement. \\
 Dans l'apprentissage des réseaux de neurones, la descente de gradient est utilisée pour trouver le minimum d'une fonction coût, évaluant l'erreur entre la valeur de sortie du réseau et celle attendu. \\
+La fonction d'erreur est noté $f : s \mapsto (s - s_{attendue})^2$, avec $s$ la sortie donnée par le modèle et $s_{attendue}$ la sortie cible. \\
 En effet, trouver des paramètres (poids, architecture du réseau, fonction d'activation) permettant d'avoir une erreur nulle revient à résoudre le problème qu'évalue cette fonction coût par rapport aux entrées données.
 \end{block}
 \end{frame}
@@ -230,7 +231,7 @@ On montre qu'en choisissant un taux d'apprentissage trop petit ou trop grand, il
 \end{frame}
 
 \begin{frame}{III - Utilisation du Moment}
-\begin{block}{Descente de gradient avec moment}
+\begin{block}{III - Descente de gradient avec moment}
 $x_0$ aléatoire et le moment $\omega_0 = 0$.
 Supposons $x_0, \ldots, x_k$ et $\omega_0, \ldots, \omega_k$ construits. \\
     • On pose $\omega_{k+1} = \gamma \omega_k + t \nabla f(x_k)$ \\
@@ -308,7 +309,7 @@ $
 \begin{frame}{IV - Problème de reproduction de l'opérateur XOR}
 \begin{block}{Problème non linéairement séparables}
 Un perceptron ou une couche de perceptron est incapable de reproduire des opérateurs non linéairement séparables. \\
-Il faut alors mettre des couches de perceptrons en série, pour former des couches cachées, pour reproduire ces opérateurs. \\
+Il faut alors mettre les perceptrons en série, pour former des couches cachées, pour pouvoir reproduire ces opérateurs. \\
 \end{block}
 \begin{figure}
 	\centering
@@ -339,8 +340,8 @@ On peut par exemple démontrer que l'ajout d'une couche cachée de 2 perceptrons
 $w \leftarrow w - t \dfrac{\partial f}{\partial w}$ où $t$ est le taux d'apprentissage et $f$ la fonction de coût
 \end{block}
 \begin{exampleblock}{Exemple}
-• $\dfrac{\partial f}{\partial w^2_1} = 2(s - s{attendue})\sigma_2 'y^1_1$ \\
-• $\dfrac{\partial f}{\partial w^1_{1\to 1}} = 2(s - s{attendue})\sigma_2 'w^2_1 \sigma _{1} ' e_{1}$
+• $\dfrac{\partial f}{\partial w^2_1} = 2(s - s_{attendue})\sigma_2 'y^1_1$ \\
+• $\dfrac{\partial f}{\partial w^1_{1\to 1}} = 2(s - s_{attendue})\sigma_2 'w^2_1 \sigma _{1} ' e_{1}$
 \end{exampleblock}
 
 \end{frame}
@@ -360,6 +361,7 @@ $w \leftarrow w - t \dfrac{\partial f}{\partial w}$ où $t$ est le taux d'appren
 • Erreur minimale atteinte 0.036
 \end{block}
 \begin{align*} 
+Entr\acute{e} e\, :
 \begin{pmatrix}
 0 & 0 \\ 
 0 & 1 \\ 
@@ -385,11 +387,19 @@ $w \leftarrow w - t \dfrac{\partial f}{\partial w}$ où $t$ est le taux d'appren
 \end{pmatrix}
 \right) \\
  		&\to
+Sortie\, :
 \begin{pmatrix}
 0.12 \\ 
 0.81 \\ 
 0.81 \\ 
 0.24
+\end{pmatrix}
+Sortie_{attendue}\, :
+\begin{pmatrix}
+0 \\ 
+1 \\ 
+1 \\ 
+0
 \end{pmatrix}
 \end{align*}
 \end{frame}

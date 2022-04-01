@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  30 MAR 2022 00:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  30 MAR 2022 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,7 +1125,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--192
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-220.
+221.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1135,7 +1135,7 @@ File: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg Graphic file (type j
 pg)
 <use Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg  
-used on input line 220.
+used on input line 221.
 (pdftex.def)             Requested size: 301.13014pt x 75.28152pt.
  [11
 
@@ -1146,7 +1146,7 @@ File: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg Graphic file (type j
 pg)
 <use Affiche/2-Activation-Gradient/2-DescenteGradient.jpg>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg  
-used on input line 230.
+used on input line 231.
 (pdftex.def)             Requested size: 321.2046pt x 80.3003pt.
  [12
 
@@ -1155,7 +1155,7 @@ used on input line 230.
 File: Affiche/2-Activation-Gradient/3-Moment.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/3-Moment.jpg>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/3-Moment.jpg  used on in
-put line 244.
+put line 245.
 (pdftex.def)             Requested size: 311.45189pt x 130.48798pt.
  [13
 
@@ -1164,7 +1164,7 @@ put line 244.
 File: Affiche/2-Activation-Gradient/4-Moment.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/4-Moment.jpg>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/4-Moment.jpg  used on in
-put line 253.
+put line 254.
 (pdftex.def)             Requested size: 311.45189pt x 130.48798pt.
  [14
 
@@ -1173,7 +1173,7 @@ put line 253.
 File: Affiche/2-Activation-Gradient/5-Moment.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/5-Moment.jpg>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/5-Moment.jpg  used on in
-put line 262.
+put line 263.
 (pdftex.def)             Requested size: 344.19533pt x 78.08018pt.
  [15
 
@@ -1182,19 +1182,19 @@ File: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg Graphic file (type j
 pg)
 <use Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg  
-used on input line 275.
+used on input line 276.
 (pdftex.def)             Requested size: 344.19533pt x 86.04758pt.
 <Affiche/2-Activation-Gradient/6-Perceptron.png, id=502, 722.9409pt x 150.3216p
 t>
 File: Affiche/2-Activation-Gradient/6-Perceptron.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/6-Perceptron.png>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/6-Perceptron.png  used o
-n input line 275.
+n input line 276.
 (pdftex.def)             Requested size: 241.36212pt x 50.18768pt.
  [16
 
  <./Affiche/2-Activation-Gradient/6-Perceptron.png>]
-Overfull \hbox (3.63948pt too wide) in paragraph at lines 304--304
+Overfull \hbox (3.63948pt too wide) in paragraph at lines 305--305
 $[]$  
  []
 
@@ -1202,7 +1202,7 @@ $[]$
 File: Affiche/2-Activation-Gradient/7-Batch.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/7-Batch.jpg>
 Package pdftex.def Info: Affiche/2-Activation-Gradient/7-Batch.jpg  used on inp
-ut line 304.
+ut line 305.
 (pdftex.def)             Requested size: 344.19533pt x 118.5544pt.
 [17
 
@@ -1210,7 +1210,7 @@ ut line 304.
 <Affiche/4-XOR/1-Reseau.png, id=557, 1474.5489pt x 531.9072pt>
 File: Affiche/4-XOR/1-Reseau.png Graphic file (type png)
 <use Affiche/4-XOR/1-Reseau.png>
-Package pdftex.def Info: Affiche/4-XOR/1-Reseau.png  used on input line 318.
+Package pdftex.def Info: Affiche/4-XOR/1-Reseau.png  used on input line 319.
 (pdftex.def)             Requested size: 278.25471pt x 100.37537pt.
  [18
 
@@ -1218,7 +1218,7 @@ Package pdftex.def Info: Affiche/4-XOR/1-Reseau.png  used on input line 318.
 <Affiche/4-XOR/2-XOR.jpg, id=587, 361.35pt x 361.35pt>
 File: Affiche/4-XOR/2-XOR.jpg Graphic file (type jpg)
 <use Affiche/4-XOR/2-XOR.jpg>
-Package pdftex.def Info: Affiche/4-XOR/2-XOR.jpg  used on input line 330.
+Package pdftex.def Info: Affiche/4-XOR/2-XOR.jpg  used on input line 331.
 (pdftex.def)             Requested size: 100.37537pt x 100.3723pt.
  [19
 
@@ -1226,10 +1226,10 @@ Package pdftex.def Info: Affiche/4-XOR/2-XOR.jpg  used on input line 330.
 <Affiche/4-XOR/3-Model.png, id=616, 965.7681pt x 264.5082pt>
 File: Affiche/4-XOR/3-Model.png Graphic file (type png)
 <use Affiche/4-XOR/3-Model.png>
-Package pdftex.def Info: Affiche/4-XOR/3-Model.png  used on input line 346.
+Package pdftex.def Info: Affiche/4-XOR/3-Model.png  used on input line 347.
 (pdftex.def)             Requested size: 230.86334pt x 63.22899pt.
 
-Overfull \vbox (1.33829pt too high) detected at line 346
+Overfull \vbox (1.33829pt too high) detected at line 347
  []
 
 [20
@@ -1238,7 +1238,7 @@ Overfull \vbox (1.33829pt too high) detected at line 346
 <Affiche/4-XOR/4-XOR.png, id=646, 462.528pt x 346.896pt>
 File: Affiche/4-XOR/4-XOR.png Graphic file (type png)
 <use Affiche/4-XOR/4-XOR.png>
-Package pdftex.def Info: Affiche/4-XOR/4-XOR.png  used on input line 354.
+Package pdftex.def Info: Affiche/4-XOR/4-XOR.png  used on input line 355.
 (pdftex.def)             Requested size: 301.1261pt x 225.85553pt.
  [21
 
@@ -1248,7 +1248,7 @@ Package pdftex.def Info: Affiche/4-XOR/4-XOR.png  used on input line 354.
 <Affiche/5-MNIST/1-mnist.jpg, id=700, 1084.05pt x 722.7pt>
 File: Affiche/5-MNIST/1-mnist.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/1-mnist.jpg>
-Package pdftex.def Info: Affiche/5-MNIST/1-mnist.jpg  used on input line 408.
+Package pdftex.def Info: Affiche/5-MNIST/1-mnist.jpg  used on input line 418.
 (pdftex.def)             Requested size: 150.56305pt x 100.3723pt.
 
 [23
@@ -1259,7 +1259,7 @@ Package pdftex.def Info: Affiche/5-MNIST/1-mnist.jpg  used on input line 408.
 <Affiche/5-MNIST/2-Softmax.png, id=758, 786.7794pt x 579.3645pt>
 File: Affiche/5-MNIST/2-Softmax.png Graphic file (type png)
 <use Affiche/5-MNIST/2-Softmax.png>
-Package pdftex.def Info: Affiche/5-MNIST/2-Softmax.png  used on input line 429.
+Package pdftex.def Info: Affiche/5-MNIST/2-Softmax.png  used on input line 439.
 
 (pdftex.def)             Requested size: 204.46178pt x 150.56305pt.
  [25
@@ -1269,10 +1269,10 @@ Package pdftex.def Info: Affiche/5-MNIST/2-Softmax.png  used on input line 429.
 File: Affiche/5-MNIST/3-Apprentissage.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/3-Apprentissage.jpg>
 Package pdftex.def Info: Affiche/5-MNIST/3-Apprentissage.jpg  used on input lin
-e 439.
+e 449.
 (pdftex.def)             Requested size: 150.55183pt x 150.56305pt.
 
-Overfull \vbox (3.09634pt too high) detected at line 439
+Overfull \vbox (3.09634pt too high) detected at line 449
  []
 
 [26
@@ -1281,11 +1281,11 @@ Overfull \vbox (3.09634pt too high) detected at line 439
 <Affiche/5-MNIST/4-Resultat.jpg, id=813, 1084.05pt x 722.7pt>
 File: Affiche/5-MNIST/4-Resultat.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/4-Resultat.jpg>
-Package pdftex.def Info: Affiche/5-MNIST/4-Resultat.jpg  used on input line 447
+Package pdftex.def Info: Affiche/5-MNIST/4-Resultat.jpg  used on input line 457
 .
 (pdftex.def)             Requested size: 301.11691pt x 200.75073pt.
 
-Overfull \vbox (3.34006pt too high) detected at line 447
+Overfull \vbox (3.34006pt too high) detected at line 457
  []
 
 [27
@@ -1294,18 +1294,18 @@ Overfull \vbox (3.34006pt too high) detected at line 447
 <Affiche/6-Mot/1-Incendie.jpg, id=840, 462.528pt x 346.896pt>
 File: Affiche/6-Mot/1-Incendie.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/1-Incendie.jpg>
-Package pdftex.def Info: Affiche/6-Mot/1-Incendie.jpg  used on input line 472.
+Package pdftex.def Info: Affiche/6-Mot/1-Incendie.jpg  used on input line 482.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/6-Mot/1-Intoxication.jpg, id=841, 462.528pt x 346.896pt>
 File: Affiche/6-Mot/1-Intoxication.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/1-Intoxication.jpg>
 Package pdftex.def Info: Affiche/6-Mot/1-Intoxication.jpg  used on input line 4
-72.
+82.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/6-Mot/1-Cambriolage.jpg, id=842, 462.528pt x 346.896pt>
 File: Affiche/6-Mot/1-Cambriolage.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/1-Cambriolage.jpg>
-Package pdftex.def Info: Affiche/6-Mot/1-Cambriolage.jpg  used on input line 47
+Package pdftex.def Info: Affiche/6-Mot/1-Cambriolage.jpg  used on input line 48
 2.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
  [28
@@ -1315,32 +1315,32 @@ he/6-Mot/1-Cambriolage.jpg>]
 <Affiche/7-Vocal/1-A.jpg, id=868, 462.528pt x 346.896pt>
 File: Affiche/7-Vocal/1-A.jpg Graphic file (type jpg)
 <use Affiche/7-Vocal/1-A.jpg>
-Package pdftex.def Info: Affiche/7-Vocal/1-A.jpg  used on input line 504.
+Package pdftex.def Info: Affiche/7-Vocal/1-A.jpg  used on input line 514.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/7-Vocal/1-E.jpg, id=869, 462.528pt x 346.896pt>
 File: Affiche/7-Vocal/1-E.jpg Graphic file (type jpg)
 <use Affiche/7-Vocal/1-E.jpg>
-Package pdftex.def Info: Affiche/7-Vocal/1-E.jpg  used on input line 504.
+Package pdftex.def Info: Affiche/7-Vocal/1-E.jpg  used on input line 514.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/7-Vocal/1-I.jpg, id=870, 462.528pt x 346.896pt>
 File: Affiche/7-Vocal/1-I.jpg Graphic file (type jpg)
 <use Affiche/7-Vocal/1-I.jpg>
-Package pdftex.def Info: Affiche/7-Vocal/1-I.jpg  used on input line 504.
+Package pdftex.def Info: Affiche/7-Vocal/1-I.jpg  used on input line 514.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/7-Vocal/1-O.jpg, id=871, 462.528pt x 346.896pt>
 File: Affiche/7-Vocal/1-O.jpg Graphic file (type jpg)
 <use Affiche/7-Vocal/1-O.jpg>
-Package pdftex.def Info: Affiche/7-Vocal/1-O.jpg  used on input line 504.
+Package pdftex.def Info: Affiche/7-Vocal/1-O.jpg  used on input line 514.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/7-Vocal/1-U.jpg, id=872, 462.528pt x 346.896pt>
 File: Affiche/7-Vocal/1-U.jpg Graphic file (type jpg)
 <use Affiche/7-Vocal/1-U.jpg>
-Package pdftex.def Info: Affiche/7-Vocal/1-U.jpg  used on input line 504.
+Package pdftex.def Info: Affiche/7-Vocal/1-U.jpg  used on input line 514.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
 <Affiche/7-Vocal/2-Matching.png, id=873, 310.0383pt x 227.6505pt>
 File: Affiche/7-Vocal/2-Matching.png Graphic file (type png)
 <use Affiche/7-Vocal/2-Matching.png>
-Package pdftex.def Info: Affiche/7-Vocal/2-Matching.png  used on input line 504
+Package pdftex.def Info: Affiche/7-Vocal/2-Matching.png  used on input line 514
 .
 (pdftex.def)             Requested size: 90.33783pt x 66.33305pt.
 
@@ -1358,11 +1358,11 @@ l/2-Matching.png>]
 \tf@snm=\write8
 \openout8 = `Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 506.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 506.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
  (./Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 506.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 506.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 16203B39E88ED64D626042F20C6147AA;429.
 
@@ -1373,7 +1373,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  22773 strings out of 483040
  416301 string characters out of 5962426
- 916067 words of memory out of 5000000
+ 916068 words of memory out of 5000000
  37178 multiletter control sequences out of 15000+600000
  557937 words of font info for 86 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
@@ -1407,9 +1407,9 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive
 onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (29 pages, 9575182 bytes).
+Output written on Presentation.pdf (29 pages, 9577426 bytes).
 PDF statistics:
- 1359 PDF objects out of 1440 (max. 8388607)
+ 1365 PDF objects out of 1440 (max. 8388607)
  890 compressed objects within 9 object streams
  66 named destinations out of 1000 (max. 500000)
  313 words of extra memory for PDF output out of 10000 (max. 10000000)
