@@ -220,7 +220,7 @@ if __name__ == "__main__":
     accs = []
     epochs = 100
     for epoch in range(epochs):
-        y, loss, acc = model.backpropagation(x_train[:100], y_train[:20])
+        y, loss, acc = model.backpropagation(x_train[:500], y_train[:500])
         losses.append(loss)
         accs.append(acc*100)
         if epoch%5 == 0:

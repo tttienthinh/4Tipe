@@ -1,0 +1,22 @@
+Epoch 0 : 12.12% Accuracy
+Epoch 5 : 29.79% Accuracy
+Epoch 10 : 40.32% Accuracy
+Epoch 15 : 55.77% Accuracy
+Epoch 20 : 70.81% Accuracy
+Epoch 25 : 72.68% Accuracy
+Epoch 30 : 70.42% Accuracy
+Epoch 35 : 75.32% Accuracy
+Epoch 40 : 72.87% Accuracy
+Epoch 45 : 77.19% Accuracy
+Epoch 50 : 77.64% Accuracy
+Epoch 55 : 74.17% Accuracy
+Epoch 60 : 65.3% Accuracy
+Epoch 65 : 77.03% Accuracy
+Epoch 70 : 80.99% Accuracy
+Epoch 75 : 79.96% Accuracy
+Epoch 80 : 79.55% Accuracy
+Epoch 85 : 81.19% Accuracy
+Epoch 90 : 62.68% Accuracy
+Epoch 95 : 62.18% Accuracy
+(2.4931105385077896, 0.6350166666666667)
+(1.5647239567579792, 0.7698)

@@ -52,7 +52,7 @@ losses = []
 accs = []
 epochs = 100
 for epoch in range(epochs):
-    y, loss, acc = model.backpropagation(x_train, y_train)
+    y, loss, acc = model.backpropagation(x_train[:500], y_train[:500])
     losses.append(loss)
     accs.append(acc*100)
     if epoch%5 == 0:
@@ -77,7 +77,7 @@ model.backpropagation(x_test, y_test)[0].argmax(axis=-1)
 fig = plt.figure(figsize=(15,10))
 start = 40
 end = start + 40
-test_preds = model.backpropagation(x_test[start:end], y_test[start:end])[0].argmax(axis=-1)
+test_preds = model.predict(x_test[start:end], y_test[start:end]).argmax(axis=-1)
 for i in range(40):  
     ax = fig.add_subplot(5, 8, (i+1))
     ax.imshow(X_test[start+i], cmap=plt.get_cmap('gray'))
