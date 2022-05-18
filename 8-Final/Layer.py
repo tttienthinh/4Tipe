@@ -30,6 +30,9 @@ class Layer:
         self.activation = activation
         self.d_activation = d_activation
 
+    def next(self):
+        return self.output_n
+
     def calculate(self, input_data):
         """
         Calcule la sortie

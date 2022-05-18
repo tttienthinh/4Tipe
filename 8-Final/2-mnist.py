@@ -82,9 +82,8 @@ for i in range(40):
     ax = fig.add_subplot(5, 8, (i+1))
     ax.imshow(X_test[start+i], cmap=plt.get_cmap('gray'))
     if Y_test[start+i] != test_preds[i]:
-        ax.set_title('{cible} - réponse: {res}'.format(cible=Y_test[start+i], res=test_preds[i]), color="red")
+        ax.set_title('Prediction: {res}'.format(res=test_preds[i]), color="red")
     else:
-        ax.set_title('{cible} - réponse: {res}'.format(cible=Y_test[start+i], res=test_preds[i]))
+        ax.set_title('Prediction: {res}'.format(res=test_preds[i]))
     plt.axis('off')
-plt.title("Résultat")
 plt.savefig("Resultat.jpg", dpi=400)
