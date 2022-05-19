@@ -10,6 +10,7 @@ from Loss import *
 from Convolutional import Convolutional, Flatten
 import time
 
+print(time.time())
 
 # Traitement des données
 (X_train, Y_train), (X_test, Y_test) = fashion_mnist.load_data()
@@ -47,25 +48,27 @@ losses = []
 accs = []
 epochs = 100
 longueur = len(x_train)
-for epoch in range(epochs):
+for epoch in range(epochs+1):
     end = (1000*(epoch+1) -1)% longueur+1
     start = max(0, end-100)
-    y, loss, acc = model.backpropagation(x_train[start:end], y_train[start:end])
+    y, loss, acc = model.backpropagation(x_train[:15000], y_train[:15000])
     losses.append(loss)
     accs.append(acc*100)
-    # time.sleep(60*5)
+    time.sleep(10)
     if epoch%5 == 0:
+        with open(f'pickle/5-fashionConv-{epoch}.pickle', 'wb') as handle:
+           pickle.dump(model, handle, protocol=pickle.HIGHEST_PROTOCOL)
         print(f"Epoch {epoch} : {round(acc*100, 2)}% Accuracy")
 
+"""
 with open('5-fashionConv.pickle', 'wb') as handle:
     pickle.dump(model, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-"""
 with open('5-fashionConv.pickle', 'rb') as handle:
     model = pickle.load(handle)
 
 python 5-fashionConv.py > data
-sleep 3
+sleep 600
 shutdown now
 
 
@@ -108,3 +111,5 @@ for i in range(40):
         ax.set_title('{res}'.format(res=dico[test_preds[i]]))
     plt.axis('off')
 plt.savefig("Resultat.jpg", dpi=400)
+
+print(time.time())

@@ -1,4 +1,4 @@
-from tensorflow.keras.datasets import mnist # Seulement pour importer les images
+from tensorflow.keras.datasets import fashion_mnist, mnist # Seulement pour importer les images
 import matplotlib.pyplot as plt
 import numpy as np
 import pickle
@@ -185,7 +185,7 @@ class Flatten:
 
 if __name__ == "__main__":
     # Traitement des données
-    (X_train, Y_train), (X_test, Y_test) = mnist.load_data()
+    (X_train, Y_train), (X_test, Y_test) = fashion_mnist.load_data()
 
     y_train = np.zeros((len(Y_train), 10))
     y_train[np.arange(len(Y_train)), Y_train] = 1 # to categorical
@@ -220,7 +220,7 @@ if __name__ == "__main__":
     accs = []
     epochs = 100
     for epoch in range(epochs):
-        y, loss, acc = model.backpropagation(x_train[:500], y_train[:500])
+        y, loss, acc = model.backpropagation(x_train[:100], y_train[:100])
         losses.append(loss)
         accs.append(acc*100)
         if epoch%5 == 0:
@@ -244,7 +244,7 @@ if __name__ == "__main__":
     """
 
 
-    """
+    
     
     fig = plt.figure(figsize=(15,10))
     start = 40
@@ -260,4 +260,4 @@ if __name__ == "__main__":
         plt.axis('off')
     plt.savefig("Resultat.jpg", dpi=400)
 
-    """
+    
