@@ -73,6 +73,8 @@ for i, mot in enumerate(mots):
 
 for mot in mots:
     for i in range(5):
+        i = 0
+        mot = mots[0]
         fs, data = wavfile.read(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}/{i}.wav")
         # Filtering and plotting
         # y = butter_lowpass_filter(data[:, 0], cutoff, fs, order)
