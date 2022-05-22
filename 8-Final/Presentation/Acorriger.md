@@ -21,17 +21,24 @@ np.dot @
 # 8
 tanh ex-e-x / ex+e-x
 
+# 9
+grANdient
 
+# 10
+fonction "cout"
+attenduE
+CETTE
+données d'entrée
 
+# 15
+de certainS minima locaux
+Descente de gradient SANS/AVEC moment
 
+# 16
+réseau de neuroneS
 
+# 17
+D
+Ajout 3D
 
-
-
-
-
-
-
-
-
-
+# 18

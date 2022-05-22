@@ -2,9 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from Model import Model, Layer, LayerOptimizer
 import Activation, Loss
-"""
-Déplacer dans le dossier 8-Final pour utiliser
-"""
 
 def affichage2d(dataVert, dataBleu, epoch=0, finish=False):
     """
@@ -33,6 +30,7 @@ train_output = np.array([
     [1],
     [0]
 ])
+
 # model creation
 model = Model([
         LayerOptimizer(2,  2, lr=10, gamma=0.5, activation=Activation.sigmoid, d_activation=Activation.d_sigmoid, biais=False, mini=0, maxi=1),
