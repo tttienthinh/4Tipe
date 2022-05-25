@@ -15,21 +15,27 @@ from Loss import *
 class Convolutional(Layer):
     """
     On hérite de la class Layer, 
-    Au lieu de prendre la representation de nb_kernel de taille kernel_size*kernel_size que l'on applique aux images.
+    Au lieu de prendre la representation 
+        nb_kernel de taille kernel_size*kernel_size 
+        appliqué aux images.
 
-    Je vais représenter les kernels sous la forme d'un Layer avec : 
+    Je représente les kernels sous la forme d'un Layer avec : 
         - input_n = kernel_size**2
         - output_n = nb_kernel
     """
     def __init__(self, img_size:np.ndarray, kernel_size:int, nb_kernel:int, lr:float, activation, d_activation, bias:bool=True, mini:float=0, maxi:float=1):
+        # classe héritée
         input_n = kernel_size**2
         output_n = nb_kernel
-        super().__init__(input_n, output_n, lr, activation, d_activation, bias, mini, maxi)
-
-        self.kernel_size = kernel_size # matrice carrée de taille kernel_size*kernel_size
+        super().__init__(
+            input_n, output_n, 
+            lr, activation, d_activation, bias, mini, maxi
+        )
+        self.kernel_size = kernel_size
         self.nb_kernel = nb_kernel # nombre total de filtre
         self.img_size = img_size
         self.output_size = max(0, img_size-kernel_size+1)
+
 
     def transform(self, imgs:np.ndarray):
         """
@@ -45,8 +51,6 @@ class Convolutional(Layer):
             for col in range(n)
         ])
         return t_imgs 
-        # doit être de taille 
-        # (nb_imgs*output_size*output_size), kernel_size**2
     
     
     def transform_k(self, imgs:np.ndarray):
@@ -62,6 +66,7 @@ class Convolutional(Layer):
         A = A.transpose([0, 2, 1])
         A = A.reshape((-1, nk))
         return A
+
 
     def detransform_k(self, t_imgs:np.ndarray, nb_donnee:np.ndarray, nb_images:int):
         """
@@ -94,9 +99,15 @@ class Convolutional(Layer):
         ])
 
         if self.bias:
-            self.input_data = np.concatenate((input_data_k, np.ones((len(input_data_k), 1))), axis=1) 
+            self.input_data = np.concatenate(
+                (input_data_k, np.ones((len(input_data_k), 1))), 
+                axis=1
+            ) 
         else:
-            self.input_data = np.concatenate((input_data_k, np.zeros((len(input_data_k), 1))), axis=1) 
+            self.input_data = np.concatenate(
+                (input_data_k, np.zeros((len(input_data_k), 1))), 
+                axis=1
+            ) 
         y1 = np.dot(self.input_data, self.weight)
         z1 = self.activation(y1)
         self.predicted_output_ = y1
@@ -112,16 +123,18 @@ class Convolutional(Layer):
         """
         shape = e_2.shape
         e_2 = self.transform_k(e_2)
-        e1 = e_2 / (self.input_n+1) * self.d_activation(self.predicted_output)
+        e1 = e_2 / (self.input_n+1) 
+        e1 = e1 * self.d_activation(self.predicted_output)
         # e_0 est pour l'entrainement de la couche précédente
         e_0 = np.dot(e1, self.weight.T)[:, :-1]
         dw1 = np.dot(e1.T, self.input_data)
         self.weight -= dw1.T * self.lr
         return e_0
 
+
 class Flatten:
     """
-    Cette classe permet de faire les lien 
+    Cette classe permet de faire le lien 
     entre les couches Convolutional 
     et les couches Layer
     """
@@ -129,15 +142,23 @@ class Flatten:
         self.img_size = img_size
         self.output_n = img_size**2
     
+
     def calculate(self, imgs):
         nb_donne = len(imgs)
         nb_img = len(imgs[0])
 
-        flat = imgs.reshape((nb_donne, nb_img*self.img_size*self.img_size))
+        flat = imgs.reshape((
+            nb_donne, 
+            nb_img*self.img_size*self.img_size
+        ))
         return flat, flat
     
+
     def learn(self, e_2):
         nb_donne = len(e_2)
-        e_0 = e_2.reshape((nb_donne, -1, self.img_size, self.img_size))
+        e_0 = e_2.reshape((
+            nb_donne, 
+            -1, 
+            self.img_size, self.img_size
+        ))
         return e_0
-        
