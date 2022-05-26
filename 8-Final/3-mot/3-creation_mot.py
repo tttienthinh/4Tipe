@@ -27,6 +27,7 @@ mots = [
     "effondrement",
     "électrocution"
 ]
+"""
 for count in range(2, 4):
     for mot in mots:
         print(f"Record {mot}")
@@ -55,7 +56,8 @@ for mot in mots:
     plt.title(f"Spectrogram : {mot.upper()}")
     plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}1.jpg")
     # plt.show()
-
+"""
+"""
 
 for i, mot in enumerate(mots):
     fs, data = wavfile.read(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}/3.wav")
@@ -68,9 +70,9 @@ for i, mot in enumerate(mots):
     plt.title(f"Spectrogram {i}: {mot.upper()}")
     plt.xlabel('Time [sec]')
     plt.ylabel('Frequency [Hz]')
-    plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/Test/{i}-{mot.upper()}.jpg")
+    plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/Test/{i}-{mot.upper()}.jpg", bbox_inches='tight', pad_inches=0)
     # plt.show()
-
+"""
 for mot in mots:
     for i in range(5):
         i = 0
@@ -85,7 +87,6 @@ for mot in mots:
         plt.title(f"Spectrogram du mot : {mot.upper()}")
         plt.xlabel('Time [sec]')
         plt.ylabel('Frequency [Hz]')
-        plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}/{i}.jpg")
+        plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}/{i}.jpg", bbox_inches='tight', pad_inches=0)
         # plt.show()
         plt.clf()
-    
