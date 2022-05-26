@@ -51,15 +51,18 @@ longueur = len(x_train)
 for epoch in range(epochs+1):
     end = (1000*(epoch+1) -1)% longueur+1
     start = max(0, end-100)
-    y, loss, acc = model.backpropagation(x_train[:15000], y_train[:15000])
+    y, loss, acc = model.backpropagation(x_test[:150], y_test[:150])
     losses.append(loss)
     accs.append(acc*100)
+    if epoch%5 == 0:
+        print(f"Epoch {epoch} : {round(acc*100, 2)}% Accuracy")
+    """
     time.sleep(10)
     if epoch%5 == 0:
         with open(f'pickle/5-fashionConv-{epoch}.pickle', 'wb') as handle:
            pickle.dump(model, handle, protocol=pickle.HIGHEST_PROTOCOL)
         print(f"Epoch {epoch} : {round(acc*100, 2)}% Accuracy")
-
+	"""
 """
 with open('5-fashionConv.pickle', 'wb') as handle:
     pickle.dump(model, handle, protocol=pickle.HIGHEST_PROTOCOL)
@@ -106,10 +109,10 @@ for i in range(40):
     ax = fig.add_subplot(5, 8, (i+1))
     ax.imshow(X_test[start+i], cmap=plt.get_cmap('gray'))
     if Y_test[start+i] != test_preds[i]:
-        ax.set_title('{res}'.format(res=dico[test_preds[i]]), color="red")
+        ax.set_title(f'{dico[test_preds[i]]}->{Y_test[start+i]}', color="red")
     else:
-        ax.set_title('{res}'.format(res=dico[test_preds[i]]))
+        ax.set_title(f'{dico[test_preds[i]]}')
     plt.axis('off')
-plt.savefig("Resultat.jpg", dpi=400)
+plt.savefig("Resultat.jpg", dpi=400, bbox_inches='tight', pad_inches=0)
 
 print(time.time())

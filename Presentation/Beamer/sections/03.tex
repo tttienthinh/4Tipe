@@ -2,12 +2,20 @@
 \section{III - Descente de gradient}
 \begin{frame}{III - Descente de gradient}
     \begin{block}{Descente de gradient}
-        La Descente de Gradient est un algorithme d’optimisation qui permet de trouver un minimum local d'une fonction en convergeant progressivement. \\
-        Dans l'apprentissage des réseaux de neurones, la descente de gradient est utilisée pour trouver le minimum d'une fonction "coût", évaluant l'erreur entre la valeur de sortie du réseau et celle attendue. \\
-        Cette fonction d'erreur est noté $f : s \mapsto (s - s_{attendue})^2$, avec $s$ la sortie donnée par le modèle et $s_{attendue}$ la sortie cible. \\
-        En effet, trouver des paramètres (poids, architecture du réseau, fonction d'activation) permettant d'avoir une erreur nulle revient à résoudre le problème qu'évalue cette fonction coût par rapport aux données d'entrée.
+        La Descente de Gradient est un algorithme permettant de trouver un minimum local d'une fonction en convergeant. \\
+        Elle est utilisée pour trouver le minimum d'une fonction "coût", évaluant l'erreur entre la valeur de sortie du réseau de neurones et celle attendue: \\
+        \begin{center}
+            $f : s \mapsto (s - s_{attendue})^2$\\
+        \end{center}
+        - $s$ la sortie donnée par le modèle \\
+        - $s_{attendue}$ la sortie cible. \\
+        
     \end{block}
+    \begin{exampleblock}{}
+        En effet, trouver des paramètres (poids, architecture du réseau, fonction d'activation) permettant d'avoir une erreur nulle revient à résoudre le problème qu'évalue cette fonction coût par rapport aux données d'entrée.
+    \end{exampleblock}
 \end{frame}
+
 
 \begin{frame}{III - Descente de gradient}
     \begin{block}{Algorithme du gradient}
@@ -18,49 +26,50 @@
         • Si $\norme{\nabla f(x_k)} \leq \varepsilon$, on s'arrête. \\
         • Sinon on pose $x_{k+1} = x_k - t \nabla f(x_k)$ \\
     \end{block}
-    
     \begin{figure}
         \centering
-        \includegraphics[height=75px]{1-DescenteGradient.jpg}
+        \includegraphics[height=90px]{1-DescenteGradient.jpg}
         \caption{Descente de Gradient pour $f(x) = (x-0.75)^2$; $x_0=0.1$ et $\varepsilon = 0.1$}
     \end{figure}
 \end{frame}
 
+
 \begin{frame}{III - Importance du choix du taux d'apprentissage}
-    Pour la suite on continuera avec la fonction $f(x) = (x-0.75)^2$ et $x_0=0.1$. \\
-    On montre qu'en choisissant un taux d'apprentissage trop petit ou trop grand, il est possible que la descente de gradient diverge, ou ne converge pas assez vite.
+    \begin{exampleblock}{}
+        Pour la suite : $f(x) = (x-0.75)^2$ et $x_0=0.1$. \\
+    \end{exampleblock}
     \begin{figure}
         \centering
-        \includegraphics[height=80px]{2-DescenteGradient.jpg}
+        \includegraphics[width=\textwidth]{2-DescenteGradient.jpg}
         \caption{Descente de Gradient on force l'arrêt à $k=8$}
     \end{figure}
+    \begin{alertblock}{}
+        Les problèmes rencontrés en fonction du choix du taux d'apprentissage : \\
+        - trop grand, la descente de gradient diverge \\
+        - trop petit , la descente de gradient converge lentement \\
+    \end{alertblock}
 \end{frame}
 
-\begin{frame}{III - Utilisation du Moment}
+
+\begin{frame}{III - Utilisation du momentum}
     \begin{block}{III - Descente de gradient avec moment}
-        $x_0$ aléatoire et le moment $\omega_0 = 0$.
+        $x_0$ aléatoire, momentum $\omega_0 = 0$.
         Supposons $x_0, \ldots, x_k$ et $\omega_0, \ldots, \omega_k$ construits. \\
         • On pose $\omega_{k+1} = \gamma \omega_k + t \nabla f(x_k)$ \\
         • On pose $x_{k+1} = x_k - \omega_{k+1}$
     \end{block}
     \begin{figure}
         \centering
-        \includegraphics[height=130px, trim=0 35 0 35, clip]{3-Moment.jpg}
-        \caption{Descente de gradient SANS/AVEC moment où $\gamma = 0.5$, arrêt à $k=4$}
+        \includegraphics[height=140px]{4-Moment.jpg}
+        \caption{Descente de gradient SANS/AVEC momentum où $\gamma = 0.5$, arrêt à $k=4$}
     \end{figure}
 \end{frame}
 
-\begin{frame}{III - Utilisation du Moment}
-    Voici, une simulation pour des taux d'apprentissage "trop grand" ou "trop petit".
-    \begin{figure}
-        \centering
-        \includegraphics[height=130px, trim=0 35 0 35, clip]{4-Moment.jpg}
-        \caption{Descente de gradient SANS/AVEC moment où $\gamma = 0.5$, arrêt à $k=8$}
-    \end{figure}
-\end{frame}
 
-\begin{frame}{III - Utilisation du Moment}
-    Le moment permet également de s'échapper de certains minima locaux.
+\begin{frame}{III - Utilisation du momentum pour sortir de minima locaux}
+    \begin{exampleblock}{Autre avantage}
+        Le momentum permet également de s'échapper de minima locaux.        
+    \end{exampleblock}
     \begin{figure}
         \centering
         \includegraphics[width=\textwidth, trim=0 10 0 10, clip]{5-Moment.jpg}
@@ -69,22 +78,28 @@
 \end{frame}
 
 \begin{frame}{III - Apprentissage stochastique ou par paquet (Batch)}
-    Les paramètres du réseau de neurones sont les poids qui pondèrent l'entrée. C'est sur eux que l'on opèrent la descente de gradient. 
+    \begin{block}{La rétropropagation}
+        Ce sont les poids du réseau de neurones qui subissent la descente de gradient.
+    \end{block}
     \begin{figure}
         \centering
-        \includegraphics[width=\textwidth]{1-DescenteGradient.jpg}
-    \end{figure}
-    \begin{figure}
-        \centering
-        \includegraphics[height=50px]{6-Perceptron.png}
+        \includegraphics[height=45px]{6-Perceptron.png}
         \caption{Schéma du perceptron linéaire}
     \end{figure}
+    \lstinputlisting[language=Python, firstline=15]{3-lineaire.py}
 \end{frame}
 
+
 \begin{frame}{III - Apprentissage stochastique ou par paquet (Batch)}
-    \begin{multicols}{2}
-        Il faut prendre en compte le fait que les données d'apprentissage ne sont pas toujours exactes, elles sont forcément inscrites dans une marge d'erreur. 
-        \columnbreak
+    \begin{exampleblock}{Problème d'imprécision des données}
+        Il faut prendre en compte le fait que les données d'apprentissage ne sont pas toujours exactes. \\
+        J'ajoute à mes données une marge d'erreur. 
+    \end{exampleblock}
+    \begin{block}{}
+        Il est alors préférable d'entraîner notre réseau sur des paquets de données plutôt que donnée par donnée. 
+    \end{block}
+    \begin{center}
+        \centering
         $
             \left< f
             \left(
@@ -102,10 +117,14 @@
                 \end{pmatrix}
             \right) \right>
         $
-    \end{multicols}
+    \end{center}
+\end{frame}
+
+
+\begin{frame}{III - Apprentissage stochastique ou par paquet (Batch)}
     \begin{figure}
         \centering
-        \includegraphics[width=\textwidth, trim=0 30 0 30, clip]{7-Batch.jpg}
+        \includegraphics[width=\textwidth]{7-Batch.jpg}
         \caption{Comparaison apprentissage stochastique et par paquet, $f(x) = (x-0.75)^2$}
     \end{figure}
 \end{frame}

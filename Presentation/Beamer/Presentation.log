@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  25 MAY 2022 22:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  26 MAY 2022 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -824,25 +824,80 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count351
  (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.nav)
-\openout2 = `sections/99.aux'.
+\openout2 = `sections/00.aux'.
 
- (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/99.tex [31
-
-
-
-
-
-
-
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/00.tex [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\openout4 = `Presentation.vrb'.
+<Affiche/0-ReconnaissanceVocale/4-phone.png, id=88, 1874.202pt x 446.6286pt>
+File: Affiche/0-ReconnaissanceVocale/4-phone.png Graphic file (type png)
+<use Affiche/0-ReconnaissanceVocale/4-phone.png>
+Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/4-phone.png  used on input line 21.
+(pdftex.def)             Requested size: 250.93842pt x 59.79475pt.
+ [2
 
- (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/0-ReconnaissanceVocale/4-phone.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg, id=118, 462.528pt x 346.896pt>
+File: Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg Graphic file (type jpg)
+<use Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg>
+Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg  used on input line 30.
+(pdftex.def)             Requested size: 66.9131pt x 50.18768pt.
+<Affiche/0-ReconnaissanceVocale/2-Reseau.png, id=119, 898.0752pt x 446.6286pt>
+File: Affiche/0-ReconnaissanceVocale/2-Reseau.png Graphic file (type png)
+<use Affiche/0-ReconnaissanceVocale/2-Reseau.png>
+Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/2-Reseau.png  used on input line 30.
+(pdftex.def)             Requested size: 100.91261pt x 50.18768pt.
+<Affiche/0-ReconnaissanceVocale/3-Matching.png, id=120, 310.0383pt x 227.6505pt>
+File: Affiche/0-ReconnaissanceVocale/3-Matching.png Graphic file (type png)
+<use Affiche/0-ReconnaissanceVocale/3-Matching.png>
+Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/3-Matching.png  used on input line 30.
+(pdftex.def)             Requested size: 68.35056pt x 50.18768pt.
+ [3
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/0-ReconnaissanceVocale/2-Reseau.png> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/0-ReconnaissanceVocale/3-Matching.png>])
+\openout2 = `sections/01.aux'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/01.tex
+<Affiche/1-Introduction/2-Neurone.png, id=148, 1524.4152pt x 537.6888pt>
+File: Affiche/1-Introduction/2-Neurone.png Graphic file (type png)
+<use Affiche/1-Introduction/2-Neurone.png>
+Package pdftex.def Info: Affiche/1-Introduction/2-Neurone.png  used on input line 13.
+(pdftex.def)             Requested size: 344.19533pt x 121.40138pt.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' undefined
+(Font)              using `T1/cmss/m/n' instead on input line 13.
+
+[4
+
+
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/1-Introduction/2-Neurone.png>]
+<Affiche/1-Introduction/1-Perceptron.png, id=180, 1148.3703pt x 365.6862pt>
+File: Affiche/1-Introduction/1-Perceptron.png Graphic file (type png)
+<use Affiche/1-Introduction/1-Perceptron.png>
+Package pdftex.def Info: Affiche/1-Introduction/1-Perceptron.png  used on input line 22.
+(pdftex.def)             Requested size: 344.19533pt x 109.60626pt.
+ [5
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/1-Introduction/1-Perceptron.png>]
+File: Affiche/1-Introduction/1-Perceptron.png Graphic file (type png)
+<use Affiche/1-Introduction/1-Perceptron.png>
+Package pdftex.def Info: Affiche/1-Introduction/1-Perceptron.png  used on input line 54.
+(pdftex.def)             Requested size: 252.16913pt x 80.3003pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 54.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
@@ -851,9 +906,297 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 ) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
 File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
-)) [32
+) [6
 
-] [33
+])
+\openout2 = `sections/02.aux'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/02.tex
+<Affiche/2-Activation-Gradient/8-activation.png, id=240, 910.3611pt x 174.6525pt>
+File: Affiche/2-Activation-Gradient/8-activation.png Graphic file (type png)
+<use Affiche/2-Activation-Gradient/8-activation.png>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/8-activation.png  used on input line 14.
+(pdftex.def)             Requested size: 344.19533pt x 66.03284pt.
+ [7
+
+
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/8-activation.png>]
+<Affiche/2-Activation-Gradient/0-Sigmoide.png, id=272, 462.528pt x 346.896pt>
+File: Affiche/2-Activation-Gradient/0-Sigmoide.png Graphic file (type png)
+<use Affiche/2-Activation-Gradient/0-Sigmoide.png>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Sigmoide.png  used on input line 43.
+(pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
+<Affiche/2-Activation-Gradient/0-Tanh.png, id=273, 462.528pt x 346.896pt>
+File: Affiche/2-Activation-Gradient/0-Tanh.png Graphic file (type png)
+<use Affiche/2-Activation-Gradient/0-Tanh.png>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Tanh.png  used on input line 43.
+(pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
+<Affiche/2-Activation-Gradient/0-ReLU.png, id=274, 462.528pt x 346.896pt>
+File: Affiche/2-Activation-Gradient/0-ReLU.png Graphic file (type png)
+<use Affiche/2-Activation-Gradient/0-ReLU.png>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-ReLU.png  used on input line 43.
+(pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
+ [8
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/0-Sigmoide.png> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/0-Tanh.png> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/0-ReLU.png>]
+File: Affiche/2-Activation-Gradient/0-Sigmoide.png Graphic file (type png)
+<use Affiche/2-Activation-Gradient/0-Sigmoide.png>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Sigmoide.png  used on input line 52.
+(pdftex.def)             Requested size: 250.93842pt x 188.205pt.
+ [9
+
+]
+File: Affiche/2-Activation-Gradient/0-Tanh.png Graphic file (type png)
+<use Affiche/2-Activation-Gradient/0-Tanh.png>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Tanh.png  used on input line 61.
+(pdftex.def)             Requested size: 250.93842pt x 188.205pt.
+ [10
+
+]
+File: Affiche/2-Activation-Gradient/0-ReLU.png Graphic file (type png)
+<use Affiche/2-Activation-Gradient/0-ReLU.png>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-ReLU.png  used on input line 70.
+(pdftex.def)             Requested size: 250.93842pt x 188.205pt.
+ [11
+
+])
+\openout2 = `sections/03.aux'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/03.tex [12
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 34.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<Affiche/2-Activation-Gradient/1-DescenteGradient.jpg, id=411, 867.24pt x 216.81pt>
+File: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg Graphic file (type jpg)
+<use Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg  used on input line 34.
+(pdftex.def)             Requested size: 361.35353pt x 90.33783pt.
+
+Overfull \hbox (17.1582pt too wide) in paragraph at lines 34--34
+ [] 
+ []
+
+
+Overfull \vbox (7.78946pt too high) detected at line 34
+ []
+
+[13
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>]
+<Affiche/2-Activation-Gradient/2-DescenteGradient.jpg, id=447, 867.24pt x 216.81pt>
+File: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg Graphic file (type jpg)
+<use Affiche/2-Activation-Gradient/2-DescenteGradient.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg  used on input line 51.
+(pdftex.def)             Requested size: 344.19533pt x 86.04758pt.
+ [14
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/2-DescenteGradient.jpg>]
+<Affiche/2-Activation-Gradient/4-Moment.jpg, id=474, 714.56963pt x 366.22823pt>
+File: Affiche/2-Activation-Gradient/4-Moment.jpg Graphic file (type jpg)
+<use Affiche/2-Activation-Gradient/4-Moment.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/4-Moment.jpg  used on input line 66.
+(pdftex.def)             Requested size: 274.18881pt x 140.52551pt.
+
+Overfull \vbox (9.67511pt too high) detected at line 66
+ []
+
+[15
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/4-Moment.jpg>]
+<Affiche/2-Activation-Gradient/5-Moment.jpg, id=504, 713.12422pt x 216.81pt>
+File: Affiche/2-Activation-Gradient/5-Moment.jpg Graphic file (type jpg)
+<use Affiche/2-Activation-Gradient/5-Moment.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/5-Moment.jpg  used on input line 78.
+(pdftex.def)             Requested size: 344.19533pt x 94.95703pt.
+ [16
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/5-Moment.jpg>]
+<Affiche/2-Activation-Gradient/6-Perceptron.png, id=533, 722.9409pt x 150.3216pt>
+File: Affiche/2-Activation-Gradient/6-Perceptron.png Graphic file (type png)
+<use Affiche/2-Activation-Gradient/6-Perceptron.png>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/6-Perceptron.png  used on input line 90.
+(pdftex.def)             Requested size: 217.2259pt x 45.16891pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+) [17
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/6-Perceptron.png>] [18
+
+]
+<Affiche/2-Activation-Gradient/7-Batch.jpg, id=586, 889.82437pt x 366.4089pt>
+File: Affiche/2-Activation-Gradient/7-Batch.jpg Graphic file (type jpg)
+<use Affiche/2-Activation-Gradient/7-Batch.jpg>
+Package pdftex.def Info: Affiche/2-Activation-Gradient/7-Batch.jpg  used on input line 130.
+(pdftex.def)             Requested size: 344.19533pt x 141.73038pt.
+ [19
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/7-Batch.jpg>])
+\openout2 = `sections/04.aux'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/04.tex
+<Affiche/4-XOR/1-Reseau.png, id=614, 1474.5489pt x 531.9072pt>
+File: Affiche/4-XOR/1-Reseau.png Graphic file (type png)
+<use Affiche/4-XOR/1-Reseau.png>
+Package pdftex.def Info: Affiche/4-XOR/1-Reseau.png  used on input line 13.
+(pdftex.def)             Requested size: 333.89667pt x 120.45044pt.
+
+Overfull \vbox (1.31482pt too high) detected at line 13
+ []
+
+[20
+
+
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/4-XOR/1-Reseau.png>]
+<Affiche/4-XOR/2-XOR.jpg, id=644, 361.35pt x 361.35pt>
+File: Affiche/4-XOR/2-XOR.jpg Graphic file (type jpg)
+<use Affiche/4-XOR/2-XOR.jpg>
+Package pdftex.def Info: Affiche/4-XOR/2-XOR.jpg  used on input line 25.
+(pdftex.def)             Requested size: 150.56305pt x 150.56396pt.
+ [21
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/4-XOR/2-XOR.jpg>]
+<Affiche/4-XOR/3-Model.png, id=671, 965.7681pt x 264.5082pt>
+File: Affiche/4-XOR/3-Model.png Graphic file (type png)
+<use Affiche/4-XOR/3-Model.png>
+Package pdftex.def Info: Affiche/4-XOR/3-Model.png  used on input line 41.
+(pdftex.def)             Requested size: 230.86334pt x 63.22899pt.
+
+Overfull \vbox (1.33829pt too high) detected at line 41
+ []
+
+[22
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/4-XOR/3-Model.png>] (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+) [23
+
+]
+<Affiche/4-XOR/4-XOR.png, id=726, 462.528pt x 346.896pt>
+File: Affiche/4-XOR/4-XOR.png Graphic file (type png)
+<use Affiche/4-XOR/4-XOR.png>
+Package pdftex.def Info: Affiche/4-XOR/4-XOR.png  used on input line 55.
+(pdftex.def)             Requested size: 271.01349pt x 203.26945pt.
+
+Overfull \vbox (5.85878pt too high) detected at line 55
+ []
+
+[24
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/4-XOR/4-XOR.png>] [25
+
+])
+\openout2 = `sections/05.aux'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/05.tex
+<Affiche/5-MNIST/1-mnist.jpg, id=781, 1084.05pt x 722.7pt>
+File: Affiche/5-MNIST/1-mnist.jpg Graphic file (type jpg)
+<use Affiche/5-MNIST/1-mnist.jpg>
+Package pdftex.def Info: Affiche/5-MNIST/1-mnist.jpg  used on input line 14.
+(pdftex.def)             Requested size: 150.56305pt x 100.3723pt.
+ [26
+
+
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/1-mnist.jpg>] [27
+
+]
+<Affiche/5-MNIST/2-Softmax.png, id=839, 786.7794pt x 579.3645pt>
+File: Affiche/5-MNIST/2-Softmax.png Graphic file (type png)
+<use Affiche/5-MNIST/2-Softmax.png>
+Package pdftex.def Info: Affiche/5-MNIST/2-Softmax.png  used on input line 38.
+(pdftex.def)             Requested size: 204.46178pt x 150.56305pt.
+ [28
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/2-Softmax.png>]
+<Affiche/5-MNIST/3-Apprentissage.jpg, id=867, 708.246pt x 724.1454pt>
+File: Affiche/5-MNIST/3-Apprentissage.jpg Graphic file (type jpg)
+<use Affiche/5-MNIST/3-Apprentissage.jpg>
+Package pdftex.def Info: Affiche/5-MNIST/3-Apprentissage.jpg  used on input line 60.
+(pdftex.def)             Requested size: 178.98303pt x 183.00272pt.
+ [29
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/3-Apprentissage.jpg>]
+<Affiche/5-MNIST/4-Resultat.jpg, id=894, 1084.05pt x 722.7pt>
+File: Affiche/5-MNIST/4-Resultat.jpg Graphic file (type jpg)
+<use Affiche/5-MNIST/4-Resultat.jpg>
+Package pdftex.def Info: Affiche/5-MNIST/4-Resultat.jpg  used on input line 69.
+(pdftex.def)             Requested size: 301.11691pt x 200.75073pt.
+
+Overfull \vbox (3.34006pt too high) detected at line 69
+ []
+
+[30
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/4-Resultat.jpg>]
+<Affiche/5-MNIST/5-convolution.png, id=921, 512.1534pt x 232.2276pt>
+File: Affiche/5-MNIST/5-convolution.png Graphic file (type png)
+<use Affiche/5-MNIST/5-convolution.png>
+Package pdftex.def Info: Affiche/5-MNIST/5-convolution.png  used on input line 78.
+(pdftex.def)             Requested size: 344.19533pt x 156.07713pt.
+ [31
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/5-convolution.png>]
+<Affiche/5-MNIST/6-cat.jpg, id=953, 698.1282pt x 325.9377pt>
+File: Affiche/5-MNIST/6-cat.jpg Graphic file (type jpg)
+<use Affiche/5-MNIST/6-cat.jpg>
+Package pdftex.def Info: Affiche/5-MNIST/6-cat.jpg  used on input line 105.
+(pdftex.def)             Requested size: 137.67603pt x 64.27625pt.
+<Affiche/5-MNIST/6-dog.jpg, id=954, 698.1282pt x 325.9377pt>
+File: Affiche/5-MNIST/6-dog.jpg Graphic file (type jpg)
+<use Affiche/5-MNIST/6-dog.jpg>
+Package pdftex.def Info: Affiche/5-MNIST/6-dog.jpg  used on input line 105.
+(pdftex.def)             Requested size: 137.67603pt x 64.27625pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+) [32
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/6-cat.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/6-dog.jpg>]
+<Affiche/5-MNIST/7-Resultat.jpg, id=980, 840.13875pt x 565.1514pt>
+File: Affiche/5-MNIST/7-Resultat.jpg Graphic file (type jpg)
+<use Affiche/5-MNIST/7-Resultat.jpg>
+Package pdftex.def Info: Affiche/5-MNIST/7-Resultat.jpg  used on input line 123.
+(pdftex.def)             Requested size: 240.93567pt x 162.07014pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+) [33
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/7-Resultat.jpg>])
+\openout2 = `sections/06.aux'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/06.tex
+<Affiche/6-Mot/1-Incendie.jpg, id=1006, 462.528pt x 346.896pt>
+File: Affiche/6-Mot/1-Incendie.jpg Graphic file (type jpg)
+<use Affiche/6-Mot/1-Incendie.jpg>
+Package pdftex.def Info: Affiche/6-Mot/1-Incendie.jpg  used on input line 26.
+(pdftex.def)             Requested size: 103.25964pt x 77.4448pt.
+<Affiche/6-Mot/1-Intoxication.jpg, id=1007, 462.528pt x 346.896pt>
+File: Affiche/6-Mot/1-Intoxication.jpg Graphic file (type jpg)
+<use Affiche/6-Mot/1-Intoxication.jpg>
+Package pdftex.def Info: Affiche/6-Mot/1-Intoxication.jpg  used on input line 26.
+(pdftex.def)             Requested size: 103.25964pt x 77.4448pt.
+<Affiche/6-Mot/1-Cambriolage.jpg, id=1008, 462.528pt x 346.896pt>
+File: Affiche/6-Mot/1-Cambriolage.jpg Graphic file (type jpg)
+<use Affiche/6-Mot/1-Cambriolage.jpg>
+Package pdftex.def Info: Affiche/6-Mot/1-Cambriolage.jpg  used on input line 26.
+(pdftex.def)             Requested size: 103.25964pt x 77.4448pt.
+ [34
+
+
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/1-Incendie.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/1-Intoxication.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/1-Cambriolage.jpg>])
+\openout2 = `sections/99.aux'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/99.tex (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+) [35
+
 
 
 ]
@@ -861,17 +1204,7 @@ File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
 
  (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
-)) [34
-
-]
-\openout4 = `Presentation.vrb'.
-
- (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
-File: latin1.def 2018/08/11 v1.3c Input encoding file
-)) [35
-
-] [36
-
+)) [36
 
 ] [37
 
@@ -879,7 +1212,14 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ] [38
 
 
-] [39
+]
+\openout4 = `Presentation.vrb'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+)) [39
+
+] [40
 
 
 ]
@@ -887,13 +1227,14 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 
  (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
-)) [40
+)) [41
 
-] [41
+]
+\openout4 = `Presentation.vrb'.
 
-
-] [42
-
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+)) [42
 
 ] [43
 
@@ -907,15 +1248,15 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ] [46
 
 
-] [47
-
-
 ]
 \openout4 = `Presentation.vrb'.
 
  (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
-)) [48
+)) [47
+
+] [48
+
 
 ] [49
 
@@ -927,6 +1268,28 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 
 
 ] [52
+
+
+] [53
+
+
+]
+\openout4 = `Presentation.vrb'.
+
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+)) [54
+
+] [55
+
+
+] [56
+
+
+] [57
+
+
+] [58
 
 
 ])
@@ -945,25 +1308,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
-(rerunfilecheck)             Checksum: D8D779986FFFD81408EDE0E392D172AA;41.
+(rerunfilecheck)             Checksum: 625A0AF809F10490F4D6A5DFCDD8329D;443.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 22640 strings out of 483040
- 413123 string characters out of 5962426
- 1514127 words of memory out of 5000000
- 37063 multiletter control sequences out of 15000+600000
- 537108 words of font info for 32 fonts, out of 8000000 for 9000
+ 23399 strings out of 483040
+ 431617 string characters out of 5962426
+ 1517245 words of memory out of 5000000
+ 37627 multiletter control sequences out of 15000+600000
+ 557937 words of font info for 86 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 54i,15n,57p,864b,1859s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Navigation1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation30} has been referenced but does not exist, replaced by a fixed one
-
- </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0500.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk>
-Output written on /home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.pdf (22 pages, 90429 bytes).
+ 54i,18n,67p,864b,1955s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0900.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0700.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0700.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0900.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0500.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.pdf (58 pages, 10174730 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 592 compressed objects within 6 object streams
- 48 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2230 PDF objects out of 2487 (max. 8388607)
+ 1642 compressed objects within 17 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

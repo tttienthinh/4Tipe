@@ -1,4 +1,3 @@
-from tkinter import N
 from tensorflow.keras.datasets import fashion_mnist, mnist # Seulement pour importer les images
 import matplotlib.pyplot as plt
 import numpy as np
@@ -12,12 +11,12 @@ from Loss import *
 
 
 
+
 class Convolutional(Layer):
     """
     On hérite de la class Layer, 
     Au lieu de prendre la representation 
-        nb_kernel de taille kernel_size*kernel_size 
-        appliqué aux images.
+        de kernels appliqués aux images.
 
     Je représente les kernels sous la forme d'un Layer avec : 
         - input_n = kernel_size**2

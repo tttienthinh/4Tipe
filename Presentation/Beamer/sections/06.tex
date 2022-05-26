@@ -1,57 +1,27 @@
 
 \section{VI - Reconnaissance de mot}
 \begin{frame}{VI - Reconnaissance de mot}
-Un moyen simple de reconnaitre un mot est d'en faire le spectrogramme puis de résoudre le problème de reconnaissance comme si cela était une image. \\
-Le site du gouvernement recense ces mots clés pour les appels d'urgences : \\
-\begin{enumerate}
-  \item[15] malaise, hémorragie, brûlure, intoxication
-  \item[17] violences, agression, vol, cambriolage
-  \item[18] incendie, gaz, effondrement, électrocution
-\end{enumerate}
+	\begin{block}{}
+		Le site du gouvernement recense ces mots-clés pour les numéro d'appels d'urgences : \\
+		\begin{enumerate}
+		  \item[n°15] malaise, hémorragie, brûlure, intoxication
+		  \item[n°17] violences, agression, vol, cambriolage
+		  \item[n°18] incendie, gaz, effondrement, électrocution
+		\end{enumerate}
+	\end{block}
 \begin{figure}
 	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{1-Incendie.jpg}
+		\includegraphics[width=\textwidth]{1-Incendie.jpg}
   		\caption{INCENDIE}
 	\end{subfigure}
 	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{1-Intoxication.jpg}
+		\includegraphics[width=\textwidth]{1-Intoxication.jpg}
   		\caption{INTOXICATION}
 	\end{subfigure}
 	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{1-Cambriolage.jpg}
+		\includegraphics[width=\textwidth]{1-Cambriolage.jpg}
 		\caption{CAMBRIOLAGE}
 	\end{subfigure}
 \end{figure}
 \end{frame}
 
-\section{VII - Reconnaissance vocale}
-\begin{frame}{VII - Reconnaissance vocale}
-Découpage en élément lexicaux, puis décodage du mot.
-\begin{figure}
-	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{1-A.jpg}
-  		\caption{A}
-	\end{subfigure}
-	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{1-E.jpg}
-  		\caption{E}
-	\end{subfigure}
-	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{1-I.jpg}
-		\caption{I}
-	\end{subfigure}
-\end{figure}
-\begin{figure}
-	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{1-O.jpg}
-  		\caption{O}
-	\end{subfigure}
-	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{1-U.jpg}
-  		\caption{U}
-	\end{subfigure}
-	\begin{subfigure}[]{0.3\textwidth}
-		\includegraphics[width=90px]{2-Matching.png}
-	\end{subfigure}
-\end{figure}
-\end{frame}

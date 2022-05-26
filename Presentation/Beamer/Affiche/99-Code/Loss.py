@@ -1,5 +1,17 @@
 import numpy as np
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Mean Square Error
 def mse(predicted_output, target_output):
     return ((predicted_output - target_output) ** 2).mean()

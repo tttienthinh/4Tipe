@@ -1,5 +1,17 @@
 import numpy as np
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Linéaire
 def lineaire(x):
     return x

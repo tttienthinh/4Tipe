@@ -35,17 +35,17 @@ def taille_sortie(img_size, kernel_size):
 
 def convolve(img, kernel):
     k = kernel.shape[0]
-    taille_sortie = taille_sortie(
+    ts = taille_sortie(
         img_size=img.shape[0],
         kernel_size=k
     )
     # Initialisation de l'image
-    convolved_img = np.zeros(shape=(taille_sortie, taille_sortie))
+    convolved_img = np.zeros(shape=(ts, ts))
     
     # sur les lignes
-    for i in range(taille_sortie):
+    for i in range(ts):
         # sur les colonnes
-        for j in range(taille_sortie):
+        for j in range(ts):
             # On extrait la sous matrice
             mat = img[i:i+k, j:j+k]
             # produit de Hadamard
@@ -57,6 +57,11 @@ def convolve(img, kernel):
 def negative_to_zero(img: np.array) -> np.array:
     img = img.copy()
     img[img < 0] = 0
+    return img
+    
+def positive_to_one(img: np.array) -> np.array:
+    img = img.copy()
+    img = 1- np.exp(-img/100) 	
     return img
 
 def plot_image(img: np.array):
@@ -83,12 +88,14 @@ outline = np.array([
 for animal, i in [("cat", 10), ("dog", 13)]:
 
     img_c = Image.open(f'TensorFlow/data/train/{animal}/{i}.jpg')
+    img_c = img_c.resize(size=(224, 224))
     img = ImageOps.grayscale(img_c)
-    img = img.resize(size=(224, 224))
     img_outlined = convolve(img=np.array(img), kernel=outline)
+    img_outlined = negative_to_zero(img=img_outlined)
+    img_outlined = positive_to_one(img=img_outlined)
     plot_two_images(
         img1=img_c, 
-        img2=negative_to_zero(img=img_outlined),
+        img2=img_outlined,
         gray=False
     )
-    plt.savefig(f"1-image_{animal}_{i}.jpg")
+    plt.savefig(f"1-image_{animal}_{i}.jpg", bbox_inches='tight', pad_inches=0)
