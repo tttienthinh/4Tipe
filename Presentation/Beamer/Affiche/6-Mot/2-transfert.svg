@@ -25,9 +25,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.78127806"
-     inkscape:cx="644.45685"
-     inkscape:cy="533.74083"
+     inkscape:zoom="0.39063903"
+     inkscape:cx="72.95738"
+     inkscape:cy="639.97702"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="0"
@@ -1856,7 +1856,10 @@
      id="layer1"><g
        inkscape:label="Layer 1"
        id="layer1-5"
-       transform="translate(-169.14425,-52.866395)"><circle
+       transform="translate(-169.14425,-52.866395)"
+       inkscape:export-filename="2-transfert.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><circle
          style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path846-5-9"
          cx="336.2919"
