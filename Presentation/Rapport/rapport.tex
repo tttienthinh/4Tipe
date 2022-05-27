@@ -1,1 +1,58 @@
-\documentclass[]{}
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{relsize}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{listingsutf8}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{blindtext}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\hyphenpenalty=5000
+\graphicspath{{../Beamer/Affiche/0-ReconnaissanceVocale/}{../Beamer/Affiche/1-Introduction/}{../Beamer/Affiche/2-Activation-Gradient/}{../Beamer/Affiche/4-XOR/}{../Beamer/Affiche/5-MNIST/}{../Beamer/Affiche/6-Mot/}{../Beamer/Affiche/7-Vocal/}}
+
+
+\author{TRAN-THUONG Tien-Thinh}
+\title{Reconnaissance vocale lors d’appel d’urgence grâce à un réseau de neurones}
+\date{2021-2022}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+    D'après le ministère de la Santé : \\
+    Il y a eu plus de \textbf{31 millions} d'appels d'urgence en 2018. Seuls \textbf{69\%} des appels étaient décrochés dans la minute. \break
+    \indent Objectif :\\
+    Utiliser la reconnaissance vocale par réseau de neurones pour aider à classifier rapidement l'objet d'un appel.
+\end{abstract}
+\rule{\linewidth}{.5pt}
+
+% 1-INTRODUCTION
+\input{sections/01}
+% 2-Fonction d'activation
+\input{sections/02}
+% 3-Descente de gradient
+\input{sections/03}
+% 4-Problème de reproduction de l'opérateur XOR
+\input{sections/04}
+% 5-MNIST
+\input{sections/05}
+% 6-Reconnaissance de mot
+\input{sections/06}
+
+
+\end{document}
+
+
