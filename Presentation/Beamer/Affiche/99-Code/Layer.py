@@ -102,8 +102,8 @@ class LayerOptimizer(Layer):
         e_0 = np.dot(e1, self.weight.T)[:, :-1]
         dw1 = np.dot(e1.T, self.input_data)
         
-        # La différence se trouve est ci-dessous
-        self.dw_moment  = dw1.T * self.lr
-        self.dw_moment += self.gamma * self.dw_moment
+        # La différence est ci-dessous
+        self.dw_moment  = self.gamma * self.dw_moment
+        self.dw_moment += dw1.T * self.lr
         self.weight -= self.dw_moment
         return e_0
