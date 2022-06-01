@@ -1,34 +1,30 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  29 MAY 2022 23:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  30 MAY 2022 12:47
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**Presentation.tex
-(./Presentation.tex
+**/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.tex
+(/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.tex
 LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2019/09/29 v3.57 A class for typesetting presentations
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count167
 )
 \beamer@tempbox=\box45
 \beamer@tempcount=\count168
 \c@beamerpauses=\count169
-
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
 \beamer@slideinframe=\count170
 \beamer@minimum=\count171
 \beamer@decode@box=\box46
 )
 \beamer@commentbox=\box47
 \beamer@modecount=\count172
-)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
 \headdp=\dimen134
@@ -73,19 +69,15 @@ Package: iftex 2019/11/07 v1.0c TeX engine tests
 \beamer@coveringdepth=\count189
 \beamer@sectionadjust=\count190
 \beamer@tocsectionnumber=\count191
-
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip48
 \beamer@paperheight=\skip49
-
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count192
@@ -100,57 +92,39 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen156
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks15
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+) (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks16
 \pgfutil@tempdima=\dimen160
 \pgfutil@tempdimb=\dimen161
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box54
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen162
@@ -177,27 +151,19 @@ ex
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@smallbuffer@items=\count266
 \pgfsyssoftpath@bigbuffer@items=\count267
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -210,44 +176,18 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen172
 \pgfmath@count=\count268
 \pgfmath@box=\box55
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count269
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@picminx=\dimen173
 \pgf@picmaxx=\dimen174
@@ -263,141 +203,97 @@ File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@yy=\dimen184
 \pgf@zx=\dimen185
 \pgf@zy=\dimen186
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@path@lastx=\dimen187
 \pgf@path@lasty=\dimen188
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@shorten@end@additional=\dimen189
 \pgf@shorten@start@additional=\dimen190
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box56
 \pgf@hbox=\box57
 \pgf@layerbox@main=\box58
 \pgf@picture@serial@count=\count270
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgflinewidth=\dimen191
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen192
 \pgf@pt@y=\dimen193
 \pgf@pt@temp=\dimen194
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowsep=\dimen195
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen196
 \pgf@sys@shading@range@num=\count271
 \pgf@shadingcount=\count272
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfexternal@startupbox=\box59
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count273
 \XC@countmixins=\count274
-)
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
+ (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen197
 \Hy@linkcounter=\count275
 \Hy@pagecounter=\count276
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count277
@@ -413,20 +309,16 @@ Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4800.
 \c@Hy@tempcnt=\count279
-
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen198
-
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count280
 \Field@Width=\dimen199
@@ -449,29 +341,20 @@ Package hyperref Message: Stopped early.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
 \Fld@listcount=\count282
 \c@bookmark@seq@number=\count283
-
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks26
 \symAMSa=\mathgroup4
@@ -479,27 +362,19 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
-))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
 \beamer@argscount=\count284
 \beamer@lastskipcover=\skip50
 \beamer@trivlistdepth=\count285
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
 \c@lecture=\count286
 \c@part=\count287
 \c@section=\count288
 \c@subsection=\count289
 \c@subsubsection=\count290
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
 \beamer@framebox=\box60
 \beamer@frametitlebox=\box61
 \beamer@zoombox=\box62
@@ -514,30 +389,21 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 \beamer@envbody=\toks27
 \framewidth=\dimen258
 \c@framenumber=\count294
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 \beamer@splitbox=\box63
 \beamer@autobreakcount=\count295
 \beamer@autobreaklastheight=\dimen259
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
 \beamer@footins=\box64
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
 \beamer@frameboxcopy=\box65
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 \beamer@sbttoks=\toks30
-
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
 \bmb@box=\box66
 \bmb@colorbox=\box67
 \bmb@boxshadow=\box68
@@ -549,9 +415,7 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 \bmb@prevheight=\dimen263
 )
 \beamer@blockheadheight=\dimen264
-))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
@@ -559,29 +423,23 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \c@table=\count297
 \abovecaptionskip=\skip55
 \belowcaptionskip=\skip56
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
 \beamer@section@min@dim=\dimen265
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
 \ex@=\dimen266
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen267
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count298
@@ -621,8 +479,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks37
 \thm@bodyfont=\toks38
@@ -635,41 +492,24 @@ Package: amsthm 2017/10/31 v2.20.4
 \dth@everypar=\toks42
 )
 \c@theorem=\count310
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen275
 \beamer@dimb=\dimen276
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/02/14 3.40 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2020/02/14 3.40 Babel switching mechanism
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
 Language: french 2020/01/30 v3.5g French support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
 \babel@savecnt=\count311
 \U@D=\dimen277
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 2319.
 \bbl@dirlevel=\count312
@@ -699,24 +539,18 @@ Package babel Info: Making ? an active character on input line 422.
 \leftmarginFB=\dimen283
 \parindentFFN=\dimen284
 \FBfnindent=\dimen285
-))
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+)) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 Package french.ldf Info: No list customisation for the beamer class,
 (french.ldf)             reported on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen286
@@ -737,8 +571,7 @@ Package caption Info: Hyperref support is turned off
 )
 \c@subfigure=\count323
 \c@subtable=\count324
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count325
 \lst@gtempboxa=\box73
 \lst@token=\toks46
@@ -751,26 +584,20 @@ Package caption Info: Hyperref support is turned off
 \lst@newlines=\count329
 \lst@lineno=\count330
 \lst@maxwidth=\dimen296
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 \c@lstnumber=\count331
 \lst@skipnumbers=\count332
 \lst@framebox=\box74
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
-
-(/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count333
 \mult@box=\box75
@@ -839,15 +666,11 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \mult@nat@firstbox=\box119
 \colbreak@box=\box120
 \mc@col@check@num=\count342
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count343
 \l__pdf_internal_box=\box121
-)
-(./Presentation.aux (./sections/00.aux) (./sections/01.aux) (./sections/02.aux)
-(./sections/03.aux) (./sections/04.aux) (./sections/05.aux) (./sections/06.aux)
-(./sections/99.aux))
+) (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.aux)
 \openout1 = `Presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -916,24 +739,17 @@ LaTeX Font Info:    ... okay on input line 55.
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-ABD: EveryShipout initializing macros
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box123
 Package hyperref Info: Link coloring OFF on input line 55.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count350
@@ -941,8 +757,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
-
-(./Presentation.out) (./Presentation.out)
 \@outlinefile=\write5
 \openout5 = `Presentation.out'.
 
@@ -988,29 +802,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 55.
-
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
--English.dict
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dic
-tionary-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dict
-ionary-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
-y-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictiona
-ry-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
-ry-English.dict
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \degres on input line 55.
@@ -1020,67 +822,65 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count351
- (./Presentation.nav) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Presentation.toc) [2
+No file Presentation.nav.
+[1
 
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `sections/00.aux'.
 
- (./sections/00.tex
-<Affiche/0-ReconnaissanceVocale/4-phone.png, id=129, 1874.202pt x 446.6286pt>
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/00.tex
+<Affiche/0-ReconnaissanceVocale/4-phone.png, id=52, 1874.202pt x 446.6286pt>
 File: Affiche/0-ReconnaissanceVocale/4-phone.png Graphic file (type png)
 <use Affiche/0-ReconnaissanceVocale/4-phone.png>
-Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/4-phone.png  used on in
-put line 18.
+Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/4-phone.png  used on input line 18.
 (pdftex.def)             Requested size: 250.93842pt x 59.79475pt.
- [3
+ [2
 
- <./Affiche/0-ReconnaissanceVocale/4-phone.png>]
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/0-ReconnaissanceVocale/4-phone.png>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg, id=161, 462.528pt x 346.896pt
->
+<Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg, id=84, 462.528pt x 346.896pt>
 File: Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg Graphic file (type jpg)
 <use Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg>
-Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg  used 
-on input line 27.
-(pdftex.def)             Requested size: 66.9131pt x 50.18768pt.
-<Affiche/0-ReconnaissanceVocale/2-Reseau.png, id=162, 898.0752pt x 446.6286pt>
+Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg  used on input line 27.
+(pdftex.def)             Requested size: 87.29544pt x 65.47517pt.
+<Affiche/0-ReconnaissanceVocale/2-Reseau.png, id=85, 898.0752pt x 446.6286pt>
 File: Affiche/0-ReconnaissanceVocale/2-Reseau.png Graphic file (type png)
 <use Affiche/0-ReconnaissanceVocale/2-Reseau.png>
-Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/2-Reseau.png  used on i
-nput line 27.
-(pdftex.def)             Requested size: 100.91261pt x 50.18768pt.
-<Affiche/0-ReconnaissanceVocale/3-Matching.png, id=163, 310.0383pt x 227.6505pt
->
+Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/2-Reseau.png  used on input line 27.
+(pdftex.def)             Requested size: 131.64958pt x 65.47517pt.
+<Affiche/0-ReconnaissanceVocale/3-Matching.png, id=86, 310.0383pt x 227.6505pt>
 File: Affiche/0-ReconnaissanceVocale/3-Matching.png Graphic file (type png)
 <use Affiche/0-ReconnaissanceVocale/3-Matching.png>
-Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/3-Matching.png  used on
- input line 27.
-(pdftex.def)             Requested size: 68.35056pt x 50.18768pt.
- [4
+Package pdftex.def Info: Affiche/0-ReconnaissanceVocale/3-Matching.png  used on input line 27.
+(pdftex.def)             Requested size: 89.17079pt x 65.47517pt.
 
- <./Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg> <./Affiche/0-Reconnaissanc
-eVocale/2-Reseau.png> <./Affiche/0-ReconnaissanceVocale/3-Matching.png>])
+Overfull \vbox (2.01494pt too high) detected at line 27
+ []
+
+[3
+
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/0-ReconnaissanceVocale/1-Incendie-3.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/0-ReconnaissanceVocale/2-Reseau.png> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/0-ReconnaissanceVocale/3-Matching.png>])
+No file Presentation.toc.
+[4
+
+
+]
 \openout2 = `sections/01.aux'.
 
- (./sections/01.tex
-<Affiche/1-Introduction/2-Neurone.png, id=191, 1524.4152pt x 537.6888pt>
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/01.tex
+<Affiche/1-Introduction/2-Neurone.png, id=142, 1524.4152pt x 537.6888pt>
 File: Affiche/1-Introduction/2-Neurone.png Graphic file (type png)
 <use Affiche/1-Introduction/2-Neurone.png>
-Package pdftex.def Info: Affiche/1-Introduction/2-Neurone.png  used on input li
-ne 13.
+Package pdftex.def Info: Affiche/1-Introduction/2-Neurone.png  used on input line 13.
 (pdftex.def)             Requested size: 344.19533pt x 121.40138pt.
 
 
@@ -1089,127 +889,117 @@ LaTeX Font Warning: Font shape `T1/cmss/m/sc' undefined
 
 [5
 
-
-
- <./Affiche/1-Introduction/2-Neurone.png>]
-<Affiche/1-Introduction/1-Perceptron.png, id=221, 901.4478pt x 365.6862pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/1-Introduction/2-Neurone.png>]
+<Affiche/1-Introduction/1-Perceptron.png, id=172, 901.4478pt x 365.6862pt>
 File: Affiche/1-Introduction/1-Perceptron.png Graphic file (type png)
 <use Affiche/1-Introduction/1-Perceptron.png>
-Package pdftex.def Info: Affiche/1-Introduction/1-Perceptron.png  used on input
- line 22.
+Package pdftex.def Info: Affiche/1-Introduction/1-Perceptron.png  used on input line 22.
 (pdftex.def)             Requested size: 344.19533pt x 139.6262pt.
  [6
 
- <./Affiche/1-Introduction/1-Perceptron.png>]
-File: Affiche/1-Introduction/1-Perceptron.png Graphic file (type png)
-<use Affiche/1-Introduction/1-Perceptron.png>
-Package pdftex.def Info: Affiche/1-Introduction/1-Perceptron.png  used on input
- line 54.
-(pdftex.def)             Requested size: 197.94774pt x 80.3003pt.
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/1-Introduction/1-Perceptron.png>]
+Overfull \hbox (2.5631pt too wide) in paragraph at lines 53--53
+ \T1/cmss/m/it/10 f []$ 
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 53.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+) (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
-)
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
+) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-)
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
+) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
 File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
 )
+
+/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/01.tex:53: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \end{frame}
+                
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 [7
 
 ])
 \openout2 = `sections/02.aux'.
 
- (./sections/02.tex
-<Affiche/2-Activation-Gradient/8-activation.png, id=282, 910.3611pt x 174.6525p
-t>
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/02.tex
+<Affiche/2-Activation-Gradient/8-activation.png, id=235, 910.3611pt x 174.6525pt>
 File: Affiche/2-Activation-Gradient/8-activation.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/8-activation.png>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/8-activation.png  used o
-n input line 14.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/8-activation.png  used on input line 14.
 (pdftex.def)             Requested size: 344.19533pt x 66.03284pt.
  [8
 
 
 
- <./Affiche/2-Activation-Gradient/8-activation.png>]
-<Affiche/2-Activation-Gradient/0-Sigmoide.png, id=311, 462.528pt x 346.896pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/8-activation.png>]
+<Affiche/2-Activation-Gradient/0-Sigmoide.png, id=265, 462.528pt x 346.896pt>
 File: Affiche/2-Activation-Gradient/0-Sigmoide.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-Sigmoide.png>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Sigmoide.png  used on 
-input line 43.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Sigmoide.png  used on input line 43.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
-<Affiche/2-Activation-Gradient/0-Tanh.png, id=312, 462.528pt x 346.896pt>
+<Affiche/2-Activation-Gradient/0-Tanh.png, id=266, 462.528pt x 346.896pt>
 File: Affiche/2-Activation-Gradient/0-Tanh.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-Tanh.png>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Tanh.png  used on inpu
-t line 43.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Tanh.png  used on input line 43.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
-<Affiche/2-Activation-Gradient/0-ReLU.png, id=313, 462.528pt x 346.896pt>
+<Affiche/2-Activation-Gradient/0-ReLU.png, id=267, 462.528pt x 346.896pt>
 File: Affiche/2-Activation-Gradient/0-ReLU.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-ReLU.png>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/0-ReLU.png  used on inpu
-t line 43.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-ReLU.png  used on input line 43.
 (pdftex.def)             Requested size: 90.33783pt x 67.75294pt.
+ [9
 
-[9
-
- <./Affiche/2-Activation-Gradient/0-Sigmoide.png> <./Affiche/2-Activation-Gradi
-ent/0-Tanh.png> <./Affiche/2-Activation-Gradient/0-ReLU.png>]
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/0-Sigmoide.png> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/0-Tanh.png> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/0-ReLU.png>]
 File: Affiche/2-Activation-Gradient/0-Sigmoide.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-Sigmoide.png>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Sigmoide.png  used on 
-input line 52.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Sigmoide.png  used on input line 52.
 (pdftex.def)             Requested size: 250.93842pt x 188.205pt.
  [10
 
 ]
 File: Affiche/2-Activation-Gradient/0-Tanh.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-Tanh.png>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Tanh.png  used on inpu
-t line 61.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-Tanh.png  used on input line 61.
 (pdftex.def)             Requested size: 250.93842pt x 188.205pt.
  [11
 
 ]
 File: Affiche/2-Activation-Gradient/0-ReLU.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/0-ReLU.png>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/0-ReLU.png  used on inpu
-t line 70.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/0-ReLU.png  used on input line 70.
 (pdftex.def)             Requested size: 250.93842pt x 188.205pt.
-
-[12
+ [12
 
 ])
 \openout2 = `sections/03.aux'.
 
- (./sections/03.tex [13
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/03.tex [13
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-34.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 34.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<Affiche/2-Activation-Gradient/1-DescenteGradient.jpg, id=450, 867.24pt x 216.8
-1pt>
-File: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg Graphic file (type j
-pg)
+<Affiche/2-Activation-Gradient/1-DescenteGradient.jpg, id=406, 867.24pt x 216.81pt>
+File: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg  
-used on input line 34.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/1-DescenteGradient.jpg  used on input line 34.
 (pdftex.def)             Requested size: 361.35353pt x 90.33783pt.
 
 Overfull \hbox (17.1582pt too wide) in paragraph at lines 34--34
@@ -1222,24 +1012,19 @@ Overfull \vbox (7.78946pt too high) detected at line 34
 
 [14
 
- <./Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>]
-<Affiche/2-Activation-Gradient/2-DescenteGradient.jpg, id=485, 867.24pt x 216.8
-1pt>
-File: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg Graphic file (type j
-pg)
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/1-DescenteGradient.jpg>]
+<Affiche/2-Activation-Gradient/2-DescenteGradient.jpg, id=441, 867.24pt x 216.81pt>
+File: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/2-DescenteGradient.jpg>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg  
-used on input line 51.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/2-DescenteGradient.jpg  used on input line 51.
 (pdftex.def)             Requested size: 344.19533pt x 86.04758pt.
  [15
 
- <./Affiche/2-Activation-Gradient/2-DescenteGradient.jpg>]
-<Affiche/2-Activation-Gradient/4-Moment.jpg, id=513, 714.56963pt x 366.22823pt>
-
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/2-DescenteGradient.jpg>]
+<Affiche/2-Activation-Gradient/4-Moment.jpg, id=468, 714.56963pt x 366.22823pt>
 File: Affiche/2-Activation-Gradient/4-Moment.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/4-Moment.jpg>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/4-Moment.jpg  used on in
-put line 66.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/4-Moment.jpg  used on input line 66.
 (pdftex.def)             Requested size: 274.18881pt x 140.52551pt.
 
 Overfull \vbox (9.67511pt too high) detected at line 66
@@ -1247,44 +1032,39 @@ Overfull \vbox (9.67511pt too high) detected at line 66
 
 [16
 
- <./Affiche/2-Activation-Gradient/4-Moment.jpg>]
-<Affiche/2-Activation-Gradient/5-Moment.jpg, id=542, 713.12422pt x 216.81pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/4-Moment.jpg>]
+<Affiche/2-Activation-Gradient/5-Moment.jpg, id=498, 713.12422pt x 216.81pt>
 File: Affiche/2-Activation-Gradient/5-Moment.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/5-Moment.jpg>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/5-Moment.jpg  used on in
-put line 78.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/5-Moment.jpg  used on input line 78.
 (pdftex.def)             Requested size: 344.19533pt x 94.95703pt.
  [17
 
- <./Affiche/2-Activation-Gradient/5-Moment.jpg>]
-<Affiche/2-Activation-Gradient/6-Perceptron.png, id=571, 722.9409pt x 150.3216p
-t>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/5-Moment.jpg>]
+<Affiche/2-Activation-Gradient/6-Perceptron.png, id=527, 722.9409pt x 150.3216pt>
 File: Affiche/2-Activation-Gradient/6-Perceptron.png Graphic file (type png)
 <use Affiche/2-Activation-Gradient/6-Perceptron.png>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/6-Perceptron.png  used o
-n input line 90.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/6-Perceptron.png  used on input line 90.
 (pdftex.def)             Requested size: 217.2259pt x 45.16891pt.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ) [18
 
- <./Affiche/2-Activation-Gradient/6-Perceptron.png>] [19
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/6-Perceptron.png>] [19
 
 ]
-<Affiche/2-Activation-Gradient/7-Batch.jpg, id=626, 889.82437pt x 366.4089pt>
+<Affiche/2-Activation-Gradient/7-Batch.jpg, id=582, 889.82437pt x 366.4089pt>
 File: Affiche/2-Activation-Gradient/7-Batch.jpg Graphic file (type jpg)
 <use Affiche/2-Activation-Gradient/7-Batch.jpg>
-Package pdftex.def Info: Affiche/2-Activation-Gradient/7-Batch.jpg  used on inp
-ut line 130.
+Package pdftex.def Info: Affiche/2-Activation-Gradient/7-Batch.jpg  used on input line 130.
 (pdftex.def)             Requested size: 344.19533pt x 141.73038pt.
  [20
 
- <./Affiche/2-Activation-Gradient/7-Batch.jpg>])
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/2-Activation-Gradient/7-Batch.jpg>])
 \openout2 = `sections/04.aux'.
 
- (./sections/04.tex
-<Affiche/4-XOR/1-Reseau.png, id=652, 1474.5489pt x 531.9072pt>
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/04.tex
+<Affiche/4-XOR/1-Reseau.png, id=610, 1474.5489pt x 531.9072pt>
 File: Affiche/4-XOR/1-Reseau.png Graphic file (type png)
 <use Affiche/4-XOR/1-Reseau.png>
 Package pdftex.def Info: Affiche/4-XOR/1-Reseau.png  used on input line 13.
@@ -1297,33 +1077,28 @@ Overfull \vbox (1.31482pt too high) detected at line 13
 
 
 
- <./Affiche/4-XOR/1-Reseau.png>]
-<Affiche/4-XOR/2-XOR.jpg, id=681, 361.35pt x 361.35pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/4-XOR/1-Reseau.png>]
+<Affiche/4-XOR/2-XOR.jpg, id=639, 361.35pt x 361.35pt>
 File: Affiche/4-XOR/2-XOR.jpg Graphic file (type jpg)
 <use Affiche/4-XOR/2-XOR.jpg>
 Package pdftex.def Info: Affiche/4-XOR/2-XOR.jpg  used on input line 25.
 (pdftex.def)             Requested size: 150.56305pt x 150.56396pt.
  [22
 
- <./Affiche/4-XOR/2-XOR.jpg>]
-<Affiche/4-XOR/3-Model.png, id=708, 965.7681pt x 264.5082pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/4-XOR/2-XOR.jpg>]
+<Affiche/4-XOR/3-Model.png, id=666, 965.7681pt x 264.5082pt>
 File: Affiche/4-XOR/3-Model.png Graphic file (type png)
 <use Affiche/4-XOR/3-Model.png>
 Package pdftex.def Info: Affiche/4-XOR/3-Model.png  used on input line 41.
-(pdftex.def)             Requested size: 230.86334pt x 63.22899pt.
+(pdftex.def)             Requested size: 344.19533pt x 94.27036pt.
+ [23
 
-Overfull \vbox (1.33829pt too high) detected at line 41
- []
-
-[23
-
- <./Affiche/4-XOR/3-Model.png>]
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/4-XOR/3-Model.png>] (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ) [24
 
 ]
-<Affiche/4-XOR/4-XOR.png, id=763, 462.528pt x 346.896pt>
+<Affiche/4-XOR/4-XOR.png, id=721, 462.528pt x 346.896pt>
 File: Affiche/4-XOR/4-XOR.png Graphic file (type png)
 <use Affiche/4-XOR/4-XOR.png>
 Package pdftex.def Info: Affiche/4-XOR/4-XOR.png  used on input line 55.
@@ -1334,13 +1109,13 @@ Overfull \vbox (5.85878pt too high) detected at line 55
 
 [25
 
- <./Affiche/4-XOR/4-XOR.png>] [26
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/4-XOR/4-XOR.png>] [26
 
 ])
 \openout2 = `sections/05.aux'.
 
- (./sections/05.tex
-<Affiche/5-MNIST/1-mnist.jpg, id=818, 1084.05pt x 722.7pt>
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/05.tex
+<Affiche/5-MNIST/1-mnist.jpg, id=778, 1084.05pt x 722.7pt>
 File: Affiche/5-MNIST/1-mnist.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/1-mnist.jpg>
 Package pdftex.def Info: Affiche/5-MNIST/1-mnist.jpg  used on input line 14.
@@ -1349,31 +1124,29 @@ Package pdftex.def Info: Affiche/5-MNIST/1-mnist.jpg  used on input line 14.
 
 
 
- <./Affiche/5-MNIST/1-mnist.jpg>] [28
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/1-mnist.jpg>] [28
 
 ]
-<Affiche/5-MNIST/2-Softmax.png, id=875, 786.7794pt x 579.3645pt>
+<Affiche/5-MNIST/2-Softmax.png, id=835, 786.7794pt x 579.3645pt>
 File: Affiche/5-MNIST/2-Softmax.png Graphic file (type png)
 <use Affiche/5-MNIST/2-Softmax.png>
 Package pdftex.def Info: Affiche/5-MNIST/2-Softmax.png  used on input line 38.
 (pdftex.def)             Requested size: 204.46178pt x 150.56305pt.
  [29
 
- <./Affiche/5-MNIST/2-Softmax.png>]
-<Affiche/5-MNIST/3-Apprentissage.jpg, id=903, 708.246pt x 724.1454pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/2-Softmax.png>]
+<Affiche/5-MNIST/3-Apprentissage.jpg, id=863, 708.246pt x 724.1454pt>
 File: Affiche/5-MNIST/3-Apprentissage.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/3-Apprentissage.jpg>
-Package pdftex.def Info: Affiche/5-MNIST/3-Apprentissage.jpg  used on input lin
-e 60.
+Package pdftex.def Info: Affiche/5-MNIST/3-Apprentissage.jpg  used on input line 60.
 (pdftex.def)             Requested size: 178.98303pt x 183.00272pt.
  [30
 
- <./Affiche/5-MNIST/3-Apprentissage.jpg>]
-<Affiche/5-MNIST/4-Resultat.jpg, id=930, 1084.05pt x 722.7pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/3-Apprentissage.jpg>]
+<Affiche/5-MNIST/4-Resultat.jpg, id=890, 1084.05pt x 722.7pt>
 File: Affiche/5-MNIST/4-Resultat.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/4-Resultat.jpg>
 Package pdftex.def Info: Affiche/5-MNIST/4-Resultat.jpg  used on input line 69.
-
 (pdftex.def)             Requested size: 301.11691pt x 200.75073pt.
 
 Overfull \vbox (3.34006pt too high) detected at line 69
@@ -1381,22 +1154,21 @@ Overfull \vbox (3.34006pt too high) detected at line 69
 
 [31
 
- <./Affiche/5-MNIST/4-Resultat.jpg>]
-<Affiche/5-MNIST/5-convolution.png, id=959, 512.1534pt x 232.2276pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/4-Resultat.jpg>]
+<Affiche/5-MNIST/5-convolution.png, id=918, 512.1534pt x 232.2276pt>
 File: Affiche/5-MNIST/5-convolution.png Graphic file (type png)
 <use Affiche/5-MNIST/5-convolution.png>
-Package pdftex.def Info: Affiche/5-MNIST/5-convolution.png  used on input line 
-78.
+Package pdftex.def Info: Affiche/5-MNIST/5-convolution.png  used on input line 78.
 (pdftex.def)             Requested size: 344.19533pt x 156.07713pt.
  [32
 
- <./Affiche/5-MNIST/5-convolution.png>]
-<Affiche/5-MNIST/6-cat.jpg, id=989, 698.1282pt x 325.9377pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/5-convolution.png>]
+<Affiche/5-MNIST/6-cat.jpg, id=949, 698.1282pt x 325.9377pt>
 File: Affiche/5-MNIST/6-cat.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/6-cat.jpg>
 Package pdftex.def Info: Affiche/5-MNIST/6-cat.jpg  used on input line 105.
 (pdftex.def)             Requested size: 137.67603pt x 64.27625pt.
-<Affiche/5-MNIST/6-dog.jpg, id=990, 698.1282pt x 325.9377pt>
+<Affiche/5-MNIST/6-dog.jpg, id=950, 698.1282pt x 325.9377pt>
 File: Affiche/5-MNIST/6-dog.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/6-dog.jpg>
 Package pdftex.def Info: Affiche/5-MNIST/6-dog.jpg  used on input line 105.
@@ -1405,59 +1177,52 @@ Package pdftex.def Info: Affiche/5-MNIST/6-dog.jpg  used on input line 105.
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ) [33
 
- <./Affiche/5-MNIST/6-cat.jpg> <./Affiche/5-MNIST/6-dog.jpg>]
-<Affiche/5-MNIST/7-Resultat.jpg, id=1016, 840.13875pt x 565.1514pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/6-cat.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/6-dog.jpg>]
+<Affiche/5-MNIST/7-Resultat.jpg, id=977, 840.13875pt x 565.1514pt>
 File: Affiche/5-MNIST/7-Resultat.jpg Graphic file (type jpg)
 <use Affiche/5-MNIST/7-Resultat.jpg>
-Package pdftex.def Info: Affiche/5-MNIST/7-Resultat.jpg  used on input line 123
-.
+Package pdftex.def Info: Affiche/5-MNIST/7-Resultat.jpg  used on input line 123.
 (pdftex.def)             Requested size: 240.93567pt x 162.07014pt.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ) [34
 
- <./Affiche/5-MNIST/7-Resultat.jpg>])
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/5-MNIST/7-Resultat.jpg>])
 \openout2 = `sections/06.aux'.
 
- (./sections/06.tex
-<Affiche/6-Mot/1-Incendie.jpg, id=1042, 404.712pt x 314.3745pt>
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/06.tex
+<Affiche/6-Mot/1-Incendie.jpg, id=1004, 404.712pt x 314.3745pt>
 File: Affiche/6-Mot/1-Incendie.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/1-Incendie.jpg>
 Package pdftex.def Info: Affiche/6-Mot/1-Incendie.jpg  used on input line 26.
 (pdftex.def)             Requested size: 103.25964pt x 80.20999pt.
-<Affiche/6-Mot/1-Intoxication.jpg, id=1043, 404.712pt x 314.3745pt>
+<Affiche/6-Mot/1-Intoxication.jpg, id=1005, 404.712pt x 314.3745pt>
 File: Affiche/6-Mot/1-Intoxication.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/1-Intoxication.jpg>
-Package pdftex.def Info: Affiche/6-Mot/1-Intoxication.jpg  used on input line 2
-6.
+Package pdftex.def Info: Affiche/6-Mot/1-Intoxication.jpg  used on input line 26.
 (pdftex.def)             Requested size: 103.25964pt x 80.20999pt.
-<Affiche/6-Mot/1-Cambriolage.jpg, id=1044, 404.712pt x 314.3745pt>
+<Affiche/6-Mot/1-Cambriolage.jpg, id=1006, 404.712pt x 314.3745pt>
 File: Affiche/6-Mot/1-Cambriolage.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/1-Cambriolage.jpg>
-Package pdftex.def Info: Affiche/6-Mot/1-Cambriolage.jpg  used on input line 26
-.
+Package pdftex.def Info: Affiche/6-Mot/1-Cambriolage.jpg  used on input line 26.
 (pdftex.def)             Requested size: 103.25964pt x 80.20999pt.
  [35
 
 
 
- <./Affiche/6-Mot/1-Incendie.jpg> <./Affiche/6-Mot/1-Intoxication.jpg> <./Affic
-he/6-Mot/1-Cambriolage.jpg>]
-<Affiche/6-Mot/2-transfert.png, id=1073, 1222.3266pt x 579.3645pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/1-Incendie.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/1-Intoxication.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/1-Cambriolage.jpg>]
+<Affiche/6-Mot/2-transfert.png, id=1034, 1222.3266pt x 579.3645pt>
 File: Affiche/6-Mot/2-transfert.png Graphic file (type png)
 <use Affiche/6-Mot/2-transfert.png>
 Package pdftex.def Info: Affiche/6-Mot/2-transfert.png  used on input line 34.
 (pdftex.def)             Requested size: 344.19533pt x 163.14035pt.
  [36
 
- <./Affiche/6-Mot/2-transfert.png>]
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/2-transfert.png>] (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ) [37
 
-]
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+] (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 )
 Overfull \vbox (7.26875pt too high) detected at line 54
@@ -1470,28 +1235,28 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ) [39
 
 ]
-<Affiche/6-Mot/4-loss.jpg, id=1181, 380.8629pt x 299.9205pt>
+<Affiche/6-Mot/4-loss.jpg, id=1142, 380.8629pt x 299.9205pt>
 File: Affiche/6-Mot/4-loss.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/4-loss.jpg>
 Package pdftex.def Info: Affiche/6-Mot/4-loss.jpg  used on input line 72.
 (pdftex.def)             Requested size: 154.88684pt x 121.96596pt.
-<Affiche/6-Mot/4-accuracy.jpg, id=1182, 380.8629pt x 300.6432pt>
+<Affiche/6-Mot/4-accuracy.jpg, id=1143, 380.8629pt x 300.6432pt>
 File: Affiche/6-Mot/4-accuracy.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/4-accuracy.jpg>
 Package pdftex.def Info: Affiche/6-Mot/4-accuracy.jpg  used on input line 72.
 (pdftex.def)             Requested size: 154.88684pt x 122.25986pt.
  [40
 
- <./Affiche/6-Mot/4-loss.jpg> <./Affiche/6-Mot/4-accuracy.jpg>]
-<Affiche/6-Mot/5-Audio.jpg, id=1211, 389.5353pt x 314.3745pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/4-loss.jpg> </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/4-accuracy.jpg>]
+<Affiche/6-Mot/5-Audio.jpg, id=1173, 389.5353pt x 314.3745pt>
 File: Affiche/6-Mot/5-Audio.jpg Graphic file (type jpg)
 <use Affiche/6-Mot/5-Audio.jpg>
 Package pdftex.def Info: Affiche/6-Mot/5-Audio.jpg  used on input line 111.
 (pdftex.def)             Requested size: 154.88684pt x 124.99924pt.
  [41
 
- <./Affiche/6-Mot/5-Audio.jpg>]
-<Affiche/6-Mot/3-incendie.png, id=1238, 404.712pt x 314.3745pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/5-Audio.jpg>]
+<Affiche/6-Mot/3-incendie.png, id=1200, 404.712pt x 314.3745pt>
 File: Affiche/6-Mot/3-incendie.png Graphic file (type png)
 <use Affiche/6-Mot/3-incendie.png>
 Package pdftex.def Info: Affiche/6-Mot/3-incendie.png  used on input line 127.
@@ -1502,8 +1267,8 @@ Overfull \vbox (11.34422pt too high) detected at line 127
 
 [42
 
- <./Affiche/6-Mot/3-incendie.png>]
-<Affiche/6-Mot/6-schema.png, id=1265, 982.1493pt x 816.4101pt>
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/3-incendie.png>]
+<Affiche/6-Mot/6-schema.png, id=1228, 982.1493pt x 816.4101pt>
 File: Affiche/6-Mot/6-schema.png Graphic file (type png)
 <use Affiche/6-Mot/6-schema.png>
 Package pdftex.def Info: Affiche/6-Mot/6-schema.png  used on input line 138.
@@ -1514,11 +1279,10 @@ Overfull \vbox (12.1107pt too high) detected at line 138
 
 [43
 
- <./Affiche/6-Mot/6-schema.png>])
+ </home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Affiche/6-Mot/6-schema.png>])
 \openout2 = `sections/99.aux'.
 
- (./sections/99.tex
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/99.tex (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ) [44
 
@@ -1527,11 +1291,9 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ]
 \openout4 = `Presentation.vrb'.
 
-
-(./Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
-))
-[45
+)) [45
 
 ] [46
 
@@ -1542,8 +1304,7 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ]
 \openout4 = `Presentation.vrb'.
 
- (./Presentation.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 )) [48
 
@@ -1553,17 +1314,14 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ]
 \openout4 = `Presentation.vrb'.
 
-
-(./Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
-))
-[50
+)) [50
 
 ]
 \openout4 = `Presentation.vrb'.
 
- (./Presentation.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 )) [51
 
@@ -1573,8 +1331,7 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ] [53
 
 
-]
-[54
+] [54
 
 
 ] [55
@@ -1583,8 +1340,7 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ]
 \openout4 = `Presentation.vrb'.
 
- (./Presentation.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 )) [56
 
@@ -1594,8 +1350,7 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ] [58
 
 
-]
-[59
+] [59
 
 
 ] [60
@@ -1610,8 +1365,7 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ]
 \openout4 = `Presentation.vrb'.
 
- (./Presentation.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 )) [63
 
@@ -1621,8 +1375,7 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ] [65
 
 
-]
-[66
+] [66
 
 
 ] [67
@@ -1631,8 +1384,7 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 ]
 \openout4 = `Presentation.vrb'.
 
- (./Presentation.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.vrb (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 )) [68
 
@@ -1646,64 +1398,37 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 \tf@snm=\write8
 \openout8 = `Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+ (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.aux (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/00.aux) (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/01.aux) (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/02.aux) (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/03.aux) (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/04.aux) (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/05.aux) (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/06.aux) (/home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/sections/99.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 
-(./Presentation.aux (./sections/00.aux) (./sections/01.aux) (./sections/02.aux)
-(./sections/03.aux) (./sections/04.aux) (./sections/05.aux) (./sections/06.aux)
-(./sections/99.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
-Package rerunfilecheck Info: File `Presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 625A0AF809F10490F4D6A5DFCDD8329D;443.
 
+Package rerunfilecheck Warning: File `Presentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Presentation.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  625A0AF809F10490F4D6A5DFCDD8329D;443.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23585 strings out of 483040
- 430221 string characters out of 5962426
- 1516799 words of memory out of 5000000
- 37773 multiletter control sequences out of 15000+600000
+ 23347 strings out of 483040
+ 430993 string characters out of 5962426
+ 1512118 words of memory out of 5000000
+ 37557 multiletter control sequences out of 15000+600000
  557937 words of font info for 86 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 54i,18n,67p,796b,1955s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi06
-00.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecsi0500.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecss0600.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecsi0900.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/
-pk/ljfour/jknappen/ec/tcss1000.600pk> </home/tttienthinh/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/tttienthinh/.texlive2019/te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/tttienthinh/.texlive
-2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0700.600pk> </home/tttienthinh/.
-texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/tttien
-thinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0900.600pk> </home
-/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk>
- </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000
-.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-css0700.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknapp
-en/ec/ecss0500.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecss1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecss1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (68 pages, 14443551 bytes).
+ 54i,18n,67p,864b,2131s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0900.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0700.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0700.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0900.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0500.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/tttienthinh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /home/tttienthinh/Documents/Programmation/4Tipe/Presentation/Beamer/Presentation.pdf (68 pages, 14513196 bytes).
 PDF statistics:
- 2548 PDF objects out of 2984 (max. 8388607)
- 1908 compressed objects within 20 object streams
+ 2507 PDF objects out of 2984 (max. 8388607)
+ 1875 compressed objects within 19 object streams
  145 named destinations out of 1000 (max. 500000)
- 340 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,7 +6,7 @@
                                                                  
  conv2d_1 (Conv2D)            (None, 28, 28, 64)        18496     
                                                                  
- max_pooling2d (MaxPooling2D) (None, 14, 14, 64)       0                                                                       
+ max_pooling2d (MaxPooling2D) (None, 14, 14, 64)        0                                                                       
                                                                  
  dropout (Dropout)            (None, 14, 14, 64)        0         
                                                                  

@@ -1,7 +1,7 @@
 
 \section{IV - Problème de reproduction de l'opérateur XOR}
 \begin{frame}{IV - Problème de reproduction de l'opérateur XOR}
-	\begin{block}{Problème non linéairement séparables}
+	\begin{block}{Problème non linéairement séparable}
 		Une couche de perceptron ne peut pas reproduire les opérateurs non linéairement séparables. \\
 		Il faut mettre des couches de perceptron en série (couches cachées) pour pouvoir reproduire ces opérateurs. \\
 	\end{block}
@@ -28,16 +28,16 @@
 \begin{frame}{IV - Problème de reproduction de l'opérateur XOR}
 	\begin{figure}
 		\centering
-		\includegraphics[width=230px]{3-Model.png}
+		\includegraphics[width=\textwidth]{3-Model.png}
 		\caption{Schéma du réseau de neurone reproduisant le XOR}
 	\end{figure}
-	\begin{block}{Descente de gradient}
-		$w \leftarrow w - t \dfrac{\partial f}{\partial w}$ où $t$ est le taux d'apprentissage et $f$ la fonction de coût
-	\end{block}
-	\begin{exampleblock}{Exemple}
-		• $\dfrac{\partial f}{\partial w^2_1} = 2(s - s_{attendue})\sigma_2 'y^1_1$ \\
-		• $\dfrac{\partial f}{\partial w^1_{1\to 1}} = 2(s - s_{attendue})\sigma_2 'w^2_1 \sigma _{1} ' e_{1}$
-	\end{exampleblock}
+%	\begin{block}{Descente de gradient}
+%		$w \leftarrow w - t \dfrac{\partial f}{\partial w}$ où $t$ est le taux d'apprentissage et $f$ la fonction de coût
+%	\end{block}
+%	\begin{exampleblock}{Exemple}
+%		• $\dfrac{\partial f}{\partial w^2_1} = 2(s - s_{attendue})\sigma_2 'y^1_1$ \\
+%		• $\dfrac{\partial f}{\partial w^1_{1\to 1}} = 2(s - s_{attendue})\sigma_2 'w^2_1 \sigma _{1} ' e_{1}$
+%	\end{exampleblock}
 \end{frame}
 
 
@@ -74,8 +74,7 @@
 		\left( \centerdot \times
 		\begin{pmatrix}
 				0.85 & 5.42 \\
-				0.85 & 5.40 \\
-				0.14 & 0.44
+				0.85 & 5.40 
 			\end{pmatrix}
 		\right) \\
 		 & \to
@@ -83,8 +82,7 @@
 		\left( \centerdot \times
 		\begin{pmatrix}
 				-18.39 \\
-				14.42  \\
-				0.02
+				14.42  
 			\end{pmatrix}
 		\right) \\
 		 & \to

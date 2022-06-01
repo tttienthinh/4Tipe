@@ -1,0 +1,81 @@
+\documentclass[10pt]{beamer}
+\usetheme{Madrid}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{relsize}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{listingsutf8}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+\author{TRAN-THUONG Tien-Thinh}
+\date{2021-2022}
+% \title{Reconnaissance vocale lors d’appel d’urgence grâce à un réseau de neurones}
+\title{Présentation}
+\graphicspath{{Affiche/0-ReconnaissanceVocale/}{Affiche/1-Introduction/}{Affiche/2-Activation-Gradient/}{Affiche/4-XOR/}{Affiche/5-MNIST/}{Affiche/6-Mot/}{Affiche/7-Vocal/}}
+\lstset{inputpath={Affiche/99-Code/}}
+\newcommand{\norme}[1]{\| #1 \|}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=1,
+    xleftmargin=5pt,
+    xrightmargin=5pt
+}
+
+\lstset{style=mystyle, inputencoding=utf8/latin1}
+
+% \includeonly{sections/06}
+
+\begin{document}
+
+\begin{frame}
+\title{Reconnaissance vocale lors d’appel d’urgence grâce à un réseau
+de neurones}
+\titlepage
+\end{frame}
+
+\include{sections/00}
+\tableofcontents
+% 1-INTRODUCTION
+\include{sections/01}
+% 2-Fonction d'activation
+\include{sections/02}
+% 3-Descente de gradient
+\include{sections/03}
+% 4-Problème de reproduction de l'opérateur XOR
+\include{sections/04}
+% 5-MNIST
+\include{sections/05}
+% 6-Reconnaissance de mot
+\include{sections/06}
+
+
+% Annexe
+\include{sections/99}
+\end{document}

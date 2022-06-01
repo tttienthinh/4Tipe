@@ -18,11 +18,11 @@ train_output = np.array([[0]   , [1]   , [1]   , [0]   ])
 # Creation du model
 model = Model([
         LayerOptimizer(
-            2,  2, lr=0.5, gamma=0.5, 
+            2,  2, lr=0.5, gamma=0.5, bias=False,
             activation=sigmoid, d_activation=d_sigmoid
         ),
         LayerOptimizer(
-            2,  1, lr=10, gamma=0.5, 
+            2,  1, lr=0.5, gamma=0.5, bias=False,
             activation=sigmoid, d_activation=d_sigmoid
         ),
     ],

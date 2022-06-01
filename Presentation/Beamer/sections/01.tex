@@ -23,32 +23,31 @@
 
 
 \begin{frame}{I - Représentation informatique}
-	\begin{figure}
-		\centering
-		\includegraphics[height=80px]{1-Perceptron.png}
-		\caption{Schéma d'un perceptron}
-	\end{figure}
-	\begin{multicols}{2}
-		\begin{center}
-			$
-				f
-				\left(
-				\begin{pmatrix}
-					x_1 & \ldots & x_n & b
-				\end{pmatrix}
-				\times
-				\begin{pmatrix}
-					w_1    \\
-					\vdots \\
-					w_n    \\
-					w_b
-				\end{pmatrix}
-				\right)
-			$ \\
-			\openup 1em
-			La complexité est en $O(n)$
-		\end{center}
-		\columnbreak
-		\lstinputlisting[language=Python, firstline=15]{0-representation.py}
-	\end{multicols}
+	\begin{columns}
+		\begin{column}[]{0.4\textwidth}
+			\begin{center}
+				$
+					f
+					\left(
+					\begin{pmatrix}
+						x_1 & \ldots & x_n & b
+					\end{pmatrix}
+					\times
+					\begin{pmatrix}
+						w_1    \\
+						\vdots \\
+						w_n    \\
+						w_b
+					\end{pmatrix}
+					\right)
+				$ \\
+				\openup 1em
+				La complexité est en $O(n)$
+			\end{center}
+		\end{column}
+		\begin{column}[]{0.5\textwidth}
+			\lstinputlisting[language=Python, firstline=15]{0-representation.py}
+		\end{column}
+	\end{columns}
+	\caption{Représentation informatique du perceptron}
 \end{frame}
