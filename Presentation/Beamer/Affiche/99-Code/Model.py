@@ -1,13 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from Layer import Layer, LayerOptimizer
 import Activation
 import Loss
 
+
 """
 17/03/2021 tranthuongtienthinh
-Feed Forward model pour résoudre le xor
-algorithme POO
+
+
 """
 
 
@@ -85,7 +85,7 @@ class ModelClassification(Model):
 
     def backpropagation(self, input_data:np.ndarray, target_output:np.ndarray):
         # Entrainement par récurrence
-        predicted_output, loss, acc = self.predict_loss(
+        predicted_output, loss, acc = self.predict_accuracy(
             input_data, target_output
         )
         # dérivée

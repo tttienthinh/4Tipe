@@ -8,9 +8,9 @@ from Layer import Layer, LayerOptimizer
 from Activation import *
 from Loss import *
 
-
-
-
+"""
+Environ 1min pour s'entrainer
+"""
 
 # Traitement des données
 (X_train, Y_train), (X_test, Y_test) = mnist.load_data()

@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from Model import Model, Layer, LayerOptimizer
+from Model import Model
+from Layer import Layer, LayerOptimizer
 from Activation import *
 from Loss import *
-
 
 
 
@@ -35,3 +35,6 @@ epochs = 300
 for epoch in range(epochs):
     y, loss = model.backpropagation(train_input, train_output)
     losses.append(loss) # Permet l'affichage des courbes
+plt.plot(losses)
+plt.title("Erreur au cours de l'apprentissage")
+plt.show()

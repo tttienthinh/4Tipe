@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.interpolate import lagrange
-
 
 # Nous allons ici créer un Neuronne Linéaire sans fonction d'activation, et nous allons l'entrainer à multiplier par la valeur cible.
+
+
 
 
 

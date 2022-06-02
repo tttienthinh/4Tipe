@@ -1,9 +1,9 @@
 import numpy as np
-import Activation
+
 """
 17/03/2021 tranthuongtienthinh
-Feed Forward model pour résoudre le xor
-algorithme POO
+La class layer représente une couche de perceptron
+
 """
 
 

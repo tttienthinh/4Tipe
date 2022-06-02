@@ -1,16 +1,16 @@
 from tensorflow.keras.datasets import fashion_mnist # Seulement pour importer les images
 import matplotlib.pyplot as plt
 import numpy as np
-import pickle
-
 from Model import Model, ModelClassification
 from Layer import Layer, LayerOptimizer
 from Activation import *
 from Loss import *
 from Convolutional import Convolutional, Flatten
 import time
-
-
+input("\n\n!!! ATTENTION EXECUTION TRES LONGUE, RESULTAT DISPONIBLE EN ANNEXE !!! \n Continuer ? (Enter) :")
+"""
+Temps d'exécution 32h
+"""
 
 # Traitement des données
 (X_train, Y_train), (X_test, Y_test) = fashion_mnist.load_data()

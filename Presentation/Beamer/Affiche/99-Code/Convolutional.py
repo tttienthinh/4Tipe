@@ -1,13 +1,13 @@
-from tensorflow.keras.datasets import fashion_mnist, mnist # Seulement pour importer les images
-import matplotlib.pyplot as plt
 import numpy as np
-import pickle
 
 from Model import Model, ModelClassification
 from Layer import Layer, LayerOptimizer
 from Activation import *
 import Activation
 from Loss import *
+
+
+
 
 
 

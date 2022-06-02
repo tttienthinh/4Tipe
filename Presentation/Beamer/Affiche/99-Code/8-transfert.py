@@ -1,9 +1,9 @@
 import tensorflow as tf
 
-
-
-
-
+"""
+Transfert d'apprentissage
+Vous avez besoin du fichier model.h5 pour exécuter
+"""
 
 
 
@@ -22,3 +22,4 @@ model_adapt = tf.keras.Sequential(
     + [tf.keras.layers.Dense(12, activation="softmax", 
         name="adaptation")]
 )
+print(model_adapt.summary())

@@ -1,8 +1,16 @@
 \babel@toc {french}{}
-\beamer@sectionintoc {2}{I - Introduction}{5}{0}{1}
-\beamer@sectionintoc {3}{II - Fonction d'activation}{8}{0}{2}
-\beamer@sectionintoc {4}{III - Descente de gradient}{13}{0}{3}
-\beamer@sectionintoc {5}{IV - Problème de reproduction de l'opérateur XOR}{21}{0}{4}
-\beamer@sectionintoc {6}{V - MNIST}{27}{0}{5}
-\beamer@sectionintoc {7}{VI - Reconnaissance de mot}{35}{0}{6}
-\beamer@sectionintoc {8}{Annexe}{44}{0}{7}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Presentation de la problématique}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Reconnaissance vocale}{5}{0}{1}
+\beamer@sectionintoc {2}{Généralités sur les réseaux de neurones}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Du perceptron au réseau de neurones}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Rétropropagation}{13}{0}{2}
+\beamer@subsectionintoc {2}{3}{Amélioration de la rétropropagation}{16}{0}{2}
+\beamer@sectionintoc {3}{Réalisations concrètes}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{Reproduction du XOR}{21}{0}{3}
+\beamer@subsectionintoc {3}{2}{Reconnaissance de chiffres écrits}{25}{0}{3}
+\beamer@subsectionintoc {3}{3}{Reconnaissance d’image de vêtements }{31}{0}{3}
+\beamer@subsectionintoc {3}{4}{Reconnaissance vocale de mots-clés}{36}{0}{3}
+\beamer@sectionintoc {4}{Annexe}{45}{0}{4}
+\beamer@subsectionintoc {4}{1}{Mes codes}{46}{0}{4}
+\beamer@subsectionintoc {4}{2}{Codes}{46}{0}{4}

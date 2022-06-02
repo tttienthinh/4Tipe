@@ -1,5 +1,5 @@
-
-
+from NeuroneLineaire import NeuroneLineaire
+import matplotlib.pyplot as plt
 
 
 
@@ -20,5 +20,7 @@ while abs(2*(0.75-reseau.calcul(1))) > 0.1:
     reseau.retropropagation(1, 0.75)
 reseau.validation()
 reseau.plot(
-    ax=plt, title=f"Petit taux : t = 0.1", mini=0, maxi=1
+    ax=plt.axes(), title=f"Petit taux : t = 0.1", mini=0, maxi=1
 )
+plt.show()
+

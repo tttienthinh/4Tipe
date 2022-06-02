@@ -1,5 +1,5 @@
 \documentclass[10pt]{beamer}
-\usetheme{Madrid}
+\usetheme{Copenhagen}
 \usepackage[utf8]{inputenc}
 \usepackage[french]{babel}
 \usepackage[T1]{fontenc}
@@ -15,10 +15,8 @@
 \usepackage{xcolor}
 \usepackage{multicol}
 
-\author{TRAN-THUONG Tien-Thinh}
+\author{TRAN-THUONG Tien-Thinh [n°30903]}
 \date{2021-2022}
-% \title{Reconnaissance vocale lors d’appel d’urgence grâce à un réseau de neurones}
-\title{Présentation}
 \graphicspath{{Affiche/0-ReconnaissanceVocale/}{Affiche/1-Introduction/}{Affiche/2-Activation-Gradient/}{Affiche/4-XOR/}{Affiche/5-MNIST/}{Affiche/6-Mot/}{Affiche/7-Vocal/}}
 \lstset{inputpath={Affiche/99-Code/}}
 \newcommand{\norme}[1]{\| #1 \|}
@@ -44,38 +42,68 @@
     showstringspaces=false,
     showtabs=false,                  
     tabsize=1,
-    xleftmargin=5pt,
-    xrightmargin=5pt
+    xleftmargin=-5pt,
+    xrightmargin=-10pt
 }
 
 \lstset{style=mystyle, inputencoding=utf8/latin1}
+% \title{Reconnaissance vocale lors d’appel d’urgence grâce à un réseau de neurones}
+\title{2021-2022 \hspace{15em} \insertframenumber\,/\,\inserttotalframenumber}
+%  \setbeamertemplate{footline}[text line]{\parbox{\linewidth}{\vspace*{-8pt}\insertframenumber\,/\,\inserttotalframenumber Tra}
 
-% \includeonly{sections/06}
 
+
+% \includeonly{sections/1-1, sections/1-2, sections/1-3, sections/1-4}
+% \includeonly{sections/2-1, sections/2-2, sections/2-3, sections/2-4}
+% \includeonly{sections/3-1, sections/3-2, sections/3-3, sections/3-4}
+% \includeonly{sections/4-1, sections/4-2, sections/4-3, sections/4-4}
+% Current section
+\AtBeginSection[ ]
+{
+\begin{frame}{Sommaire}
+    \tableofcontents[currentsection]
+\end{frame}
+}
 \begin{document}
 
 \begin{frame}
-\title{Reconnaissance vocale lors d’appel d’urgence grâce à un réseau
-de neurones}
-\titlepage
+    \title{Reconnaissance vocale lors d’appel d’urgence grâce à un réseau
+        de neurones}
+    \titlepage
 \end{frame}
 
-\include{sections/00}
-\tableofcontents
 % 1-INTRODUCTION
-\include{sections/01}
-% 2-Fonction d'activation
-\include{sections/02}
-% 3-Descente de gradient
-\include{sections/03}
-% 4-Problème de reproduction de l'opérateur XOR
-\include{sections/04}
-% 5-MNIST
-\include{sections/05}
-% 6-Reconnaissance de mot
-\include{sections/06}
+\section{Introduction}
+% 1-1 Presentation de la problématique
+\include{sections/1-1}
+% 1-2 Reconnaissance vocale
+\include{sections/1-2}
+
+% 2-Généralités sur les réseaux de neurones
+\section{Généralités sur les réseaux de neurones}
+% 2-1 Du perceptron au réseau de neurones
+\include{sections/2-1}
+% 2-2 Rétropropagation
+\include{sections/2-2}
+% 2-3 Amélioration de la rétropropagation
+\include{sections/2-3}
+
+% 3 Réalisations concrètes
+\section{Réalisations concrètes}
+% 3-1 Reproduction du XOR
+\include{sections/3-1}
+% 3-2 Reconnaissance de chiffres écrits
+\include{sections/3-2}
+% 3-3 Reconnaissance d’image de vêtements 
+\include{sections/3-3}
+% 3-4 Reconnaissance vocale de mots-clés
+\include{sections/3-4}
 
 
-% Annexe
-\include{sections/99}
+
+
+% 4 Annexe
+\section{Annexe}
+% 4-1 Mes codes
+\include{sections/4-1}
 \end{document}

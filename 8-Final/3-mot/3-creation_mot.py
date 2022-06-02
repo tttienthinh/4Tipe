@@ -82,7 +82,7 @@ for mot in mots:
         powerSpectrum, frequenciesFound, time, imageAxis = plt.specgram(data[:, 0], Fs=fs, scale_by_freq=True)
         x1,x2,y1,y2 = plt.axis()  
         plt.axis((x1,x2,0,8_000))
-        plt.title(f"Spectrogram du mot : {mot.upper()}")
+        plt.title(f"Spectrogramme du mot : {mot.upper()}")
         plt.xlabel('Time [sec]')
         plt.ylabel('Frequency [Hz]')
         plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/{mot}/{i}.jpg", bbox_inches='tight', pad_inches=0)
@@ -95,3 +95,13 @@ plt.legend(["gauche", "droite"])
 plt.title("Audio INCENDIE")
 plt.xlabel("Temps [s]")
 plt.savefig("Audio.jpg", bbox_inches='tight', pad_inches=0)
+
+
+plt.clf()
+x = np.linspace(0, 1, 2)
+y = 0.75*x
+plt.plot(x, y)
+plt.title("Fonction linéaire f(x)=0.75*x")
+plt.grid()
+plt.axis((0,1,0,1))
+plt.savefig(f"/home/tttienthinh/Documents/Programmation/4Tipe/8-Final/3-mot/fonction_lineaire.jpg", bbox_inches='tight', pad_inches=0)
