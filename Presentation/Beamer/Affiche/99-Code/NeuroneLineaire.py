@@ -31,7 +31,7 @@ class NeuroneLineaire:
     
 
     @staticmethod
-    def d_erreur(x, y_, y): # sortie calculé, sortie souhaitée
+    def d_erreur(x, y_, y): # sortie calculée, sortie souhaitée
         return (2*(y_-y) * 1 * x).mean()
     
 

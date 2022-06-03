@@ -85,7 +85,7 @@ class Convolutional(Layer):
 
     def calculate(self, input_data:np.ndarray):
         # input est de taille (nb_donne, nb_images, hauteur, largeur)
-        # On suppose (hauteur = largeur) : image carré
+        # On suppose (hauteur = largeur) : image carrée
         """
         Calcule la sortie
         """

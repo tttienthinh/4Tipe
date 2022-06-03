@@ -9,7 +9,7 @@
    id="svg5"
    xml:space="preserve"
    sodipodi:docname="9-reseau convolutif.svg"
-   inkscape:version="1.2 (1:1.2+202205241504+da316b6974)"
+   inkscape:version="1.2 (1:1.2+202206011327+fc4e4096c5)"
    inkscape:export-filename="9-reseau convolutif.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
@@ -29,8 +29,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.52592708"
-     inkscape:cx="232.92202"
-     inkscape:cy="522.88618"
+     inkscape:cx="84.61249"
+     inkscape:cy="524.78758"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="0"
@@ -2208,7 +2208,7 @@
        inkscape:label="Layer 1"
        id="layer1-5"
        transform="translate(-169.14425,-52.866395)"
-       inkscape:export-filename="6-schema.png"
+       inkscape:export-filename="9-reseau convolutif.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><path
          id="rect1701-5"
@@ -3969,7 +3969,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:MathJax_Math;-inkscape-font-specification:MathJax_Math;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect23755);display:inline;fill:#7c9885;fill-opacity:1"><tspan
          x="104.24023"
          y="2.8997345"
-         id="tspan4192">Structure d'image  2D</tspan></text><text
+         id="tspan2917">Structure d'image  2D</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,73.478673,-25.012816)"
        id="text23753-8"

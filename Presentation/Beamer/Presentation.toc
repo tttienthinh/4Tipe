@@ -11,6 +11,6 @@
 \beamer@subsectionintoc {3}{2}{Reconnaissance de chiffres écrits}{25}{0}{3}
 \beamer@subsectionintoc {3}{3}{Reconnaissance d’image de vêtements }{31}{0}{3}
 \beamer@subsectionintoc {3}{4}{Reconnaissance vocale de mots-clés}{36}{0}{3}
-\beamer@sectionintoc {4}{Annexe}{45}{0}{4}
-\beamer@subsectionintoc {4}{1}{Mes codes}{46}{0}{4}
-\beamer@subsectionintoc {4}{2}{Codes}{46}{0}{4}
+\beamer@sectionintoc {4}{Annexe}{43}{0}{4}
+\beamer@subsectionintoc {4}{1}{Mes codes}{44}{0}{4}
+\beamer@subsectionintoc {4}{2}{Compléments}{72}{0}{4}

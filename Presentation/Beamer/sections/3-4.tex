@@ -1,9 +1,8 @@
 \subsection{Reconnaissance vocale de mots-clés}
 
 
-\begin{frame}{VI - Reconnaissance de mot}
+\begin{frame}{La reconnaissance de mots-clés}
 	\begin{block}{}
-		Le site du gouvernement recense ces mots-clés pour les numéros d'appel d'urgence : \\
 		\begin{description}
 			\item[n°15] malaise, hémorragie, brûlure, intoxication
 			\item[n°17] violences, agression, vol, cambriolage
@@ -11,15 +10,15 @@
 		\end{description}
 	\end{block}
 	\begin{figure}
-		\begin{subfigure}[]{0.3\textwidth}
+		\begin{subfigure}[]{0.31\textwidth}
 			\includegraphics[width=\textwidth]{1-Incendie.jpg}
 			\caption{INCENDIE}
 		\end{subfigure}
-		\begin{subfigure}[]{0.3\textwidth}
+		\begin{subfigure}[]{0.31\textwidth}
 			\includegraphics[width=\textwidth]{1-Intoxication.jpg}
 			\caption{INTOXICATION}
 		\end{subfigure}
-		\begin{subfigure}[]{0.3\textwidth}
+		\begin{subfigure}[]{0.31\textwidth}
 			\includegraphics[width=\textwidth]{1-Cambriolage.jpg}
 			\caption{CAMBRIOLAGE}
 		\end{subfigure}
@@ -27,52 +26,7 @@
 \end{frame}
 
 
-\begin{frame}{VI - Transfert d'apprentissage}
-	\begin{figure}
-		\includegraphics[width=\textwidth]{2-transfert.png}
-		\caption{Schéma de fonctionnement du transfert d'apprentissage}
-	\end{figure}
-\end{frame}
-
-
-\begin{frame}{VI - Réseau de neurones modèle}
-	\lstinputlisting[]{7-model}
-\end{frame}
-
-
-\begin{frame}{VI - Entrainement du réseau modèle}
-	\begin{block}{Modèle}
-		Le réseau modèle est entrainé sur 8 000 données pour reconnaitre les $8$ mots : \\
-		$["no",\ "stop",\ "up",\ "right",\ "yes",\ "left",\ "go",\ "down"]$ \\
-	\end{block}
-	\begin{exampleblock}{Adaptation}
-		Nous voulons que notre réseau de neurones reconnaisse les $12$ mots : \\
-		$["malaise", "h\acute{e}morragie", "br\hat{u}lure", "intoxication",$ \\
-					$ "violences", "agression", "vol", "cambriolage",$ \\
-					$ "incendie", "gaz", "effondrement", "\acute{e}lectrocution"]$
-	\end{exampleblock}
-	\lstinputlisting[language=Python, firstline=15]{8-transfert.py}
-\end{frame}
-
-
-\begin{frame}{VI - Réseau de neurones modèle}
-	\lstinputlisting[]{9-model2}
-\end{frame}
-
-\begin{frame}{VI - Mes résultats}
-	\begin{figure}
-		\begin{subfigure}[]{0.45\textwidth}
-			\includegraphics[width=\textwidth]{4-loss.jpg}
-			\caption{Erreur au cours de l'apprentissage}
-		\end{subfigure}
-		\begin{subfigure}[]{0.45\textwidth}
-			\includegraphics[width=\textwidth]{4-accuracy.jpg}
-			\caption{Taux de bonnes réponses}
-		\end{subfigure}
-	\end{figure}
-\end{frame}
-
-\begin{frame}{VI - Analyse de mes résultats}
+\begin{frame}{La création de la base de données}
 	\begin{columns}[T]
 		\begin{column}[]{0.45\textwidth}
 			\begin{exampleblock}{Données d'apprentissage}
@@ -93,13 +47,55 @@
 			\end{alertblock}
 		\end{column}
 	\end{columns}
+	\begin{block}{Problématiques}
+		\begin{itemize}
+			\item Les spectrogrammes sont trop grands de tailles 374*129
+			\item Trop peu de données pour la rétropropagation
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+
+
+\begin{frame}{Le transfert d'apprentissage à partir d'un réseau modèle}
+	\begin{block}{Le réseau de neurones modèle}
+		Il est entrainé sur 8 000 données pour reconnaitre les $8$ mots : \\
+		$["no",\ "stop",\ "up",\ "right",\ "yes",\ "left",\ "go",\ "down"]$ \\
+	\end{block}
+	\begin{exampleblock}{L'adaptation}
+		\begin{itemize}
+			\item La durée des audios est différente
+			\item Le nombre de sortie est différent
+		\end{itemize}
+	\end{exampleblock}
+\end{frame}
+
+
+
+\begin{frame}{Un schéma du transfert d'apprentissage}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{2-transfert.png}
+		\caption{Schéma de fonctionnement du transfert d'apprentissage}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}{Mes résultats}
+	\begin{figure}
+		\begin{subfigure}[]{0.49\textwidth}
+			\includegraphics[width=\textwidth]{4-loss.jpg}
+			\caption{Erreur au cours de l'apprentissage}
+		\end{subfigure}
+		\begin{subfigure}[]{0.49\textwidth}
+			\includegraphics[width=\textwidth]{4-accuracy.jpg}
+			\caption{Taux de bonnes réponses}
+		\end{subfigure}
+	\end{figure}
 	\begin{columns}[T]
-		\begin{column}[]{0.45\textwidth}
-			\begin{figure}
-				\includegraphics[width=\textwidth]{5-Audio.jpg}
-			\end{figure}
+		\begin{column}{0.25\textwidth}
 		\end{column}
-		\begin{column}[]{0.45\textwidth}
+		\begin{column}[]{0.50\textwidth}
 			\begin{block}{Précision finale}
 				\begin{description}
 					\item[Agathe]  $50\%$ accuracy
@@ -108,32 +104,36 @@
 				\end{description}
 			\end{block}
 		\end{column}
+		\begin{column}{0.25\textwidth}
+		\end{column}
 	\end{columns}
 \end{frame}
 
 
-\begin{frame}{VI - Analyse découpage en formant}
-	\begin{block}{Formant - Définition Larousse}
-		Fréquence de résonance du conduit vocal. \\
-		Les voyelles se définissent acoustiquement par leurs formants; \\
-		seules les consonnes dites vocaliques présentent une structure formantique similaire à celle des voyelles.
-	\end{block}
+
+\begin{frame}{Conclusion : Schéma de la réalisation du réseau de neurones}
 	\begin{figure}
-		\begin{center}
-			\centering
-			\includegraphics[width=0.45\textwidth]{3-incendie.png}
-			\caption{Analyse de formant du mot "INCENDIE" \\avec l'aide de Mme.Voisin en formation d'orthophonie à la Sorbonne}
-		\end{center}
+		\centering
+		\includegraphics[height=0.7\textheight]{6-schema.png}
+		\caption{Structure de mon réseau de neurones}
 	\end{figure}
 \end{frame}
 
 
-\begin{frame}{VI - Mon réseau de neurones reconnaissant les mots-clés}
+\begin{frame}{Conclusion : Les moteurs de reconnaissance vocale}
 	\begin{figure}
-		\centering
-		\includegraphics[height=0.8\textheight]{6-schema.png}
-		\caption{Structure de mon réseau de neurones}
+		\begin{center}
+			\centering
+			\includegraphics[width=0.4\textwidth]{3-incendie.png}
+			\caption{Analyse du mot "INCENDIE"}
+		\end{center}
 	\end{figure}
-	
 
+	\begin{exampleblock}{Les performances moyennes des moteurs de reconnaissance vocale}
+		\begin{itemize}
+			\item Textes lus (dictée vocale, système monolocuteur) : 95 \%
+			\item Journaux radio et TV : 90 \%
+			\item Conversations téléphoniques informelles : 60 \%
+		\end{itemize}
+	\end{exampleblock}
 \end{frame}

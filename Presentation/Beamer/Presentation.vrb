@@ -1,2 +1,2 @@
-\frametitle{AugmentationDonnee.py}
-\lstinputlisting[language=Python, firstline=15]{Augmentation_Donnee.py}
+\frametitle{Réseau de neurones adapté}
+\lstinputlisting[language=Python]{9-model2}

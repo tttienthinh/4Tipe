@@ -1,1 +1,41 @@
-\section{}
+% Compléments
+\subsection{Compléments}
+
+
+
+\begin{frame}[fragile, allowframebreaks]{Réseau de neurones modèle}
+    \lstinputlisting[language=Python]{7-model}
+\end{frame}
+
+
+\begin{frame}[fragile, allowframebreaks]{Réseau de neurones adapté}
+    \lstinputlisting[language=Python]{9-model2}
+\end{frame}
+
+\begin{frame}{Fonction d'activation}
+	\begin{figure}
+		\begin{subfigure}[]{0.3\textwidth}
+			\includegraphics[width=90px]{0-Sigmoide.png}
+			\caption{Sigmoïde}
+		\end{subfigure}
+		\begin{subfigure}[]{0.3\textwidth}
+			\includegraphics[width=90px]{0-Tanh.png}
+			\caption{Tanh}
+		\end{subfigure}
+		\begin{subfigure}[]{0.3\textwidth}
+			\includegraphics[width=90px]{0-ReLU.png}
+			\caption{ReLU}
+		\end{subfigure}
+	\end{figure}
+	\begin{block}{}
+		\centering
+		\begin{tabular}{ l || c | c | }
+			Fonction                            & Formule                                          & Dérivée                                    \\ \hline \\
+			Sigmoïde (a)                        & $\mathlarger{\frac{1}{1+e^{-x}}}$                & $f(x) \times (1-f(x))$                     \\ \\
+			Tangente Hyperbolique (Tanh) (b)    & $\mathlarger{\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}}$ & $1-f(x)^2$                                 \\ \\
+			Unité Linéaire Rectifiée (ReLU) (c) & $max(0, x)$                                      & $ \left\{\begin{array}{ll}
+					0 & \mbox{si } x<0 \\
+					1 & \mbox{sinon }\end{array}\right.$ \\
+		\end{tabular}
+	\end{block}
+\end{frame}

@@ -94,7 +94,7 @@ class LayerOptimizer(Layer):
     def learn(self, e_2:np.ndarray):
         """
         Permet de mettre à jour les poids weigth 
-        en prenant en compte le moment
+        en prenant en compte le momentum
         """
         e1 = e_2 / (self.input_n+1) 
         e1 = e1 * self.d_activation(self.predicted_output)
