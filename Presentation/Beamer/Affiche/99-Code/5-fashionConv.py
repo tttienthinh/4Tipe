@@ -20,22 +20,12 @@ y_test = np.zeros((len(Y_test), 10))
 y_test[np.arange(len(Y_test)), Y_test] = 1 # to categorical 
 x_train = X_train.reshape(-1, 1, 28, 28)/255 # 28*28 = 784
 x_test = X_test.reshape(-1, 1, 28, 28)/255
-dico = [ # chaque indice de y correspond à un habit
-    "T-shirt",
-    "Trouser",
-    "Pull",
-    "Dress",
-    "Coat",
-    "Sandal",
-    "Shirt",
-    "Sneaker",
-    "Bag",
-    "Boot"
-]
+dico = ["T-shirt", "Trouser", "Pull", "Dress", "Coat", "Sandal", "Shirt", "Sneaker", "Bag", "Boot"]
 
 # Creation du model
 model = ModelClassification([
-        Convolutional(img_size=28, kernel_size=3, nb_kernel=4, lr=0.5, activation=relu, d_activation=d_relu),
+        Convolutional(img_size=28, kernel_size=3, nb_kernel=4, lr=0.5,
+        activation=relu, d_activation=d_relu),
         Flatten(26), # 26 = 28-3+1
         LayerOptimizer(2704, 10, lr=0.5, gamma=0.5, activation=softmax, d_activation=d_softmax),
     ],

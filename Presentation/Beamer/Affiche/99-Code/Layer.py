@@ -80,7 +80,6 @@ class LayerOptimizer(Layer):
         qui invoque un taux d'apprentissage variable
         on utilise la variable gamma
     """
-
     def __init__(self, input_n:int, output_n:int, lr:float, activation, d_activation, bias:bool=True, mini:float=0, maxi:float=1, gamma:float=0.5):
         # classe héritée
         super().__init__(
@@ -101,7 +100,6 @@ class LayerOptimizer(Layer):
         # e_0 est pour l'entrainement de la couche précédente
         e_0 = np.dot(e1, self.weight.T)[:, :-1]
         dw1 = np.dot(e1.T, self.input_data)
-        
         # La différence est ci-dessous
         self.dw_moment  = self.gamma * self.dw_moment
         self.dw_moment += dw1.T * self.lr
