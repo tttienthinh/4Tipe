@@ -18,7 +18,7 @@
 \headcommand {\slideentry {1}{2}{2}{6/6}{Reconnaissance vocale}{0}}
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\beamer@sectionpages {2}{6}}
-\headcommand {\beamer@subsectionpages {2}{6}}
+\headcommand {\beamer@subsectionpages {5}{6}}
 \headcommand {\sectionentry {2}{Généralités sur les réseaux de neurones}{7}{Généralités sur les réseaux de neurones}{0}}
 \headcommand {\slideentry {2}{0}{1}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
@@ -53,7 +53,7 @@
 \headcommand {\slideentry {2}{3}{4}{19/19}{Amélioration de la rétropropagation}{0}}
 \headcommand {\beamer@framepages {19}{19}}
 \headcommand {\beamer@sectionpages {7}{19}}
-\headcommand {\beamer@subsectionpages {7}{19}}
+\headcommand {\beamer@subsectionpages {16}{19}}
 \headcommand {\sectionentry {3}{Réalisations concrètes}{20}{Réalisations concrètes}{0}}
 \headcommand {\slideentry {3}{0}{1}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
@@ -108,7 +108,7 @@
 \headcommand {\slideentry {3}{4}{8}{41/41}{Reconnaissance vocale de mots-clés}{0}}
 \headcommand {\beamer@framepages {41}{41}}
 \headcommand {\beamer@sectionpages {20}{41}}
-\headcommand {\beamer@subsectionpages {20}{41}}
+\headcommand {\beamer@subsectionpages {34}{41}}
 \headcommand {\sectionentry {4}{Annexe}{42}{Annexe}{0}}
 \headcommand {\slideentry {4}{0}{1}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
