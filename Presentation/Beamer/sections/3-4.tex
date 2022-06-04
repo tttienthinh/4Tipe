@@ -28,8 +28,8 @@
 
 \begin{frame}{La création de la base de données}
 	\begin{columns}[T]
-		\begin{column}[]{0.45\textwidth}
-			\begin{exampleblock}{Données d'apprentissage}
+		\begin{column}[]{0.47\textwidth}
+			\begin{exampleblock}{Données d'apprentissage : $6\times 12$}
 				\begin{description}
 					\item[Agathe]  $1\times12$ données
 					\item[Florent]  $1\times12$ données
@@ -37,8 +37,8 @@
 				\end{description}
 			\end{exampleblock}
 		\end{column}
-		\begin{column}[]{0.45\textwidth}
-			\begin{alertblock}{Données d'évaluation}
+		\begin{column}[]{0.47\textwidth}
+			\begin{alertblock}{Données d'évaluation : $3\times 12$}
 				\begin{description}
 					\item[Agathe]  $1\times12$ données
 					\item[Florent]  $1\times12$ données
@@ -49,24 +49,49 @@
 	\end{columns}
 	\begin{block}{Problématiques}
 		\begin{itemize}
-			\item Les spectrogrammes sont trop grands de tailles 374*129
+			\item Les spectrogrammes sont trop grands, de tailles 374*129
 			\item Trop peu de données pour la rétropropagation
 		\end{itemize}
 	\end{block}
 \end{frame}
 
 
+\begin{frame}{L'augmentation de données}
+	\begin{columns}[]
+		\begin{column}[]{0.6\textwidth}
+			\begin{block}{L'augmentation de données}
+				Création de nouvelles données à partir des données existantes :
+				\begin{itemize}
+					\item Variation de ton
+					\item Variation de vitesse
+					\item Décalage temporel
+					\item Ajout de bruit
+				\end{itemize}
+			\end{block}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{7-origine.jpg}
+			\end{figure}
+		\end{column}
+		\begin{column}[]{0.4\textwidth}
+			\includegraphics[height=0.2\textheight]{7-pitch.jpg}
+			\includegraphics[height=0.2\textheight]{7-speed.jpg}
+			\includegraphics[height=0.2\textheight]{7-shift.jpg}
+			\includegraphics[height=0.2\textheight]{7-noise.jpg}
+
+		\end{column}
+	\end{columns}
+\end{frame}
 
 
 \begin{frame}{Le transfert d'apprentissage à partir d'un réseau modèle}
-	\begin{block}{Le réseau de neurones modèle}
+	\begin{block}{Le réseau de neurones modèle, juste à $84\%$}
 		Il est entrainé sur 8 000 données pour reconnaitre les $8$ mots : \\
 		$["no",\ "stop",\ "up",\ "right",\ "yes",\ "left",\ "go",\ "down"]$ \\
 	\end{block}
 	\begin{exampleblock}{L'adaptation}
 		\begin{itemize}
 			\item La durée des audios est différente
-			\item Le nombre de sortie est différent
+			\item Le nombre de sorties est différent
 		\end{itemize}
 	\end{exampleblock}
 \end{frame}

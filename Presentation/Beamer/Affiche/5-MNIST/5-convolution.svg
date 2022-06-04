@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2 (1:1.2+202205241504+da316b6974)"
+   inkscape:version="1.2 (1:1.2+202206011327+fc4e4096c5)"
    sodipodi:docname="5-convolution.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,7 +26,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.27064"
-     inkscape:cx="177.46962"
+     inkscape:cx="116.08323"
      inkscape:cy="193.60322"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
@@ -45,8 +45,8 @@
     <rect
        x="300.99197"
        y="208.09832"
-       width="250.17485"
-       height="88.877192"
+       width="292.75449"
+       height="126.83817"
        id="rect40030" />
     <rect
        x="17.350624"
@@ -5184,7 +5184,7 @@
          style="font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect25185);display:inline"><tspan
            x="274.48828"
            y="172.457"
-           id="tspan43844">*</tspan></text>
+           id="tspan3909">*</tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -5221,15 +5221,23 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:MathJax_Math;-inkscape-font-specification:MathJax_Math;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect39296);display:inline;fill:#005500;fill-opacity:1"><tspan
          x="17.351562"
          y="305.65951"
-         id="tspan43846">Image d'entree</tspan></text>
+         id="tspan3911">Image d'entree</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-7.1888189,-0.99795502)"
+       transform="matrix(0.26458333,0,0,0.26458333,-18.560245,-5.0832427)"
        id="text40028"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:MathJax_Math;-inkscape-font-specification:MathJax_Math;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect40030);display:inline;fill:#3333b3;fill-opacity:1"><tspan
-         x="300.99219"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:MathJax_Math;-inkscape-font-specification:MathJax_Math;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect40030);display:inline;fill:#3333b3;fill-opacity:1"
+       x="135.13315"
+       y="0"><tspan
+         x="338.67628"
          y="231.88022"
-         id="tspan43848">Filtre (Kernel)</tspan></text>
+         id="tspan3915"><tspan
+   style="font-size:21.3333px;text-align:center;text-anchor:middle"
+   id="tspan3913">Matrice de convolution</tspan>
+</tspan><tspan
+         x="395.23218"
+         y="265.40237"
+         id="tspan3917">(Kernel)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-45.85257,-8.7082887)"
@@ -5237,6 +5245,6 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:MathJax_Math;-inkscape-font-specification:MathJax_Math;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect40762);display:inline;fill:#550000;fill-opacity:1"><tspan
          x="668.06836"
          y="297.0892"
-         id="tspan43850">Image de sortie</tspan></text>
+         id="tspan3919">Image de sortie</tspan></text>
   </g>
 </svg>

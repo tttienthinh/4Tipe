@@ -9,8 +9,8 @@
 \beamer@sectionintoc {3}{Réalisations concrètes}{20}{0}{3}
 \beamer@subsectionintoc {3}{1}{Reproduction du XOR}{21}{0}{3}
 \beamer@subsectionintoc {3}{2}{Reconnaissance de chiffres écrits}{25}{0}{3}
-\beamer@subsectionintoc {3}{3}{Reconnaissance d’image de vêtements }{31}{0}{3}
-\beamer@subsectionintoc {3}{4}{Reconnaissance vocale de mots-clés}{36}{0}{3}
-\beamer@sectionintoc {4}{Annexe}{43}{0}{4}
-\beamer@subsectionintoc {4}{1}{Mes codes}{44}{0}{4}
-\beamer@subsectionintoc {4}{2}{Compléments}{72}{0}{4}
+\beamer@subsectionintoc {3}{3}{Convolution d'image}{30}{0}{3}
+\beamer@subsectionintoc {3}{4}{Reconnaissance vocale de mots-clés}{34}{0}{3}
+\beamer@sectionintoc {4}{Annexe}{42}{0}{4}
+\beamer@subsectionintoc {4}{1}{Mes codes}{43}{0}{4}
+\beamer@subsectionintoc {4}{2}{Compléments}{71}{0}{4}
