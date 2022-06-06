@@ -18,7 +18,7 @@
 \headcommand {\slideentry {1}{2}{2}{6/6}{Reconnaissance vocale}{0}}
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\beamer@sectionpages {2}{6}}
-\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\beamer@subsectionpages {2}{6}}
 \headcommand {\sectionentry {2}{Généralités sur les réseaux de neurones}{7}{Généralités sur les réseaux de neurones}{0}}
 \headcommand {\slideentry {2}{0}{1}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
@@ -53,7 +53,7 @@
 \headcommand {\slideentry {2}{3}{4}{19/19}{Amélioration de la rétropropagation}{0}}
 \headcommand {\beamer@framepages {19}{19}}
 \headcommand {\beamer@sectionpages {7}{19}}
-\headcommand {\beamer@subsectionpages {16}{19}}
+\headcommand {\beamer@subsectionpages {7}{19}}
 \headcommand {\sectionentry {3}{Réalisations concrètes}{20}{Réalisations concrètes}{0}}
 \headcommand {\slideentry {3}{0}{1}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
@@ -108,7 +108,7 @@
 \headcommand {\slideentry {3}{4}{8}{41/41}{Reconnaissance vocale de mots-clés}{0}}
 \headcommand {\beamer@framepages {41}{41}}
 \headcommand {\beamer@sectionpages {20}{41}}
-\headcommand {\beamer@subsectionpages {34}{41}}
+\headcommand {\beamer@subsectionpages {20}{41}}
 \headcommand {\sectionentry {4}{Annexe}{42}{Annexe}{0}}
 \headcommand {\slideentry {4}{0}{1}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
@@ -176,7 +176,7 @@
 \headcommand {\beamer@framepages {71}{71}}
 \headcommand {\slideentry {4}{2}{5}{72/72}{Mes codes}{0}}
 \headcommand {\beamer@framepages {72}{72}}
-\headcommand {\beamer@subsectionpages {68}{72}}
+\headcommand {\beamer@subsectionpages {42}{72}}
 \headcommand {\beamer@subsectionentry {0}{4}{3}{73}{Compléments}}
 \headcommand {\slideentry {4}{3}{1}{73/73}{Compléments}{0}}
 \headcommand {\beamer@framepages {73}{73}}
@@ -196,8 +196,20 @@
 \headcommand {\beamer@framepages {80}{80}}
 \headcommand {\slideentry {4}{3}{9}{81/81}{Compléments}{0}}
 \headcommand {\beamer@framepages {81}{81}}
-\headcommand {\beamer@partpages {1}{81}}
-\headcommand {\beamer@subsectionpages {73}{81}}
-\headcommand {\beamer@sectionpages {42}{81}}
-\headcommand {\beamer@documentpages {81}}
-\headcommand {\gdef \inserttotalframenumber {81}}
+\headcommand {\slideentry {4}{3}{10}{82/82}{Compléments}{0}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\slideentry {4}{3}{11}{83/83}{Compléments}{0}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\slideentry {4}{3}{12}{84/84}{Compléments}{0}}
+\headcommand {\beamer@framepages {84}{84}}
+\headcommand {\slideentry {4}{3}{13}{85/85}{Compléments}{0}}
+\headcommand {\beamer@framepages {85}{85}}
+\headcommand {\slideentry {4}{3}{14}{86/86}{Compléments}{0}}
+\headcommand {\beamer@framepages {86}{86}}
+\headcommand {\slideentry {4}{3}{15}{87/87}{Compléments}{0}}
+\headcommand {\beamer@framepages {87}{87}}
+\headcommand {\beamer@partpages {1}{87}}
+\headcommand {\beamer@subsectionpages {73}{87}}
+\headcommand {\beamer@sectionpages {42}{87}}
+\headcommand {\beamer@documentpages {87}}
+\headcommand {\gdef \inserttotalframenumber {87}}

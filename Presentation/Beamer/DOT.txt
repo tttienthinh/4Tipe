@@ -1,0 +1,11 @@
+[1] Mai 2021 : Je tombe sur un article relatant la difficulté des centres d'appels d'urgence à répondre rapidement, et je fais un lien avec la reconnaissance vocale grâce aux réseaux de neurones.
+
+[2] Juin - Septembre 2021 : Je réalise mon premier perceptron et y applique la descente de gradient. Je me documente sur les différents "optimizers" qui sont au final trop compliqués à mettre en place, pour les bénéfices escomptés de mon TIPE.
+
+[3] Septembre 2021 : Je rencontre une orthophoniste en formation à la Sorbonne pour comprendre l'analyse du langage. Elle me conforte son mon idée de partir sur une analyse du spectrogramme, et me montre des exemples.
+
+[4] Septembre - Novembre 2021 : Je réalise des réseaux de neurones appliqués à la classification d'images, je rencontre de nombreux problèmes pour la rétropropagation du réseau de neurones.
+
+[5] Novembre - Décembre 2021 : Je cherche de nombreuses façon de créer une base de données consitante avant de choisir d'utiliser l'augmentation de données.
+
+[6] Décembre - Mars 2022 : J'échoue à de nombreuses reprises à faire converger mon réseau de neurones vers une solution de classification d'audio. Avant de comprendre et d'opter pour le transfert d'apprentissage.
